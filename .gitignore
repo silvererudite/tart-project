@@ -1,0 +1,12 @@
+*.fits
+*.hdf
+*.png
+*.mp4
+*.ms
+*.tar.gz
+movie_frames/
+rawdata/
+caltables/
+msdir/
+img/
+
