@@ -1,0 +1,402 @@
+2025-11-20 08:34:23,156 | [0] Converting img/mu-udm-t0000-image.fits
+2025-11-20 08:34:23,157 | [15] Converting img/mu-udm-t0015-image.fits
+2025-11-20 08:34:23,157 | [9] Converting img/mu-udm-t0009-image.fits
+2025-11-20 08:34:23,157 | [18] Converting img/mu-udm-t0018-image.fits
+2025-11-20 08:34:23,157 | [21] Converting img/mu-udm-t0021-image.fits
+2025-11-20 08:34:23,157 | [12] Converting img/mu-udm-t0012-image.fits
+2025-11-20 08:34:23,158 | [24] Converting img/mu-udm-t0024-image.fits
+2025-11-20 08:34:23,158 | [27] Converting img/mu-udm-t0027-image.fits
+2025-11-20 08:34:23,521 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325159 from DATE-OBS'.
+2025-11-20 08:34:23,525 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324861 from DATE-OBS'.
+2025-11-20 08:34:23,525 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325775 from DATE-OBS'.
+2025-11-20 08:34:23,535 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325466 from DATE-OBS'.
+2025-11-20 08:34:23,535 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.323948 from DATE-OBS'.
+2025-11-20 08:34:23,537 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326689 from DATE-OBS'.
+2025-11-20 08:34:23,551 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326380 from DATE-OBS'.
+2025-11-20 08:34:23,551 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326083 from DATE-OBS'.
+2025-11-20 08:34:23,656 | [12] Done → movie_frames/frame_0012.png
+2025-11-20 08:34:23,657 | [13] Converting img/mu-udm-t0013-image.fits
+2025-11-20 08:34:23,660 | [9] Done → movie_frames/frame_0009.png
+2025-11-20 08:34:23,660 | [10] Converting img/mu-udm-t0010-image.fits
+2025-11-20 08:34:23,695 | [18] Done → movie_frames/frame_0018.png
+2025-11-20 08:34:23,695 | [19] Converting img/mu-udm-t0019-image.fits
+2025-11-20 08:34:23,708 | [15] Done → movie_frames/frame_0015.png
+2025-11-20 08:34:23,708 | [16] Converting img/mu-udm-t0016-image.fits
+2025-11-20 08:34:23,710 | [0] Done → movie_frames/frame_0000.png
+2025-11-20 08:34:23,710 | [1] Converting img/mu-udm-t0001-image.fits
+2025-11-20 08:34:23,713 | [27] Done → movie_frames/frame_0027.png
+2025-11-20 08:34:23,713 | [28] Converting img/mu-udm-t0028-image.fits
+2025-11-20 08:34:23,726 | [24] Done → movie_frames/frame_0024.png
+2025-11-20 08:34:23,726 | [25] Converting img/mu-udm-t0025-image.fits
+2025-11-20 08:34:23,728 | [21] Done → movie_frames/frame_0021.png
+2025-11-20 08:34:23,728 | [22] Converting img/mu-udm-t0022-image.fits
+2025-11-20 08:34:23,976 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324956 from DATE-OBS'.
+2025-11-20 08:34:23,978 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325265 from DATE-OBS'.
+2025-11-20 08:34:23,991 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326178 from DATE-OBS'.
+2025-11-20 08:34:23,995 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324043 from DATE-OBS'.
+2025-11-20 08:34:24,015 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325870 from DATE-OBS'.
+2025-11-20 08:34:24,024 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326795 from DATE-OBS'.
+2025-11-20 08:34:24,032 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325573 from DATE-OBS'.
+2025-11-20 08:34:24,043 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326487 from DATE-OBS'.
+2025-11-20 08:34:24,114 | [10] Done → movie_frames/frame_0010.png
+2025-11-20 08:34:24,114 | [11] Converting img/mu-udm-t0011-image.fits
+2025-11-20 08:34:24,131 | [22] Done → movie_frames/frame_0022.png
+2025-11-20 08:34:24,131 | [23] Converting img/mu-udm-t0023-image.fits
+2025-11-20 08:34:24,141 | [13] Done → movie_frames/frame_0013.png
+2025-11-20 08:34:24,141 | [14] Converting img/mu-udm-t0014-image.fits
+2025-11-20 08:34:24,168 | [19] Done → movie_frames/frame_0019.png
+2025-11-20 08:34:24,168 | [20] Converting img/mu-udm-t0020-image.fits
+2025-11-20 08:34:24,168 | [1] Done → movie_frames/frame_0001.png
+2025-11-20 08:34:24,168 | [2] Converting img/mu-udm-t0002-image.fits
+2025-11-20 08:34:24,197 | [28] Done → movie_frames/frame_0028.png
+2025-11-20 08:34:24,197 | [29] Converting img/mu-udm-t0029-image.fits
+2025-11-20 08:34:24,203 | [16] Done → movie_frames/frame_0016.png
+2025-11-20 08:34:24,204 | [17] Converting img/mu-udm-t0017-image.fits
+2025-11-20 08:34:24,214 | [25] Done → movie_frames/frame_0025.png
+2025-11-20 08:34:24,214 | [26] Converting img/mu-udm-t0026-image.fits
+2025-11-20 08:34:24,435 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325064 from DATE-OBS'.
+2025-11-20 08:34:24,446 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326285 from DATE-OBS'.
+2025-11-20 08:34:24,476 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325372 from DATE-OBS'.
+2025-11-20 08:34:24,483 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324149 from DATE-OBS'.
+2025-11-20 08:34:24,487 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325977 from DATE-OBS'.
+2025-11-20 08:34:24,510 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326890 from DATE-OBS'.
+2025-11-20 08:34:24,521 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326582 from DATE-OBS'.
+2025-11-20 08:34:24,528 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325668 from DATE-OBS'.
+2025-11-20 08:34:24,575 | [11] Done → movie_frames/frame_0011.png
+2025-11-20 08:34:24,575 | [30] Converting img/mu-udm-t0030-image.fits
+2025-11-20 08:34:24,585 | [23] Done → movie_frames/frame_0023.png
+2025-11-20 08:34:24,585 | [33] Converting img/mu-udm-t0033-image.fits
+2025-11-20 08:34:24,603 | [14] Done → movie_frames/frame_0014.png
+2025-11-20 08:34:24,603 | [36] Converting img/mu-udm-t0036-image.fits
+2025-11-20 08:34:24,629 | [20] Done → movie_frames/frame_0020.png
+2025-11-20 08:34:24,629 | [39] Converting img/mu-udm-t0039-image.fits
+2025-11-20 08:34:24,654 | [2] Done → movie_frames/frame_0002.png
+2025-11-20 08:34:24,655 | [42] Converting img/mu-udm-t0042-image.fits
+2025-11-20 08:34:24,684 | [29] Done → movie_frames/frame_0029.png
+2025-11-20 08:34:24,684 | [45] Converting img/mu-udm-t0045-image.fits
+2025-11-20 08:34:24,692 | [26] Done → movie_frames/frame_0026.png
+2025-11-20 08:34:24,693 | [48] Converting img/mu-udm-t0048-image.fits
+2025-11-20 08:34:24,699 | [17] Done → movie_frames/frame_0017.png
+2025-11-20 08:34:24,699 | [51] Converting img/mu-udm-t0051-image.fits
+2025-11-20 08:34:24,881 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326997 from DATE-OBS'.
+2025-11-20 08:34:24,893 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327294 from DATE-OBS'.
+2025-11-20 08:34:24,911 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327602 from DATE-OBS'.
+2025-11-20 08:34:24,927 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327911 from DATE-OBS'.
+2025-11-20 08:34:24,950 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329132 from DATE-OBS'.
+2025-11-20 08:34:24,955 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328219 from DATE-OBS'.
+2025-11-20 08:34:24,992 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328515 from DATE-OBS'.
+2025-11-20 08:34:25,001 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328824 from DATE-OBS'.
+2025-11-20 08:34:25,047 | [30] Done → movie_frames/frame_0030.png
+2025-11-20 08:34:25,047 | [31] Converting img/mu-udm-t0031-image.fits
+2025-11-20 08:34:25,055 | [36] Done → movie_frames/frame_0036.png
+2025-11-20 08:34:25,055 | [37] Converting img/mu-udm-t0037-image.fits
+2025-11-20 08:34:25,067 | [33] Done → movie_frames/frame_0033.png
+2025-11-20 08:34:25,068 | [34] Converting img/mu-udm-t0034-image.fits
+2025-11-20 08:34:25,070 | [39] Done → movie_frames/frame_0039.png
+2025-11-20 08:34:25,071 | [40] Converting img/mu-udm-t0040-image.fits
+2025-11-20 08:34:25,124 | [51] Done → movie_frames/frame_0051.png
+2025-11-20 08:34:25,124 | [52] Converting img/mu-udm-t0052-image.fits
+2025-11-20 08:34:25,131 | [42] Done → movie_frames/frame_0042.png
+2025-11-20 08:34:25,131 | [43] Converting img/mu-udm-t0043-image.fits
+2025-11-20 08:34:25,170 | [45] Done → movie_frames/frame_0045.png
+2025-11-20 08:34:25,170 | [46] Converting img/mu-udm-t0046-image.fits
+2025-11-20 08:34:25,176 | [48] Done → movie_frames/frame_0048.png
+2025-11-20 08:34:25,177 | [49] Converting img/mu-udm-t0049-image.fits
+2025-11-20 08:34:25,357 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327708 from DATE-OBS'.
+2025-11-20 08:34:25,361 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327091 from DATE-OBS'.
+2025-11-20 08:34:25,369 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328006 from DATE-OBS'.
+2025-11-20 08:34:25,377 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327400 from DATE-OBS'.
+2025-11-20 08:34:25,386 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328314 from DATE-OBS'.
+2025-11-20 08:34:25,432 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329227 from DATE-OBS'.
+2025-11-20 08:34:25,479 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328623 from DATE-OBS'.
+2025-11-20 08:34:25,479 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328931 from DATE-OBS'.
+2025-11-20 08:34:25,485 | [37] Done → movie_frames/frame_0037.png
+2025-11-20 08:34:25,485 | [38] Converting img/mu-udm-t0038-image.fits
+2025-11-20 08:34:25,531 | [40] Done → movie_frames/frame_0040.png
+2025-11-20 08:34:25,531 | [41] Converting img/mu-udm-t0041-image.fits
+2025-11-20 08:34:25,535 | [31] Done → movie_frames/frame_0031.png
+2025-11-20 08:34:25,535 | [32] Converting img/mu-udm-t0032-image.fits
+2025-11-20 08:34:25,552 | [34] Done → movie_frames/frame_0034.png
+2025-11-20 08:34:25,552 | [35] Converting img/mu-udm-t0035-image.fits
+2025-11-20 08:34:25,561 | [43] Done → movie_frames/frame_0043.png
+2025-11-20 08:34:25,561 | [44] Converting img/mu-udm-t0044-image.fits
+2025-11-20 08:34:25,607 | [52] Done → movie_frames/frame_0052.png
+2025-11-20 08:34:25,607 | [53] Converting img/mu-udm-t0053-image.fits
+2025-11-20 08:34:25,632 | [46] Done → movie_frames/frame_0046.png
+2025-11-20 08:34:25,632 | [47] Converting img/mu-udm-t0047-image.fits
+2025-11-20 08:34:25,656 | [49] Done → movie_frames/frame_0049.png
+2025-11-20 08:34:25,656 | [50] Converting img/mu-udm-t0050-image.fits
+2025-11-20 08:34:25,781 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327803 from DATE-OBS'.
+2025-11-20 08:34:25,832 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328112 from DATE-OBS'.
+2025-11-20 08:34:25,843 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327199 from DATE-OBS'.
+2025-11-20 08:34:25,860 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327507 from DATE-OBS'.
+2025-11-20 08:34:25,867 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328420 from DATE-OBS'.
+2025-11-20 08:34:25,908 | [38] Done → movie_frames/frame_0038.png
+2025-11-20 08:34:25,908 | [54] Converting img/mu-udm-t0054-image.fits
+2025-11-20 08:34:25,912 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329334 from DATE-OBS'.
+2025-11-20 08:34:25,917 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329025 from DATE-OBS'.
+2025-11-20 08:34:25,935 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328718 from DATE-OBS'.
+2025-11-20 08:34:25,991 | [41] Done → movie_frames/frame_0041.png
+2025-11-20 08:34:25,991 | [57] Converting img/mu-udm-t0057-image.fits
+2025-11-20 08:34:26,017 | [32] Done → movie_frames/frame_0032.png
+2025-11-20 08:34:26,017 | [60] Converting img/mu-udm-t0060-image.fits
+2025-11-20 08:34:26,034 | [35] Done → movie_frames/frame_0035.png
+2025-11-20 08:34:26,035 | [63] Converting img/mu-udm-t0063-image.fits
+2025-11-20 08:34:26,042 | [44] Done → movie_frames/frame_0044.png
+2025-11-20 08:34:26,042 | [66] Converting img/mu-udm-t0066-image.fits
+2025-11-20 08:34:26,086 | [53] Done → movie_frames/frame_0053.png
+2025-11-20 08:34:26,086 | [47] Done → movie_frames/frame_0047.png
+2025-11-20 08:34:26,086 | [69] Converting img/mu-udm-t0069-image.fits
+2025-11-20 08:34:26,091 | [50] Done → movie_frames/frame_0050.png
+2025-11-20 08:34:26,221 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329429 from DATE-OBS'.
+2025-11-20 08:34:26,301 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329737 from DATE-OBS'.
+2025-11-20 08:34:26,330 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330046 from DATE-OBS'.
+2025-11-20 08:34:26,342 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330354 from DATE-OBS'.
+2025-11-20 08:34:26,346 | [54] Done → movie_frames/frame_0054.png
+2025-11-20 08:34:26,346 | [55] Converting img/mu-udm-t0055-image.fits
+2025-11-20 08:34:26,360 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330650 from DATE-OBS'.
+2025-11-20 08:34:26,397 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330959 from DATE-OBS'.
+2025-11-20 08:34:26,435 | [57] Done → movie_frames/frame_0057.png
+2025-11-20 08:34:26,436 | [58] Converting img/mu-udm-t0058-image.fits
+2025-11-20 08:34:26,465 | [60] Done → movie_frames/frame_0060.png
+2025-11-20 08:34:26,466 | [61] Converting img/mu-udm-t0061-image.fits
+2025-11-20 08:34:26,513 | [63] Done → movie_frames/frame_0063.png
+2025-11-20 08:34:26,513 | [64] Converting img/mu-udm-t0064-image.fits
+2025-11-20 08:34:26,530 | [66] Done → movie_frames/frame_0066.png
+2025-11-20 08:34:26,530 | [67] Converting img/mu-udm-t0067-image.fits
+2025-11-20 08:34:26,567 | [69] Done → movie_frames/frame_0069.png
+2025-11-20 08:34:26,647 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329536 from DATE-OBS'.
+2025-11-20 08:34:26,745 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329844 from DATE-OBS'.
+2025-11-20 08:34:26,770 | [55] Done → movie_frames/frame_0055.png
+2025-11-20 08:34:26,770 | [56] Converting img/mu-udm-t0056-image.fits
+2025-11-20 08:34:26,772 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330141 from DATE-OBS'.
+2025-11-20 08:34:26,824 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330449 from DATE-OBS'.
+2025-11-20 08:34:26,836 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330758 from DATE-OBS'.
+2025-11-20 08:34:26,880 | [58] Done → movie_frames/frame_0058.png
+2025-11-20 08:34:26,880 | [59] Converting img/mu-udm-t0059-image.fits
+2025-11-20 08:34:26,897 | [61] Done → movie_frames/frame_0061.png
+2025-11-20 08:34:26,897 | [62] Converting img/mu-udm-t0062-image.fits
+2025-11-20 08:34:26,997 | [64] Done → movie_frames/frame_0064.png
+2025-11-20 08:34:26,997 | [65] Converting img/mu-udm-t0065-image.fits
+2025-11-20 08:34:27,006 | [67] Done → movie_frames/frame_0067.png
+2025-11-20 08:34:27,006 | [68] Converting img/mu-udm-t0068-image.fits
+2025-11-20 08:34:27,083 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329642 from DATE-OBS'.
+2025-11-20 08:34:27,194 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329939 from DATE-OBS'.
+2025-11-20 08:34:27,206 | [56] Done → movie_frames/frame_0056.png
+2025-11-20 08:34:27,209 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330248 from DATE-OBS'.
+2025-11-20 08:34:27,269 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330853 from DATE-OBS'.
+2025-11-20 08:34:27,313 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330556 from DATE-OBS'.
+2025-11-20 08:34:27,330 | [59] Done → movie_frames/frame_0059.png
+2025-11-20 08:34:27,331 | [62] Done → movie_frames/frame_0062.png
+2025-11-20 08:34:27,439 | [68] Done → movie_frames/frame_0068.png
+2025-11-20 08:34:27,465 | [65] Done → movie_frames/frame_0065.png
+2025-11-20 08:37:13,828 | [0] Converting img/mu-udm-t0000-image.fits
+2025-11-20 08:37:13,828 | [3] Converting img/mu-udm-t0003-image.fits
+2025-11-20 08:37:13,828 | [6] Converting img/mu-udm-t0006-image.fits
+2025-11-20 08:37:13,829 | [9] Converting img/mu-udm-t0009-image.fits
+2025-11-20 08:37:13,829 | [12] Converting img/mu-udm-t0012-image.fits
+2025-11-20 08:37:13,829 | [15] Converting img/mu-udm-t0015-image.fits
+2025-11-20 08:37:13,829 | [18] Converting img/mu-udm-t0018-image.fits
+2025-11-20 08:37:13,829 | [21] Converting img/mu-udm-t0021-image.fits
+2025-11-20 08:37:14,178 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.323948 from DATE-OBS'.
+2025-11-20 08:37:14,180 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324553 from DATE-OBS'.
+2025-11-20 08:37:14,187 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324244 from DATE-OBS'.
+2025-11-20 08:37:14,190 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325159 from DATE-OBS'.
+2025-11-20 08:37:14,191 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325775 from DATE-OBS'.
+2025-11-20 08:37:14,192 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325466 from DATE-OBS'.
+2025-11-20 08:37:14,194 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324861 from DATE-OBS'.
+2025-11-20 08:37:14,221 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326083 from DATE-OBS'.
+2025-11-20 08:37:14,321 | [0] Done → movie_frames_final/frame_0000.png
+2025-11-20 08:37:14,321 | [1] Converting img/mu-udm-t0001-image.fits
+2025-11-20 08:37:14,351 | [6] Done → movie_frames_final/frame_0006.png
+2025-11-20 08:37:14,351 | [7] Converting img/mu-udm-t0007-image.fits
+2025-11-20 08:37:14,361 | [3] Done → movie_frames_final/frame_0003.png
+2025-11-20 08:37:14,361 | [4] Converting img/mu-udm-t0004-image.fits
+2025-11-20 08:37:14,362 | [12] Done → movie_frames_final/frame_0012.png
+2025-11-20 08:37:14,362 | [13] Converting img/mu-udm-t0013-image.fits
+2025-11-20 08:37:14,363 | [18] Done → movie_frames_final/frame_0018.png
+2025-11-20 08:37:14,364 | [19] Converting img/mu-udm-t0019-image.fits
+2025-11-20 08:37:14,365 | [15] Done → movie_frames_final/frame_0015.png
+2025-11-20 08:37:14,365 | [16] Converting img/mu-udm-t0016-image.fits
+2025-11-20 08:37:14,367 | [9] Done → movie_frames_final/frame_0009.png
+2025-11-20 08:37:14,367 | [10] Converting img/mu-udm-t0010-image.fits
+2025-11-20 08:37:14,394 | [21] Done → movie_frames_final/frame_0021.png
+2025-11-20 08:37:14,394 | [22] Converting img/mu-udm-t0022-image.fits
+2025-11-20 08:37:14,630 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324043 from DATE-OBS'.
+2025-11-20 08:37:14,631 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324352 from DATE-OBS'.
+2025-11-20 08:37:14,665 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324660 from DATE-OBS'.
+2025-11-20 08:37:14,679 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325870 from DATE-OBS'.
+2025-11-20 08:37:14,684 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325265 from DATE-OBS'.
+2025-11-20 08:37:14,685 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324956 from DATE-OBS'.
+2025-11-20 08:37:14,688 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325573 from DATE-OBS'.
+2025-11-20 08:37:14,714 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326178 from DATE-OBS'.
+2025-11-20 08:37:14,768 | [1] Done → movie_frames_final/frame_0001.png
+2025-11-20 08:37:14,768 | [2] Converting img/mu-udm-t0002-image.fits
+2025-11-20 08:37:14,802 | [7] Done → movie_frames_final/frame_0007.png
+2025-11-20 08:37:14,802 | [8] Converting img/mu-udm-t0008-image.fits
+2025-11-20 08:37:14,804 | [4] Done → movie_frames_final/frame_0004.png
+2025-11-20 08:37:14,804 | [5] Converting img/mu-udm-t0005-image.fits
+2025-11-20 08:37:14,849 | [19] Done → movie_frames_final/frame_0019.png
+2025-11-20 08:37:14,849 | [20] Converting img/mu-udm-t0020-image.fits
+2025-11-20 08:37:14,854 | [10] Done → movie_frames_final/frame_0010.png
+2025-11-20 08:37:14,854 | [11] Converting img/mu-udm-t0011-image.fits
+2025-11-20 08:37:14,856 | [13] Done → movie_frames_final/frame_0013.png
+2025-11-20 08:37:14,856 | [14] Converting img/mu-udm-t0014-image.fits
+2025-11-20 08:37:14,860 | [16] Done → movie_frames_final/frame_0016.png
+2025-11-20 08:37:14,860 | [17] Converting img/mu-udm-t0017-image.fits
+2025-11-20 08:37:14,887 | [22] Done → movie_frames_final/frame_0022.png
+2025-11-20 08:37:14,887 | [23] Converting img/mu-udm-t0023-image.fits
+2025-11-20 08:37:15,084 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324149 from DATE-OBS'.
+2025-11-20 08:37:15,117 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325977 from DATE-OBS'.
+2025-11-20 08:37:15,118 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324755 from DATE-OBS'.
+2025-11-20 08:37:15,124 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.324447 from DATE-OBS'.
+2025-11-20 08:37:15,169 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325064 from DATE-OBS'.
+2025-11-20 08:37:15,181 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325372 from DATE-OBS'.
+2025-11-20 08:37:15,183 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.325668 from DATE-OBS'.
+2025-11-20 08:37:15,195 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326285 from DATE-OBS'.
+2025-11-20 08:37:15,224 | [2] Done → movie_frames_final/frame_0002.png
+2025-11-20 08:37:15,224 | [24] Converting img/mu-udm-t0024-image.fits
+2025-11-20 08:37:15,287 | [20] Done → movie_frames_final/frame_0020.png
+2025-11-20 08:37:15,287 | [27] Converting img/mu-udm-t0027-image.fits
+2025-11-20 08:37:15,288 | [8] Done → movie_frames_final/frame_0008.png
+2025-11-20 08:37:15,288 | [30] Converting img/mu-udm-t0030-image.fits
+2025-11-20 08:37:15,296 | [5] Done → movie_frames_final/frame_0005.png
+2025-11-20 08:37:15,296 | [33] Converting img/mu-udm-t0033-image.fits
+2025-11-20 08:37:15,341 | [11] Done → movie_frames_final/frame_0011.png
+2025-11-20 08:37:15,341 | [36] Converting img/mu-udm-t0036-image.fits
+2025-11-20 08:37:15,352 | [14] Done → movie_frames_final/frame_0014.png
+2025-11-20 08:37:15,353 | [39] Converting img/mu-udm-t0039-image.fits
+2025-11-20 08:37:15,354 | [17] Done → movie_frames_final/frame_0017.png
+2025-11-20 08:37:15,354 | [42] Converting img/mu-udm-t0042-image.fits
+2025-11-20 08:37:15,367 | [23] Done → movie_frames_final/frame_0023.png
+2025-11-20 08:37:15,367 | [45] Converting img/mu-udm-t0045-image.fits
+2025-11-20 08:37:15,546 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326380 from DATE-OBS'.
+2025-11-20 08:37:15,604 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326689 from DATE-OBS'.
+2025-11-20 08:37:15,607 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326997 from DATE-OBS'.
+2025-11-20 08:37:15,607 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327294 from DATE-OBS'.
+2025-11-20 08:37:15,652 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327602 from DATE-OBS'.
+2025-11-20 08:37:15,665 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328515 from DATE-OBS'.
+2025-11-20 08:37:15,666 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328219 from DATE-OBS'.
+2025-11-20 08:37:15,669 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327911 from DATE-OBS'.
+2025-11-20 08:37:15,697 | [24] Done → movie_frames_final/frame_0024.png
+2025-11-20 08:37:15,698 | [25] Converting img/mu-udm-t0025-image.fits
+2025-11-20 08:37:15,755 | [30] Done → movie_frames_final/frame_0030.png
+2025-11-20 08:37:15,755 | [31] Converting img/mu-udm-t0031-image.fits
+2025-11-20 08:37:15,778 | [27] Done → movie_frames_final/frame_0027.png
+2025-11-20 08:37:15,778 | [28] Converting img/mu-udm-t0028-image.fits
+2025-11-20 08:37:15,781 | [33] Done → movie_frames_final/frame_0033.png
+2025-11-20 08:37:15,781 | [34] Converting img/mu-udm-t0034-image.fits
+2025-11-20 08:37:15,827 | [36] Done → movie_frames_final/frame_0036.png
+2025-11-20 08:37:15,827 | [37] Converting img/mu-udm-t0037-image.fits
+2025-11-20 08:37:15,842 | [42] Done → movie_frames_final/frame_0042.png
+2025-11-20 08:37:15,842 | [43] Converting img/mu-udm-t0043-image.fits
+2025-11-20 08:37:15,843 | [45] Done → movie_frames_final/frame_0045.png
+2025-11-20 08:37:15,843 | [46] Converting img/mu-udm-t0046-image.fits
+2025-11-20 08:37:15,845 | [39] Done → movie_frames_final/frame_0039.png
+2025-11-20 08:37:15,846 | [40] Converting img/mu-udm-t0040-image.fits
+2025-11-20 08:37:15,963 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326487 from DATE-OBS'.
+2025-11-20 08:37:16,061 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327091 from DATE-OBS'.
+2025-11-20 08:37:16,085 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327400 from DATE-OBS'.
+2025-11-20 08:37:16,087 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326795 from DATE-OBS'.
+2025-11-20 08:37:16,104 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328314 from DATE-OBS'.
+2025-11-20 08:37:16,132 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327708 from DATE-OBS'.
+2025-11-20 08:37:16,134 | [25] Done → movie_frames_final/frame_0025.png
+2025-11-20 08:37:16,135 | [26] Converting img/mu-udm-t0026-image.fits
+2025-11-20 08:37:16,145 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328623 from DATE-OBS'.
+2025-11-20 08:37:16,154 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328006 from DATE-OBS'.
+2025-11-20 08:37:16,203 | [31] Done → movie_frames_final/frame_0031.png
+2025-11-20 08:37:16,203 | [32] Converting img/mu-udm-t0032-image.fits
+2025-11-20 08:37:16,229 | [34] Done → movie_frames_final/frame_0034.png
+2025-11-20 08:37:16,229 | [35] Converting img/mu-udm-t0035-image.fits
+2025-11-20 08:37:16,260 | [28] Done → movie_frames_final/frame_0028.png
+2025-11-20 08:37:16,260 | [29] Converting img/mu-udm-t0029-image.fits
+2025-11-20 08:37:16,280 | [43] Done → movie_frames_final/frame_0043.png
+2025-11-20 08:37:16,280 | [44] Converting img/mu-udm-t0044-image.fits
+2025-11-20 08:37:16,294 | [37] Done → movie_frames_final/frame_0037.png
+2025-11-20 08:37:16,294 | [38] Converting img/mu-udm-t0038-image.fits
+2025-11-20 08:37:16,322 | [46] Done → movie_frames_final/frame_0046.png
+2025-11-20 08:37:16,323 | [47] Converting img/mu-udm-t0047-image.fits
+2025-11-20 08:37:16,330 | [40] Done → movie_frames_final/frame_0040.png
+2025-11-20 08:37:16,330 | [41] Converting img/mu-udm-t0041-image.fits
+2025-11-20 08:37:16,446 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326582 from DATE-OBS'.
+2025-11-20 08:37:16,514 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327199 from DATE-OBS'.
+2025-11-20 08:37:16,532 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327507 from DATE-OBS'.
+2025-11-20 08:37:16,534 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328420 from DATE-OBS'.
+2025-11-20 08:37:16,566 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.326890 from DATE-OBS'.
+2025-11-20 08:37:16,591 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.327803 from DATE-OBS'.
+2025-11-20 08:37:16,618 | [26] Done → movie_frames_final/frame_0026.png
+2025-11-20 08:37:16,618 | [48] Converting img/mu-udm-t0048-image.fits
+2025-11-20 08:37:16,626 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328718 from DATE-OBS'.
+2025-11-20 08:37:16,635 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328112 from DATE-OBS'.
+2025-11-20 08:37:16,655 | [32] Done → movie_frames_final/frame_0032.png
+2025-11-20 08:37:16,655 | [51] Converting img/mu-udm-t0051-image.fits
+2025-11-20 08:37:16,674 | [35] Done → movie_frames_final/frame_0035.png
+2025-11-20 08:37:16,674 | [54] Converting img/mu-udm-t0054-image.fits
+2025-11-20 08:37:16,709 | [44] Done → movie_frames_final/frame_0044.png
+2025-11-20 08:37:16,710 | [57] Converting img/mu-udm-t0057-image.fits
+2025-11-20 08:37:16,714 | [29] Done → movie_frames_final/frame_0029.png
+2025-11-20 08:37:16,714 | [60] Converting img/mu-udm-t0060-image.fits
+2025-11-20 08:37:16,724 | [38] Done → movie_frames_final/frame_0038.png
+2025-11-20 08:37:16,725 | [63] Converting img/mu-udm-t0063-image.fits
+2025-11-20 08:37:16,803 | [47] Done → movie_frames_final/frame_0047.png
+2025-11-20 08:37:16,803 | [66] Converting img/mu-udm-t0066-image.fits
+2025-11-20 08:37:16,811 | [41] Done → movie_frames_final/frame_0041.png
+2025-11-20 08:37:16,811 | [69] Converting img/mu-udm-t0069-image.fits
+2025-11-20 08:37:16,924 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328824 from DATE-OBS'.
+2025-11-20 08:37:16,954 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329132 from DATE-OBS'.
+2025-11-20 08:37:16,984 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329429 from DATE-OBS'.
+2025-11-20 08:37:17,020 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329737 from DATE-OBS'.
+2025-11-20 08:37:17,030 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330046 from DATE-OBS'.
+2025-11-20 08:37:17,032 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330354 from DATE-OBS'.
+2025-11-20 08:37:17,080 | [48] Done → movie_frames_final/frame_0048.png
+2025-11-20 08:37:17,081 | [49] Converting img/mu-udm-t0049-image.fits
+2025-11-20 08:37:17,095 | [51] Done → movie_frames_final/frame_0051.png
+2025-11-20 08:37:17,095 | [52] Converting img/mu-udm-t0052-image.fits
+2025-11-20 08:37:17,122 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330650 from DATE-OBS'.
+2025-11-20 08:37:17,129 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330959 from DATE-OBS'.
+2025-11-20 08:37:17,156 | [63] Done → movie_frames_final/frame_0063.png
+2025-11-20 08:37:17,156 | [64] Converting img/mu-udm-t0064-image.fits
+2025-11-20 08:37:17,159 | [54] Done → movie_frames_final/frame_0054.png
+2025-11-20 08:37:17,160 | [55] Converting img/mu-udm-t0055-image.fits
+2025-11-20 08:37:17,177 | [60] Done → movie_frames_final/frame_0060.png
+2025-11-20 08:37:17,177 | [61] Converting img/mu-udm-t0061-image.fits
+2025-11-20 08:37:17,178 | [57] Done → movie_frames_final/frame_0057.png
+2025-11-20 08:37:17,178 | [58] Converting img/mu-udm-t0058-image.fits
+2025-11-20 08:37:17,292 | [66] Done → movie_frames_final/frame_0066.png
+2025-11-20 08:37:17,293 | [67] Converting img/mu-udm-t0067-image.fits
+2025-11-20 08:37:17,299 | [69] Done → movie_frames_final/frame_0069.png
+2025-11-20 08:37:17,373 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.328931 from DATE-OBS'.
+2025-11-20 08:37:17,398 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329227 from DATE-OBS'.
+2025-11-20 08:37:17,441 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330141 from DATE-OBS'.
+2025-11-20 08:37:17,446 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329844 from DATE-OBS'.
+2025-11-20 08:37:17,465 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330449 from DATE-OBS'.
+2025-11-20 08:37:17,473 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329536 from DATE-OBS'.
+2025-11-20 08:37:17,539 | [52] Done → movie_frames_final/frame_0052.png
+2025-11-20 08:37:17,539 | [53] Converting img/mu-udm-t0053-image.fits
+2025-11-20 08:37:17,549 | [49] Done → movie_frames_final/frame_0049.png
+2025-11-20 08:37:17,549 | [50] Converting img/mu-udm-t0050-image.fits
+2025-11-20 08:37:17,576 | [61] Done → movie_frames_final/frame_0061.png
+2025-11-20 08:37:17,577 | [62] Converting img/mu-udm-t0062-image.fits
+2025-11-20 08:37:17,589 | [58] Done → movie_frames_final/frame_0058.png
+2025-11-20 08:37:17,589 | [59] Converting img/mu-udm-t0059-image.fits
+2025-11-20 08:37:17,601 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330758 from DATE-OBS'.
+2025-11-20 08:37:17,637 | [64] Done → movie_frames_final/frame_0064.png
+2025-11-20 08:37:17,637 | [65] Converting img/mu-udm-t0065-image.fits
+2025-11-20 08:37:17,648 | [55] Done → movie_frames_final/frame_0055.png
+2025-11-20 08:37:17,648 | [56] Converting img/mu-udm-t0056-image.fits
+2025-11-20 08:37:17,772 | [67] Done → movie_frames_final/frame_0067.png
+2025-11-20 08:37:17,772 | [68] Converting img/mu-udm-t0068-image.fits
+2025-11-20 08:37:17,842 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329334 from DATE-OBS'.
+2025-11-20 08:37:17,844 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329939 from DATE-OBS'.
+2025-11-20 08:37:17,850 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329025 from DATE-OBS'.
+2025-11-20 08:37:17,885 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330248 from DATE-OBS'.
+2025-11-20 08:37:17,950 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330556 from DATE-OBS'.
+2025-11-20 08:37:17,958 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.329642 from DATE-OBS'.
+2025-11-20 08:37:17,984 | [53] Done → movie_frames_final/frame_0053.png
+2025-11-20 08:37:17,986 | [59] Done → movie_frames_final/frame_0059.png
+2025-11-20 08:37:17,992 | [50] Done → movie_frames_final/frame_0050.png
+2025-11-20 08:37:18,021 | [62] Done → movie_frames_final/frame_0062.png
+2025-11-20 08:37:18,027 | FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 60999.330853 from DATE-OBS'.
+2025-11-20 08:37:18,120 | [65] Done → movie_frames_final/frame_0065.png
+2025-11-20 08:37:18,134 | [56] Done → movie_frames_final/frame_0056.png
+2025-11-20 08:37:18,196 | [68] Done → movie_frames_final/frame_0068.png

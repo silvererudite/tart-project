@@ -1,0 +1,112 @@
+
+
+cabs:
+  casa.listobs:
+    command: listobs
+    flavour: casa-task
+    inputs:
+      _include: casa/listobs.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.flagmanager:
+    command: flagmanager
+    flavour: casa-task
+    inputs:
+      _include: casa/flagmanager.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.flagdata:
+    command: flagdata
+    flavour: casa-task
+    inputs:
+      _include: casa/flagdata.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.plotms:
+    command: plotms
+    flavour: casa-task
+    inputs:
+      _include: casa/plotms.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.setjy:
+    command: setjy
+    flavour: casa-task
+    inputs:
+      _include: casa/setjy.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.gaincal:
+    command: gaincal
+    flavour: casa-task
+    inputs:
+      _include: casa/gaincal.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa  
+
+  casa.bandpass:
+    command: bandpass
+    flavour: casa-task
+    inputs:
+      _include: casa/bandpass.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.applycal:
+    command: applycal
+    flavour: casa-task
+    inputs:
+      _include: casa/applycal.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.exportfits:
+    command: exportfits
+    flavour: casa-task
+    inputs:
+      _include: casa/exportfits.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.tclean:
+    command: tclean
+    flavour: casa-task
+    inputs:
+      _include: casa/tclean.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.importfits:
+    command: importfits
+    flavour: casa-task
+    inputs:
+      _include: casa/importfits.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+  casa.plotants:
+    command: plotants
+    flavour: casa-task
+    inputs:
+      _include: casa/plotants.yaml
+    image:
+      _use: vars.cult-cargo.images
+      name: casa
+
+

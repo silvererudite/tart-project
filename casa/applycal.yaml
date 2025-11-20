@@ -1,0 +1,82 @@
+vis:
+  required: true
+  info: Name of input visibility file
+  dtype: MS
+field:
+  default: ''
+  info: Select field using field id(s) or field name(s)
+  dtype: str
+spw:
+  default: ''
+  info: Select spectral window/channels
+  dtype: str
+intent:
+  default: ''
+  info: Select observing intent
+  dtype: str
+selectdata:
+  default: true
+  info: Other data selection parameters
+  dtype: bool
+timerange:
+  default: ''
+  info: Select data based on time range
+  dtype: str
+uvrange:
+  default: ''
+  info: Select data within uvrange (default units meters)
+  dtype: str
+antenna:
+  default: ''
+  info: Select data based on antenna/baseline
+  dtype: str
+scan:
+  default: ''
+  info: Scan number range
+  dtype: str
+observation:
+  default: ''
+  info: Select by observation ID(s)
+  dtype: str
+msselect:
+  default: ''
+  info: Optional complex data selection (ignore for now)
+  dtype: str
+docallib:
+  default: false
+  info: Use callib or traditional cal apply parameters
+  dtype: bool
+gaintable:
+  default: []
+  info: Gain calibration table(s) to apply on the fly
+  dtype: list
+gainfield:
+  default: []
+  info: Select a subset of calibrators from gaintable(s)
+  dtype: list
+interp:
+  default: []
+  info: Interpolation parameters for each gaintable, as a list
+  dtype: list
+spwmap:
+  default: []
+  info: Spectral windows combinations to form for gaintables(s)
+  dtype: list
+calwt:
+  default:
+  - true
+  info: Calibrate data weights per gaintable.
+  dtype: list
+parang:
+  default: false
+  info: Apply parallactic angle correction
+  dtype: bool
+applymode:
+  default: ''
+  info: 'Calibration mode: """calflag","calfl agstrict","trial","flagonly","flagon
+    lystrict", or "calonly"'
+  dtype: str
+flagbackup:
+  default: true
+  info: Automatically back up the state of flags before the run?
+  dtype: bool

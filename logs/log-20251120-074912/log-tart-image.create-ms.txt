@@ -1,0 +1,15 @@
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR: error validating inputs:
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR: ### summary of inputs follows
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR: cab tart2ms:
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   hdf = []
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   rephase = obs-midpoint
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   clobber = True
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   ms = msdir/mu-udm.ms
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   debug = False
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   uncalibrated = False
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   add-model = True
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   write-model-catalog = True
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   skip-online-source-catalog = False
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   skip-celestial-source-catalog = True
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   no-cache = False
+2025-11-20 07:50:12 STIMELA.tart-image.create-ms ERROR:   model-catalog-name-prefix = msdir/model_sources_

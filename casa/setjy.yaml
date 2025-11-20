@@ -1,0 +1,71 @@
+vis:
+  required: true
+  info: Name of input visibility file
+  dtype: MS
+field:
+  default: ''
+  info: Select field using field id(s) or field name(s)
+  dtype: str
+spw:
+  default: ''
+  info: Select spectral window/channels
+  dtype: str
+selectdata:
+  default: true
+  info: Other data selection parameters
+  dtype: bool
+timerange:
+  default: ''
+  info: Select data based on time range
+  dtype: str
+scan:
+  default: ''
+  info: Scan number range
+  dtype: str
+intent:
+  default: ''
+  info: Select observing intent
+  dtype: str
+observation:
+  default: ''
+  info: Select by observation ID(s)
+  dtype: str
+scalebychan:
+  default: true
+  info: Scale the flux density on a per channel basis or else on a per spw basis
+  dtype: bool
+standard:
+  default: Perley-Butler 2017
+  info: Flux density standard
+  dtype: str
+  choices:
+    - Perley-Butler 2017
+    - Perley-Butler 2013
+    - Perley-Butler 2010
+    - Perley-Taylor 99
+    - Baars
+    - Perley 90
+    - Perley-Taylor 95
+    - Butler-JPL-Horizons 2012
+    - Butler-JPL-Horizons 2010
+    - Scaife-Heald 2012
+    - Stevens-Reynolds 2016
+    - manual
+    - fluxscale
+model:
+  default: ''
+  info: File location for field model
+  dtype: str
+listmodels:
+  default: false
+  info: List the available models for VLA calibrators or Tb models for Solar System
+    objects
+  dtype: bool
+interpolation:
+  default: nearest
+  info: Method to be used to interpolate in time
+  dtype: str
+usescratch:
+  default: false
+  info: Will create if necessary and use the MODEL_DATA
+  dtype: bool

@@ -1,0 +1,24 @@
+2025-11-20 07:49:18 STIMELA.tart-image INFO: selecting recipe steps for (sub)recipe: [bold green]tart-image[/bold green]
+2025-11-20 07:49:18 STIMELA.tart-image INFO: the following recipe steps have been enabled:
+2025-11-20 07:49:18 STIMELA.tart-image INFO:     [bold green]initimgdir initdatadownloaddir initdatacaltabledir initmsdir download-hdf create-ms updateobservatory flagsave plotuv plotants lister calibrate_amplitude plotcaltable_amp calibrate_phase plotcaltable_phase applycal snapshotimage[/bold green]
+2025-11-20 07:49:18 STIMELA.tart-image INFO: ### validated inputs
+2025-11-20 07:49:18 STIMELA.tart-image INFO: recipe 'tart-image':
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   tart = mu-udm
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   imgdir = img
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   h5dir = rawdata
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   raw_data_nfile = 10
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   cal_table_dir = caltables
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   msdir = msdir
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   do_download = False
+2025-11-20 07:49:18 STIMELA.tart-image INFO:   ms = msdir/mu-udm.ms
+2025-11-20 07:49:18 STIMELA.tart-image INFO: running recipe 'tart-image'
+2025-11-20 07:49:18 STIMELA.tart-image INFO: processing step 'initimgdir'
+2025-11-20 07:50:10 STIMELA.tart-image INFO: processing step 'initdatadownloaddir'
+2025-11-20 07:50:10 STIMELA.tart-image INFO: processing step 'initdatacaltabledir'
+2025-11-20 07:50:11 STIMELA.tart-image INFO: processing step 'initmsdir'
+2025-11-20 07:50:11 STIMELA.tart-image INFO: processing step 'download-hdf'
+2025-11-20 07:50:12 STIMELA.tart-image INFO: skipping step based on conditonal settings
+2025-11-20 07:50:12 STIMELA.tart-image INFO: processing step 'create-ms'
+2025-11-20 07:50:12 STIMELA.tart-image INFO: saved full profiling stats to logs/log-20251120-074912/stimela.stats.full
+2025-11-20 07:50:12 STIMELA.tart-image INFO: saved summary to logs/log-20251120-074912/stimela.stats.summary.txt
+2025-11-20 07:50:12 STIMELA.tart-image INFO: last log directory was [bold green]logs/log-20251120-074912[/bold green]

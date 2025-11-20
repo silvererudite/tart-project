@@ -1,0 +1,10 @@
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: ### validated inputs
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: cab binary:
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO:   dirname = caltables
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: singularity image ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg exists
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: binding /tmp/tmpvso1zpst to /tmp as rw
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: ---INVOKING---
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpvso1zpst:/tmp:rw ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg /bin/mkdir -p caltables
+
+2025-11-20 07:50:11 STIMELA.tart-image.initdatacaltabledir INFO: /bin/mkdir returns exit code 0 after 0:00:00

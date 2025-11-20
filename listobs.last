@@ -1,0 +1,20 @@
+taskname           = "listobs"
+vis                =  "msdir/mu-udm.ms"
+selectdata         =  True
+spw                =  ""
+field              =  ""
+antenna            =  ""
+uvrange            =  ""
+timerange          =  ""
+correlation        =  ""
+scan               =  ""
+intent             =  ""
+feed               =  ""
+array              =  ""
+observation        =  ""
+verbose            =  False
+listfile           =  ""
+listunfl           =  False
+cachesize          =  50
+overwrite          =  False
+#listobs(vis="msdir/mu-udm.ms",selectdata=True,spw="",field="",antenna="",uvrange="",timerange="",correlation="",scan="",intent="",feed="",array="",observation="",verbose=False,listfile="",listunfl=False,cachesize=50,overwrite=False)

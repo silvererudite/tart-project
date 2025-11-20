@@ -1,0 +1,10 @@
+taskname           = "plotants"
+vis                =  "msdir/mu-udm.ms"
+figfile            =  "msdir/antconfig.png"
+antindex           =  False
+logpos             =  False
+exclude            =  ""
+checkbaselines     =  False
+title              =  ""
+showgui            =  False
+#plotants(vis="msdir/mu-udm.ms",figfile="msdir/antconfig.png",antindex=False,logpos=False,exclude="",checkbaselines=False,title="",showgui=False)

@@ -1,0 +1,726 @@
+2025-11-20 07:58:11,410 - tart2ms - INFO - TART2MS parameters:
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	json                : None
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	hdf                 : ['rawdata/vis_2025-11-20_07_47_29.638727.hdf', 'rawdata/vis_2025-11-20_07_48_31.143261.hdf', 'rawdata/vis_2025-11-20_07_49_32.645165.hdf', 'rawdata/vis_2025-11-20_07_50_34.144643.hdf', 'rawdata/vis_2025-11-20_07_51_35.639678.hdf', 'rawdata/vis_2025-11-20_07_52_37.137262.hdf', 'rawdata/vis_2025-11-20_07_53_38.639268.hdf', 'rawdata/vis_2025-11-20_07_54_40.141786.hdf', 'rawdata/vis_2025-11-20_07_55_41.640284.hdf', 'rawdata/vis_2025-11-20_07_56_43.134651.hdf']
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	ms                  : msdir/mu-udm.ms
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	api                 : https://api.elec.ac.nz/tart/mu-udm/
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	catalog             : https://tart.elec.ac.nz/catalog
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	vis                 : None
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	pol2                : False
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	clobber             : True
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	rephase             : obs-midpoint
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	debug               : False
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	single_field        : False
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	override_telescope_name: TART
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	uncalibrated        : False
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	addmodel            : True
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	writemodelcatalog   : True
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	no_fetch_sources    : False
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	no_celestial_sources: True
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	sources_recache     : False
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	timerange_start_utc : None
+2025-11-20 07:58:11,411 - tart2ms - INFO - 	timerange_end_utc   : None
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	chunks              : 10000
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	override_ant_pos    : None
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	model_catalog_name_prefix: msdir/model_sources_
+2025-11-20 07:58:11,412 - tart2ms - INFO - Getting Data from file: ['rawdata/vis_2025-11-20_07_47_29.638727.hdf', 'rawdata/vis_2025-11-20_07_48_31.143261.hdf', 'rawdata/vis_2025-11-20_07_49_32.645165.hdf', 'rawdata/vis_2025-11-20_07_50_34.144643.hdf', 'rawdata/vis_2025-11-20_07_51_35.639678.hdf', 'rawdata/vis_2025-11-20_07_52_37.137262.hdf', 'rawdata/vis_2025-11-20_07_53_38.639268.hdf', 'rawdata/vis_2025-11-20_07_54_40.141786.hdf', 'rawdata/vis_2025-11-20_07_55_41.640284.hdf', 'rawdata/vis_2025-11-20_07_56_43.134651.hdf']
+2025-11-20 07:58:11,412 - tart2ms - INFO - Writing measurement set 'msdir/mu-udm.ms'...
+2025-11-20 07:58:11,412 - tart2ms - INFO - Will process HDF5 file: 
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_47_29.638727.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_48_31.143261.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_49_32.645165.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_50_34.144643.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_51_35.639678.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_52_37.137262.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_53_38.639268.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_54_40.141786.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_55_41.640284.hdf'
+2025-11-20 07:58:11,412 - tart2ms - INFO - 	 'rawdata/vis_2025-11-20_07_56_43.134651.hdf'
+2025-11-20 07:58:11,434 - tart2ms - INFO - Observatory parameters:
+2025-11-20 07:58:11,434 - tart2ms - INFO - 	L0_frequency             : 1571328000.0
+2025-11-20 07:58:11,434 - tart2ms - INFO - 	bandwidth                : 2500000.0
+2025-11-20 07:58:11,434 - tart2ms - INFO - 	baseband_frequency       : 4092000.0
+2025-11-20 07:58:11,434 - tart2ms - INFO - 	operating_frequency      : 1575420000.0
+2025-11-20 07:58:11,434 - tart2ms - INFO - 	name                     : Bel Air - Mauritius
+2025-11-20 07:58:11,434 - tart2ms - INFO - 	num_antenna              : 24
+2025-11-20 07:58:11,434 - tart2ms - INFO - 	sampling_frequency       : 16368000.0
+2025-11-20 07:58:11,462 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:17,171 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:17,172 - tart2ms - INFO - 	 Processing HDF database progress: 0%
+2025-11-20 07:58:17,217 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:22,903 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:22,904 - tart2ms - INFO - 	 Processing HDF database progress: 10%
+2025-11-20 07:58:22,948 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:28,510 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:28,510 - tart2ms - INFO - 	 Processing HDF database progress: 20%
+2025-11-20 07:58:28,556 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:34,130 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:34,132 - tart2ms - INFO - 	 Processing HDF database progress: 30%
+2025-11-20 07:58:34,173 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:39,657 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:39,658 - tart2ms - INFO - 	 Processing HDF database progress: 40%
+2025-11-20 07:58:39,701 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:45,304 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:45,305 - tart2ms - INFO - 	 Processing HDF database progress: 50%
+2025-11-20 07:58:45,349 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:50,927 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:50,928 - tart2ms - INFO - 	 Processing HDF database progress: 60%
+2025-11-20 07:58:50,973 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:58:56,581 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:58:56,581 - tart2ms - INFO - 	 Processing HDF database progress: 70%
+2025-11-20 07:58:56,625 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:59:02,264 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:59:02,265 - tart2ms - INFO - 	 Processing HDF database progress: 80%
+2025-11-20 07:59:02,313 - tart2ms - INFO - Going online to retrieve updated GNSS TLS
+2025-11-20 07:59:07,974 - tart2ms - INFO - GNSS source catalogs retrieved for 6 timestamps, 0 from local cache
+2025-11-20 07:59:07,975 - tart2ms - INFO - 	 Processing HDF database progress: 90%
+2025-11-20 07:59:08,051 - tart2ms - INFO - Telescope position (WGS84):
+2025-11-20 07:59:08,052 - tart2ms - INFO - 	Lat -20.2587508
+2025-11-20 07:59:08,052 - tart2ms - INFO - 	Lon 57.7591989
+2025-11-20 07:59:08,052 - tart2ms - INFO - 	Alt 20.0
+2025-11-20 07:59:08,097 - tart2ms - INFO - Min time: 2025-11-20 07:46:29.164313+00:00 -- 5270341589.164313
+2025-11-20 07:59:08,098 - tart2ms - INFO - Max time: 2025-11-20 07:56:43.134651+00:00 -- 5270342203.134651
+2025-11-20 07:59:24,353 - tart2ms - INFO - Pol Feeds ['RR']
+2025-11-20 07:59:24,431 - tart2ms - INFO - Setting phase center per rephase-obs-midpoint
+2025-11-20 07:59:24,433 - tart2ms - INFO -     shapshot direction [4.07701698], [-0.35208348] J153423-201022
+2025-11-20 07:59:24,434 - tart2ms - INFO -     shapshot direction [4.07709182], [-0.35208362] J153424-201022
+2025-11-20 07:59:24,435 - tart2ms - INFO -     shapshot direction [4.07716685], [-0.35208377] J153425-201022
+2025-11-20 07:59:24,437 - tart2ms - INFO -     shapshot direction [4.07724074], [-0.35208392] J153426-201023
+2025-11-20 07:59:24,438 - tart2ms - INFO -     shapshot direction [4.07731612], [-0.35208406] J153427-201023
+2025-11-20 07:59:24,439 - tart2ms - INFO -     shapshot direction [4.07739031], [-0.35208421] J153428-201023
+2025-11-20 07:59:24,440 - tart2ms - INFO -     shapshot direction [4.07746501], [-0.35208436] J153429-201023
+2025-11-20 07:59:24,441 - tart2ms - INFO -     shapshot direction [4.07754016], [-0.3520845] J153430-201023
+2025-11-20 07:59:24,442 - tart2ms - INFO -     shapshot direction [4.0776151], [-0.35208465] J153431-201023
+2025-11-20 07:59:24,443 - tart2ms - INFO -     shapshot direction [4.07768955], [-0.3520848] J153432-201023
+2025-11-20 07:59:24,445 - tart2ms - INFO -     shapshot direction [4.07776423], [-0.35208494] J153433-201023
+2025-11-20 07:59:24,446 - tart2ms - INFO -     shapshot direction [4.07783857], [-0.35208509] J153434-201023
+2025-11-20 07:59:24,447 - tart2ms - INFO -     shapshot direction [4.07791359], [-0.35208524] J153435-201023
+2025-11-20 07:59:24,448 - tart2ms - INFO -     shapshot direction [4.0779887], [-0.35208538] J153436-201023
+2025-11-20 07:59:24,449 - tart2ms - INFO -     shapshot direction [4.07806334], [-0.35208553] J153437-201023
+2025-11-20 07:59:24,450 - tart2ms - INFO -     shapshot direction [4.07813788], [-0.35208568] J153438-201023
+2025-11-20 07:59:24,451 - tart2ms - INFO -     shapshot direction [4.07821215], [-0.35208582] J153439-201023
+2025-11-20 07:59:24,452 - tart2ms - INFO -     shapshot direction [4.07828701], [-0.35208597] J153440-201023
+2025-11-20 07:59:24,453 - tart2ms - INFO -     shapshot direction [4.07836142], [-0.35208611] J153441-201023
+2025-11-20 07:59:24,454 - tart2ms - INFO -     shapshot direction [4.07843604], [-0.35208626] J153443-201023
+2025-11-20 07:59:24,456 - tart2ms - INFO -     shapshot direction [4.07851102], [-0.35208641] J153444-201023
+2025-11-20 07:59:24,457 - tart2ms - INFO -     shapshot direction [4.07858568], [-0.35208655] J153445-201023
+2025-11-20 07:59:24,458 - tart2ms - INFO -     shapshot direction [4.07866041], [-0.3520867] J153446-201023
+2025-11-20 07:59:24,459 - tart2ms - INFO -     shapshot direction [4.078735], [-0.35208685] J153447-201023
+2025-11-20 07:59:24,460 - tart2ms - INFO -     shapshot direction [4.07881029], [-0.35208699] J153448-201023
+2025-11-20 07:59:24,461 - tart2ms - INFO -     shapshot direction [4.07888484], [-0.35208714] J153449-201023
+2025-11-20 07:59:24,462 - tart2ms - INFO -     shapshot direction [4.07895969], [-0.35208729] J153450-201023
+2025-11-20 07:59:24,463 - tart2ms - INFO -     shapshot direction [4.07903394], [-0.35208743] J153451-201023
+2025-11-20 07:59:24,464 - tart2ms - INFO -     shapshot direction [4.07910845], [-0.35208758] J153452-201023
+2025-11-20 07:59:24,465 - tart2ms - INFO -     shapshot direction [4.07918375], [-0.35208773] J153453-201023
+2025-11-20 07:59:24,466 - tart2ms - INFO -     shapshot direction [4.07925841], [-0.35208787] J153454-201023
+2025-11-20 07:59:24,467 - tart2ms - INFO -     shapshot direction [4.07933318], [-0.35208802] J153455-201023
+2025-11-20 07:59:24,469 - tart2ms - INFO -     shapshot direction [4.07940761], [-0.35208817] J153456-201023
+2025-11-20 07:59:24,470 - tart2ms - INFO -     shapshot direction [4.07948255], [-0.35208831] J153457-201023
+2025-11-20 07:59:24,471 - tart2ms - INFO -     shapshot direction [4.07955702], [-0.35208846] J153458-201023
+2025-11-20 07:59:24,472 - tart2ms - INFO -     shapshot direction [4.07963167], [-0.35208861] J153459-201023
+2025-11-20 07:59:24,473 - tart2ms - INFO -     shapshot direction [4.0797066], [-0.35208875] J153460-201024
+2025-11-20 07:59:24,474 - tart2ms - INFO -     shapshot direction [4.07978087], [-0.3520889] J153501-201024
+2025-11-20 07:59:24,475 - tart2ms - INFO -     shapshot direction [4.07985538], [-0.35208904] J153502-201024
+2025-11-20 07:59:24,476 - tart2ms - INFO -     shapshot direction [4.07993063], [-0.35208919] J153503-201024
+2025-11-20 07:59:24,477 - tart2ms - INFO -     shapshot direction [4.08000525], [-0.35208934] J153504-201024
+2025-11-20 07:59:24,478 - tart2ms - INFO -     shapshot direction [4.08007988], [-0.35208948] J153505-201024
+2025-11-20 07:59:24,480 - tart2ms - INFO -     shapshot direction [4.08015492], [-0.35208963] J153506-201024
+2025-11-20 07:59:24,481 - tart2ms - INFO -     shapshot direction [4.08022905], [-0.35208978] J153507-201024
+2025-11-20 07:59:24,482 - tart2ms - INFO -     shapshot direction [4.08030398], [-0.35208992] J153508-201024
+2025-11-20 07:59:24,483 - tart2ms - INFO -     shapshot direction [4.08037855], [-0.35209007] J153509-201024
+2025-11-20 07:59:24,484 - tart2ms - INFO -     shapshot direction [4.08045323], [-0.35209022] J153510-201024
+2025-11-20 07:59:24,485 - tart2ms - INFO -     shapshot direction [4.08052842], [-0.35209036] J153511-201024
+2025-11-20 07:59:24,486 - tart2ms - INFO -     shapshot direction [4.08060292], [-0.35209051] J153512-201024
+2025-11-20 07:59:24,488 - tart2ms - INFO -     shapshot direction [4.08067783], [-0.35209066] J153513-201024
+2025-11-20 07:59:24,489 - tart2ms - INFO -     shapshot direction [4.08075234], [-0.3520908] J153514-201024
+2025-11-20 07:59:24,490 - tart2ms - INFO -     shapshot direction [4.08082683], [-0.35209095] J153515-201024
+2025-11-20 07:59:24,491 - tart2ms - INFO -     shapshot direction [4.0809014], [-0.3520911] J153516-201024
+2025-11-20 07:59:24,492 - tart2ms - INFO -     shapshot direction [4.08097646], [-0.35209124] J153517-201024
+2025-11-20 07:59:24,493 - tart2ms - INFO -     shapshot direction [4.08105094], [-0.35209139] J153518-201024
+2025-11-20 07:59:24,494 - tart2ms - INFO -     shapshot direction [4.08112599], [-0.35209154] J153520-201024
+2025-11-20 07:59:24,495 - tart2ms - INFO -     shapshot direction [4.08120064], [-0.35209168] J153521-201024
+2025-11-20 07:59:24,496 - tart2ms - INFO -     shapshot direction [4.08127512], [-0.35209183] J153522-201024
+2025-11-20 07:59:24,497 - tart2ms - INFO -     shapshot direction [4.08135008], [-0.35209198] J153523-201024
+2025-11-20 07:59:24,498 - tart2ms - INFO -     shapshot direction [4.08142457], [-0.35209212] J153524-201024
+2025-11-20 07:59:24,500 - tart2ms - INFO -     shapshot direction [4.08149906], [-0.35209227] J153525-201024
+2025-11-20 07:59:24,501 - tart2ms - INFO -     shapshot direction [4.08157412], [-0.35209241] J153526-201024
+2025-11-20 07:59:24,502 - tart2ms - INFO -     shapshot direction [4.08164868], [-0.35209256] J153527-201024
+2025-11-20 07:59:24,503 - tart2ms - INFO -     shapshot direction [4.08172345], [-0.35209271] J153528-201024
+2025-11-20 07:59:24,504 - tart2ms - INFO -     shapshot direction [4.08179795], [-0.35209285] J153529-201024
+2025-11-20 07:59:24,505 - tart2ms - INFO -     shapshot direction [4.08187321], [-0.352093] J153530-201024
+2025-11-20 07:59:24,506 - tart2ms - INFO -     shapshot direction [4.08194766], [-0.35209315] J153531-201024
+2025-11-20 07:59:24,507 - tart2ms - INFO -     shapshot direction [4.08202228], [-0.35209329] J153532-201024
+2025-11-20 07:59:24,508 - tart2ms - INFO -     shapshot direction [4.08209734], [-0.35209344] J153533-201024
+2025-11-20 07:59:24,509 - tart2ms - INFO -     shapshot direction [4.08217165], [-0.35209359] J153534-201025
+2025-11-20 07:59:24,510 - tart2ms - INFO -     shapshot direction [4.08224686], [-0.35209373] J153535-201025
+2025-11-20 07:59:24,512 - tart2ms - INFO -     shapshot direction [4.08232076], [-0.35209388] J153536-201025
+2025-11-20 07:59:24,513 - tart2ms - INFO -     shapshot direction [4.0823963], [-0.35209403] J153537-201025
+2025-11-20 07:59:24,514 - tart2ms - INFO -     shapshot direction [4.0824706], [-0.35209417] J153538-201025
+2025-11-20 07:59:24,515 - tart2ms - INFO -     shapshot direction [4.08254517], [-0.35209432] J153539-201025
+2025-11-20 07:59:24,516 - tart2ms - INFO -     shapshot direction [4.08262025], [-0.35209447] J153540-201025
+2025-11-20 07:59:24,517 - tart2ms - INFO -     shapshot direction [4.0826943], [-0.35209461] J153541-201025
+2025-11-20 07:59:24,518 - tart2ms - INFO -     shapshot direction [4.0827689], [-0.35209476] J153542-201025
+2025-11-20 07:59:24,519 - tart2ms - INFO -     shapshot direction [4.0828445], [-0.35209491] J153543-201025
+2025-11-20 07:59:24,520 - tart2ms - INFO -     shapshot direction [4.08291872], [-0.35209505] J153544-201025
+2025-11-20 07:59:24,521 - tart2ms - INFO -     shapshot direction [4.08299377], [-0.3520952] J153545-201025
+2025-11-20 07:59:24,523 - tart2ms - INFO -     shapshot direction [4.08306838], [-0.35209534] J153546-201025
+2025-11-20 07:59:24,524 - tart2ms - INFO -     shapshot direction [4.08314291], [-0.35209549] J153547-201025
+2025-11-20 07:59:24,525 - tart2ms - INFO -     shapshot direction [4.0832175], [-0.35209564] J153548-201025
+2025-11-20 07:59:24,526 - tart2ms - INFO -     shapshot direction [4.08329252], [-0.35209578] J153549-201025
+2025-11-20 07:59:24,527 - tart2ms - INFO -     shapshot direction [4.08336745], [-0.35209593] J153550-201025
+2025-11-20 07:59:24,528 - tart2ms - INFO -     shapshot direction [4.08344222], [-0.35209608] J153551-201025
+2025-11-20 07:59:24,529 - tart2ms - INFO -     shapshot direction [4.08351613], [-0.35209622] J153552-201025
+2025-11-20 07:59:24,530 - tart2ms - INFO -     shapshot direction [4.08359132], [-0.35209637] J153553-201025
+2025-11-20 07:59:24,531 - tart2ms - INFO -     shapshot direction [4.08366639], [-0.35209652] J153554-201025
+2025-11-20 07:59:24,532 - tart2ms - INFO -     shapshot direction [4.08374107], [-0.35209666] J153555-201025
+2025-11-20 07:59:24,533 - tart2ms - INFO -     shapshot direction [4.08381546], [-0.35209681] J153556-201025
+2025-11-20 07:59:24,534 - tart2ms - INFO -     shapshot direction [4.08389005], [-0.35209695] J153558-201025
+2025-11-20 07:59:24,536 - tart2ms - INFO -     shapshot direction [4.08396501], [-0.3520971] J153559-201025
+2025-11-20 07:59:24,537 - tart2ms - INFO -     shapshot direction [4.0840398], [-0.35209725] J153560-201025
+2025-11-20 07:59:24,538 - tart2ms - INFO -     shapshot direction [4.08411383], [-0.35209739] J153601-201025
+2025-11-20 07:59:24,539 - tart2ms - INFO -     shapshot direction [4.08418914], [-0.35209754] J153602-201025
+2025-11-20 07:59:24,540 - tart2ms - INFO -     shapshot direction [4.08426355], [-0.35209769] J153603-201025
+2025-11-20 07:59:24,541 - tart2ms - INFO -     shapshot direction [4.08433818], [-0.35209783] J153604-201025
+2025-11-20 07:59:24,542 - tart2ms - INFO -     shapshot direction [4.08441256], [-0.35209798] J153605-201025
+2025-11-20 07:59:24,543 - tart2ms - INFO -     shapshot direction [4.08448731], [-0.35209812] J153606-201025
+2025-11-20 07:59:24,544 - tart2ms - INFO -     shapshot direction [4.08456233], [-0.35209827] J153607-201025
+2025-11-20 07:59:24,545 - tart2ms - INFO -     shapshot direction [4.08463698], [-0.35209842] J153608-201026
+2025-11-20 07:59:24,547 - tart2ms - INFO -     shapshot direction [4.08471192], [-0.35209856] J153609-201026
+2025-11-20 07:59:24,548 - tart2ms - INFO -     shapshot direction [4.08478621], [-0.35209871] J153610-201026
+2025-11-20 07:59:24,549 - tart2ms - INFO -     shapshot direction [4.08486163], [-0.35209886] J153611-201026
+2025-11-20 07:59:24,550 - tart2ms - INFO -     shapshot direction [4.0849358], [-0.352099] J153612-201026
+2025-11-20 07:59:24,551 - tart2ms - INFO -     shapshot direction [4.0850109], [-0.35209915] J153613-201026
+2025-11-20 07:59:24,552 - tart2ms - INFO -     shapshot direction [4.08508524], [-0.3520993] J153614-201026
+2025-11-20 07:59:24,553 - tart2ms - INFO -     shapshot direction [4.08515958], [-0.35209944] J153615-201026
+2025-11-20 07:59:24,554 - tart2ms - INFO -     shapshot direction [4.08523452], [-0.35209959] J153616-201026
+2025-11-20 07:59:24,555 - tart2ms - INFO -     shapshot direction [4.08530954], [-0.35209973] J153617-201026
+2025-11-20 07:59:24,556 - tart2ms - INFO -     shapshot direction [4.08538422], [-0.35209988] J153618-201026
+2025-11-20 07:59:24,557 - tart2ms - INFO -     shapshot direction [4.08545891], [-0.35210003] J153619-201026
+2025-11-20 07:59:24,558 - tart2ms - INFO -     shapshot direction [4.0855338], [-0.35210017] J153620-201026
+2025-11-20 07:59:24,559 - tart2ms - INFO -     shapshot direction [4.08560835], [-0.35210032] J153621-201026
+2025-11-20 07:59:24,561 - tart2ms - INFO -     shapshot direction [4.08568297], [-0.35210047] J153622-201026
+2025-11-20 07:59:24,562 - tart2ms - INFO -     shapshot direction [4.08575743], [-0.35210061] J153623-201026
+2025-11-20 07:59:24,563 - tart2ms - INFO -     shapshot direction [4.08583235], [-0.35210076] J153624-201026
+2025-11-20 07:59:24,564 - tart2ms - INFO -     shapshot direction [4.08590729], [-0.3521009] J153625-201026
+2025-11-20 07:59:24,565 - tart2ms - INFO -     shapshot direction [4.08598204], [-0.35210105] J153626-201026
+2025-11-20 07:59:24,566 - tart2ms - INFO -     shapshot direction [4.08605636], [-0.3521012] J153627-201026
+2025-11-20 07:59:24,567 - tart2ms - INFO -     shapshot direction [4.08613109], [-0.35210134] J153628-201026
+2025-11-20 07:59:24,568 - tart2ms - INFO -     shapshot direction [4.08620596], [-0.35210149] J153629-201026
+2025-11-20 07:59:24,569 - tart2ms - INFO -     shapshot direction [4.08628019], [-0.35210163] J153630-201026
+2025-11-20 07:59:24,570 - tart2ms - INFO -     shapshot direction [4.08635533], [-0.35210178] J153631-201026
+2025-11-20 07:59:24,571 - tart2ms - INFO -     shapshot direction [4.08642979], [-0.35210193] J153632-201026
+2025-11-20 07:59:24,572 - tart2ms - INFO -     shapshot direction [4.08650526], [-0.35210207] J153633-201026
+2025-11-20 07:59:24,574 - tart2ms - INFO -     shapshot direction [4.08657994], [-0.35210222] J153635-201026
+2025-11-20 07:59:24,575 - tart2ms - INFO -     shapshot direction [4.08665425], [-0.35210236] J153636-201026
+2025-11-20 07:59:24,576 - tart2ms - INFO -     shapshot direction [4.08672919], [-0.35210251] J153637-201026
+2025-11-20 07:59:24,577 - tart2ms - INFO -     shapshot direction [4.08680343], [-0.35210266] J153638-201026
+2025-11-20 07:59:24,578 - tart2ms - INFO -     shapshot direction [4.08687818], [-0.3521028] J153639-201026
+2025-11-20 07:59:24,579 - tart2ms - INFO -     shapshot direction [4.08695302], [-0.35210295] J153640-201026
+2025-11-20 07:59:24,580 - tart2ms - INFO -     shapshot direction [4.08702819], [-0.3521031] J153641-201026
+2025-11-20 07:59:24,581 - tart2ms - INFO -     shapshot direction [4.08710253], [-0.35210324] J153642-201027
+2025-11-20 07:59:24,582 - tart2ms - INFO -     shapshot direction [4.08717738], [-0.35210339] J153643-201027
+2025-11-20 07:59:24,584 - tart2ms - INFO -     shapshot direction [4.0872518], [-0.35210353] J153644-201027
+2025-11-20 07:59:24,585 - tart2ms - INFO -     shapshot direction [4.08732671], [-0.35210368] J153645-201027
+2025-11-20 07:59:24,586 - tart2ms - INFO -     shapshot direction [4.08740153], [-0.35210383] J153646-201027
+2025-11-20 07:59:24,587 - tart2ms - INFO -     shapshot direction [4.08747595], [-0.35210397] J153647-201027
+2025-11-20 07:59:24,588 - tart2ms - INFO -     shapshot direction [4.08755051], [-0.35210412] J153648-201027
+2025-11-20 07:59:24,589 - tart2ms - INFO -     shapshot direction [4.08762494], [-0.35210426] J153649-201027
+2025-11-20 07:59:24,590 - tart2ms - INFO -     shapshot direction [4.08770063], [-0.35210441] J153650-201027
+2025-11-20 07:59:24,591 - tart2ms - INFO -     shapshot direction [4.08777463], [-0.35210455] J153651-201027
+2025-11-20 07:59:24,592 - tart2ms - INFO -     shapshot direction [4.0878496], [-0.3521047] J153652-201027
+2025-11-20 07:59:24,593 - tart2ms - INFO -     shapshot direction [4.08792418], [-0.35210485] J153653-201027
+2025-11-20 07:59:24,594 - tart2ms - INFO -     shapshot direction [4.0879988], [-0.35210499] J153654-201027
+2025-11-20 07:59:24,595 - tart2ms - INFO -     shapshot direction [4.08807426], [-0.35210514] J153655-201027
+2025-11-20 07:59:24,597 - tart2ms - INFO -     shapshot direction [4.08814859], [-0.35210528] J153656-201027
+2025-11-20 07:59:24,598 - tart2ms - INFO -     shapshot direction [4.08822273], [-0.35210543] J153657-201027
+2025-11-20 07:59:24,599 - tart2ms - INFO -     shapshot direction [4.08829801], [-0.35210558] J153658-201027
+2025-11-20 07:59:24,600 - tart2ms - INFO -     shapshot direction [4.08837227], [-0.35210572] J153659-201027
+2025-11-20 07:59:24,601 - tart2ms - INFO -     shapshot direction [4.08844705], [-0.35210587] J153700-201027
+2025-11-20 07:59:24,602 - tart2ms - INFO -     shapshot direction [4.08852207], [-0.35210601] J153701-201027
+2025-11-20 07:59:24,603 - tart2ms - INFO -     shapshot direction [4.08859701], [-0.35210616] J153702-201027
+2025-11-20 07:59:24,604 - tart2ms - INFO -     shapshot direction [4.08867143], [-0.3521063] J153703-201027
+2025-11-20 07:59:24,605 - tart2ms - INFO -     shapshot direction [4.08874569], [-0.35210645] J153704-201027
+2025-11-20 07:59:24,607 - tart2ms - INFO -     shapshot direction [4.08882057], [-0.35210659] J153705-201027
+2025-11-20 07:59:24,608 - tart2ms - INFO -     shapshot direction [4.0888957], [-0.35210674] J153706-201027
+2025-11-20 07:59:24,609 - tart2ms - INFO -     shapshot direction [4.08897009], [-0.35210689] J153707-201027
+2025-11-20 07:59:24,610 - tart2ms - INFO -     shapshot direction [4.08904475], [-0.35210703] J153708-201027
+2025-11-20 07:59:24,611 - tart2ms - INFO -     shapshot direction [4.08911929], [-0.35210718] J153709-201027
+2025-11-20 07:59:24,612 - tart2ms - INFO -     shapshot direction [4.08919402], [-0.35210732] J153710-201027
+2025-11-20 07:59:24,613 - tart2ms - INFO -     shapshot direction [4.08926902], [-0.35210747] J153711-201027
+2025-11-20 07:59:24,614 - tart2ms - INFO -     shapshot direction [4.08934376], [-0.35210761] J153713-201027
+2025-11-20 07:59:24,615 - tart2ms - INFO -     shapshot direction [4.0894181], [-0.35210776] J153714-201027
+2025-11-20 07:59:24,616 - tart2ms - INFO -     shapshot direction [4.08949306], [-0.3521079] J153715-201027
+2025-11-20 07:59:24,617 - tart2ms - INFO -     shapshot direction [4.08956767], [-0.35210805] J153716-201027
+2025-11-20 07:59:24,618 - tart2ms - INFO -     shapshot direction [4.0896425], [-0.3521082] J153717-201028
+2025-11-20 07:59:24,620 - tart2ms - INFO -     shapshot direction [4.08971707], [-0.35210834] J153718-201028
+2025-11-20 07:59:24,621 - tart2ms - INFO -     shapshot direction [4.08979152], [-0.35210849] J153719-201028
+2025-11-20 07:59:24,622 - tart2ms - INFO -     shapshot direction [4.08986653], [-0.35210863] J153720-201028
+2025-11-20 07:59:24,623 - tart2ms - INFO -     shapshot direction [4.08994148], [-0.35210878] J153721-201028
+2025-11-20 07:59:24,624 - tart2ms - INFO -     shapshot direction [4.09001579], [-0.35210892] J153722-201028
+2025-11-20 07:59:24,625 - tart2ms - INFO -     shapshot direction [4.09009062], [-0.35210907] J153723-201028
+2025-11-20 07:59:24,626 - tart2ms - INFO -     shapshot direction [4.09016504], [-0.35210921] J153724-201028
+2025-11-20 07:59:24,627 - tart2ms - INFO -     shapshot direction [4.09024], [-0.35210936] J153725-201028
+2025-11-20 07:59:24,628 - tart2ms - INFO -     shapshot direction [4.09031528], [-0.3521095] J153726-201028
+2025-11-20 07:59:24,629 - tart2ms - INFO -     shapshot direction [4.09038987], [-0.35210965] J153727-201028
+2025-11-20 07:59:24,631 - tart2ms - INFO -     shapshot direction [4.09046403], [-0.35210979] J153728-201028
+2025-11-20 07:59:24,632 - tart2ms - INFO -     shapshot direction [4.09053893], [-0.35210994] J153729-201028
+2025-11-20 07:59:24,633 - tart2ms - INFO -     shapshot direction [4.09061405], [-0.35211009] J153730-201028
+2025-11-20 07:59:24,634 - tart2ms - INFO -     shapshot direction [4.09068835], [-0.35211023] J153731-201028
+2025-11-20 07:59:24,635 - tart2ms - INFO -     shapshot direction [4.09076267], [-0.35211037] J153732-201028
+2025-11-20 07:59:24,636 - tart2ms - INFO -     shapshot direction [4.09083811], [-0.35211052] J153733-201028
+2025-11-20 07:59:24,637 - tart2ms - INFO -     shapshot direction [4.09091251], [-0.35211066] J153734-201028
+2025-11-20 07:59:24,638 - tart2ms - INFO -     shapshot direction [4.09098753], [-0.35211081] J153735-201028
+2025-11-20 07:59:24,639 - tart2ms - INFO -     shapshot direction [4.0910618], [-0.35211095] J153736-201028
+2025-11-20 07:59:24,640 - tart2ms - INFO -     shapshot direction [4.09113707], [-0.3521111] J153737-201028
+2025-11-20 07:59:24,642 - tart2ms - INFO -     shapshot direction [4.0912109], [-0.35211124] J153738-201028
+2025-11-20 07:59:24,643 - tart2ms - INFO -     shapshot direction [4.0912862], [-0.35211139] J153739-201028
+2025-11-20 07:59:24,644 - tart2ms - INFO -     shapshot direction [4.09136046], [-0.35211153] J153740-201028
+2025-11-20 07:59:24,645 - tart2ms - INFO -     shapshot direction [4.09143539], [-0.35211168] J153741-201028
+2025-11-20 07:59:24,646 - tart2ms - INFO -     shapshot direction [4.09151052], [-0.35211182] J153742-201028
+2025-11-20 07:59:24,647 - tart2ms - INFO -     shapshot direction [4.09158478], [-0.35211197] J153743-201028
+2025-11-20 07:59:24,648 - tart2ms - INFO -     shapshot direction [4.09165942], [-0.35211211] J153744-201028
+2025-11-20 07:59:24,649 - tart2ms - INFO -     shapshot direction [4.09173457], [-0.35211226] J153745-201028
+2025-11-20 07:59:24,650 - tart2ms - INFO -     shapshot direction [4.09180893], [-0.3521124] J153746-201028
+2025-11-20 07:59:24,651 - tart2ms - INFO -     shapshot direction [4.09188339], [-0.35211255] J153747-201028
+2025-11-20 07:59:24,653 - tart2ms - INFO -     shapshot direction [4.09195844], [-0.35211269] J153748-201028
+2025-11-20 07:59:24,654 - tart2ms - INFO -     shapshot direction [4.092033], [-0.35211284] J153749-201028
+2025-11-20 07:59:24,655 - tart2ms - INFO -     shapshot direction [4.09210802], [-0.35211298] J153751-201029
+2025-11-20 07:59:24,656 - tart2ms - INFO -     shapshot direction [4.09218262], [-0.35211313] J153752-201029
+2025-11-20 07:59:24,657 - tart2ms - INFO -     shapshot direction [4.09225714], [-0.35211327] J153753-201029
+2025-11-20 07:59:24,658 - tart2ms - INFO -     shapshot direction [4.09233219], [-0.35211342] J153754-201029
+2025-11-20 07:59:24,659 - tart2ms - INFO -     shapshot direction [4.09240704], [-0.35211356] J153755-201029
+2025-11-20 07:59:24,660 - tart2ms - INFO -     shapshot direction [4.09248151], [-0.3521137] J153756-201029
+2025-11-20 07:59:24,661 - tart2ms - INFO -     shapshot direction [4.09255657], [-0.35211385] J153757-201029
+2025-11-20 07:59:24,662 - tart2ms - INFO -     shapshot direction [4.09263048], [-0.35211399] J153758-201029
+2025-11-20 07:59:24,663 - tart2ms - INFO -     shapshot direction [4.09270543], [-0.35211414] J153759-201029
+2025-11-20 07:59:24,665 - tart2ms - INFO -     shapshot direction [4.09278036], [-0.35211428] J153760-201029
+2025-11-20 07:59:24,666 - tart2ms - INFO -     shapshot direction [4.09285473], [-0.35211443] J153801-201029
+2025-11-20 07:59:24,667 - tart2ms - INFO -     shapshot direction [4.09292989], [-0.35211457] J153802-201029
+2025-11-20 07:59:24,668 - tart2ms - INFO -     shapshot direction [4.09300421], [-0.35211471] J153803-201029
+2025-11-20 07:59:24,669 - tart2ms - INFO -     shapshot direction [4.093079], [-0.35211486] J153804-201029
+2025-11-20 07:59:24,670 - tart2ms - INFO -     shapshot direction [4.09315377], [-0.352115] J153805-201029
+2025-11-20 07:59:24,671 - tart2ms - INFO -     shapshot direction [4.09322827], [-0.35211515] J153806-201029
+2025-11-20 07:59:24,672 - tart2ms - INFO -     shapshot direction [4.09330281], [-0.35211529] J153807-201029
+2025-11-20 07:59:24,673 - tart2ms - INFO -     shapshot direction [4.09337735], [-0.35211543] J153808-201029
+2025-11-20 07:59:24,674 - tart2ms - INFO -     shapshot direction [4.09345252], [-0.35211558] J153809-201029
+2025-11-20 07:59:24,675 - tart2ms - INFO -     shapshot direction [4.09352711], [-0.35211572] J153810-201029
+2025-11-20 07:59:24,677 - tart2ms - INFO -     shapshot direction [4.09360207], [-0.35211587] J153811-201029
+2025-11-20 07:59:24,678 - tart2ms - INFO -     shapshot direction [4.0936764], [-0.35211601] J153812-201029
+2025-11-20 07:59:24,679 - tart2ms - INFO -     shapshot direction [4.09375171], [-0.35211615] J153813-201029
+2025-11-20 07:59:24,680 - tart2ms - INFO -     shapshot direction [4.09382582], [-0.3521163] J153814-201029
+2025-11-20 07:59:24,681 - tart2ms - INFO -     shapshot direction [4.09390107], [-0.35211644] J153815-201029
+2025-11-20 07:59:24,682 - tart2ms - INFO -     shapshot direction [4.09397584], [-0.35211659] J153816-201029
+2025-11-20 07:59:24,683 - tart2ms - INFO -     shapshot direction [4.09405009], [-0.35211673] J153817-201029
+2025-11-20 07:59:24,684 - tart2ms - INFO -     shapshot direction [4.09412503], [-0.35211687] J153818-201029
+2025-11-20 07:59:24,685 - tart2ms - INFO -     shapshot direction [4.09419959], [-0.35211701] J153819-201029
+2025-11-20 07:59:24,687 - tart2ms - INFO -     shapshot direction [4.09427467], [-0.35211716] J153820-201029
+2025-11-20 07:59:24,688 - tart2ms - INFO -     shapshot direction [4.09434879], [-0.3521173] J153821-201029
+2025-11-20 07:59:24,689 - tart2ms - INFO -     shapshot direction [4.094424], [-0.35211745] J153822-201029
+2025-11-20 07:59:24,690 - tart2ms - INFO -     shapshot direction [4.09449835], [-0.35211759] J153823-201029
+2025-11-20 07:59:24,691 - tart2ms - INFO -     shapshot direction [4.09457319], [-0.35211773] J153824-201029
+2025-11-20 07:59:24,692 - tart2ms - INFO -     shapshot direction [4.09464799], [-0.35211788] J153825-201030
+2025-11-20 07:59:24,693 - tart2ms - INFO -     shapshot direction [4.09472251], [-0.35211802] J153826-201030
+2025-11-20 07:59:24,694 - tart2ms - INFO -     shapshot direction [4.09479711], [-0.35211816] J153828-201030
+2025-11-20 07:59:24,695 - tart2ms - INFO -     shapshot direction [4.09487234], [-0.3521183] J153829-201030
+2025-11-20 07:59:24,696 - tart2ms - INFO -     shapshot direction [4.09494681], [-0.35211845] J153830-201030
+2025-11-20 07:59:24,697 - tart2ms - INFO -     shapshot direction [4.09502164], [-0.35211859] J153831-201030
+2025-11-20 07:59:24,698 - tart2ms - INFO -     shapshot direction [4.09509608], [-0.35211873] J153832-201030
+2025-11-20 07:59:24,699 - tart2ms - INFO -     shapshot direction [4.09517115], [-0.35211888] J153833-201030
+2025-11-20 07:59:24,700 - tart2ms - INFO -     shapshot direction [4.09524545], [-0.35211902] J153834-201030
+2025-11-20 07:59:24,702 - tart2ms - INFO -     shapshot direction [4.09531999], [-0.35211916] J153835-201030
+2025-11-20 07:59:24,703 - tart2ms - INFO -     shapshot direction [4.09539473], [-0.3521193] J153836-201030
+2025-11-20 07:59:24,704 - tart2ms - INFO -     shapshot direction [4.09546937], [-0.35211945] J153837-201030
+2025-11-20 07:59:24,705 - tart2ms - INFO -     shapshot direction [4.09554438], [-0.35211959] J153838-201030
+2025-11-20 07:59:24,706 - tart2ms - INFO -     shapshot direction [4.09561865], [-0.35211973] J153839-201030
+2025-11-20 07:59:24,707 - tart2ms - INFO -     shapshot direction [4.0956942], [-0.35211987] J153840-201030
+2025-11-20 07:59:24,708 - tart2ms - INFO -     shapshot direction [4.09576849], [-0.35212002] J153841-201030
+2025-11-20 07:59:24,709 - tart2ms - INFO -     shapshot direction [4.09584324], [-0.35212016] J153842-201030
+2025-11-20 07:59:24,710 - tart2ms - INFO -     shapshot direction [4.09591779], [-0.3521203] J153843-201030
+2025-11-20 07:59:24,711 - tart2ms - INFO -     shapshot direction [4.09599217], [-0.35212044] J153844-201030
+2025-11-20 07:59:24,712 - tart2ms - INFO -     shapshot direction [4.09606728], [-0.35212059] J153845-201030
+2025-11-20 07:59:24,714 - tart2ms - INFO -     shapshot direction [4.09614161], [-0.35212073] J153846-201030
+2025-11-20 07:59:24,715 - tart2ms - INFO -     shapshot direction [4.09621734], [-0.35212087] J153847-201030
+2025-11-20 07:59:24,716 - tart2ms - INFO -     shapshot direction [4.09629136], [-0.35212101] J153848-201030
+2025-11-20 07:59:24,717 - tart2ms - INFO -     shapshot direction [4.09636661], [-0.35212115] J153849-201030
+2025-11-20 07:59:24,718 - tart2ms - INFO -     shapshot direction [4.09644098], [-0.3521213] J153850-201030
+2025-11-20 07:59:24,719 - tart2ms - INFO -     shapshot direction [4.09651597], [-0.35212144] J153851-201030
+2025-11-20 07:59:24,720 - tart2ms - INFO -     shapshot direction [4.09658981], [-0.35212158] J153852-201030
+2025-11-20 07:59:24,721 - tart2ms - INFO -     shapshot direction [4.09666477], [-0.35212172] J153853-201030
+2025-11-20 07:59:24,722 - tart2ms - INFO -     shapshot direction [4.09673989], [-0.35212186] J153854-201030
+2025-11-20 07:59:24,723 - tart2ms - INFO -     shapshot direction [4.09681415], [-0.352122] J153855-201030
+2025-11-20 07:59:24,724 - tart2ms - INFO -     shapshot direction [4.096889], [-0.35212214] J153856-201030
+2025-11-20 07:59:24,726 - tart2ms - INFO -     shapshot direction [4.09696382], [-0.35212229] J153857-201030
+2025-11-20 07:59:24,727 - tart2ms - INFO -     shapshot direction [4.09703821], [-0.35212243] J153858-201030
+2025-11-20 07:59:24,728 - tart2ms - INFO -     shapshot direction [4.09711319], [-0.35212257] J153859-201030
+2025-11-20 07:59:24,729 - tart2ms - INFO -     shapshot direction [4.09718758], [-0.35212271] J153900-201031
+2025-11-20 07:59:24,730 - tart2ms - INFO -     shapshot direction [4.09726272], [-0.35212285] J153901-201031
+2025-11-20 07:59:24,731 - tart2ms - INFO -     shapshot direction [4.09733771], [-0.35212299] J153902-201031
+2025-11-20 07:59:24,732 - tart2ms - INFO -     shapshot direction [4.09741209], [-0.35212313] J153903-201031
+2025-11-20 07:59:24,733 - tart2ms - INFO -     shapshot direction [4.09748702], [-0.35212327] J153904-201031
+2025-11-20 07:59:24,734 - tart2ms - INFO -     shapshot direction [4.09756146], [-0.35212341] J153906-201031
+2025-11-20 07:59:24,735 - tart2ms - INFO -     shapshot direction [4.09763648], [-0.35212355] J153907-201031
+2025-11-20 07:59:24,736 - tart2ms - INFO -     shapshot direction [4.09771081], [-0.35212369] J153908-201031
+2025-11-20 07:59:24,738 - tart2ms - INFO -     shapshot direction [4.09778598], [-0.35212384] J153909-201031
+2025-11-20 07:59:24,739 - tart2ms - INFO -     shapshot direction [4.09785988], [-0.35212397] J153910-201031
+2025-11-20 07:59:24,740 - tart2ms - INFO -     shapshot direction [4.09793494], [-0.35212412] J153911-201031
+2025-11-20 07:59:24,741 - tart2ms - INFO -     shapshot direction [4.09801024], [-0.35212426] J153912-201031
+2025-11-20 07:59:24,742 - tart2ms - INFO -     shapshot direction [4.09808468], [-0.3521244] J153913-201031
+2025-11-20 07:59:24,743 - tart2ms - INFO -     shapshot direction [4.09815903], [-0.35212454] J153914-201031
+2025-11-20 07:59:24,744 - tart2ms - INFO -     shapshot direction [4.09823413], [-0.35212468] J153915-201031
+2025-11-20 07:59:24,745 - tart2ms - INFO -     shapshot direction [4.09830917], [-0.35212482] J153916-201031
+2025-11-20 07:59:24,746 - tart2ms - INFO -     shapshot direction [4.09838356], [-0.35212496] J153917-201031
+2025-11-20 07:59:24,747 - tart2ms - INFO -     shapshot direction [4.09845773], [-0.35212509] J153918-201031
+2025-11-20 07:59:24,748 - tart2ms - INFO -     shapshot direction [4.09853278], [-0.35212523] J153919-201031
+2025-11-20 07:59:24,749 - tart2ms - INFO -     shapshot direction [4.0986078], [-0.35212537] J153920-201031
+2025-11-20 07:59:24,751 - tart2ms - INFO -     shapshot direction [4.09868179], [-0.35212551] J153921-201031
+2025-11-20 07:59:24,752 - tart2ms - INFO -     shapshot direction [4.0987566], [-0.35212565] J153922-201031
+2025-11-20 07:59:24,753 - tart2ms - INFO -     shapshot direction [4.09883152], [-0.35212579] J153923-201031
+2025-11-20 07:59:24,754 - tart2ms - INFO -     shapshot direction [4.09890585], [-0.35212593] J153924-201031
+2025-11-20 07:59:24,755 - tart2ms - INFO -     shapshot direction [4.09898126], [-0.35212607] J153925-201031
+2025-11-20 07:59:24,756 - tart2ms - INFO -     shapshot direction [4.09905552], [-0.35212621] J153926-201031
+2025-11-20 07:59:24,757 - tart2ms - INFO -     shapshot direction [4.09913008], [-0.35212635] J153927-201031
+2025-11-20 07:59:24,758 - tart2ms - INFO -     shapshot direction [4.09920473], [-0.35212649] J153928-201031
+2025-11-20 07:59:24,759 - tart2ms - INFO -     shapshot direction [4.09927986], [-0.35212663] J153929-201031
+2025-11-20 07:59:24,760 - tart2ms - INFO -     shapshot direction [4.09935452], [-0.35212676] J153930-201031
+2025-11-20 07:59:24,761 - tart2ms - INFO -     shapshot direction [4.09942943], [-0.3521269] J153931-201031
+2025-11-20 07:59:24,763 - tart2ms - INFO -     shapshot direction [4.09950379], [-0.35212704] J153932-201031
+2025-11-20 07:59:24,764 - tart2ms - INFO -     shapshot direction [4.09957882], [-0.35212718] J153933-201031
+2025-11-20 07:59:24,765 - tart2ms - INFO -     shapshot direction [4.09965395], [-0.35212732] J153934-201031
+2025-11-20 07:59:24,766 - tart2ms - INFO -     shapshot direction [4.09972814], [-0.35212745] J153935-201032
+2025-11-20 07:59:24,767 - tart2ms - INFO -     shapshot direction [4.09980316], [-0.35212759] J153936-201032
+2025-11-20 07:59:24,768 - tart2ms - INFO -     shapshot direction [4.09987753], [-0.35212773] J153937-201032
+2025-11-20 07:59:24,769 - tart2ms - INFO -     shapshot direction [4.09995221], [-0.35212787] J153938-201032
+2025-11-20 07:59:24,770 - tart2ms - INFO -     shapshot direction [4.10002658], [-0.352128] J153939-201032
+2025-11-20 07:59:24,771 - tart2ms - INFO -     shapshot direction [4.10010135], [-0.35212814] J153940-201032
+2025-11-20 07:59:24,772 - tart2ms - INFO -     shapshot direction [4.10017623], [-0.35212828] J153941-201032
+2025-11-20 07:59:24,773 - tart2ms - INFO -     shapshot direction [4.10025128], [-0.35212842] J153943-201032
+2025-11-20 07:59:24,775 - tart2ms - INFO -     shapshot direction [4.10032555], [-0.35212855] J153944-201032
+2025-11-20 07:59:24,776 - tart2ms - INFO -     shapshot direction [4.10040068], [-0.35212869] J153945-201032
+2025-11-20 07:59:24,777 - tart2ms - INFO -     shapshot direction [4.10047522], [-0.35212883] J153946-201032
+2025-11-20 07:59:24,778 - tart2ms - INFO -     shapshot direction [4.10055008], [-0.35212896] J153947-201032
+2025-11-20 07:59:24,779 - tart2ms - INFO -     shapshot direction [4.10062479], [-0.3521291] J153948-201032
+2025-11-20 07:59:24,780 - tart2ms - INFO -     shapshot direction [4.10069918], [-0.35212924] J153949-201032
+2025-11-20 07:59:24,781 - tart2ms - INFO -     shapshot direction [4.10077357], [-0.35212937] J153950-201032
+2025-11-20 07:59:24,782 - tart2ms - INFO -     shapshot direction [4.10084862], [-0.35212951] J153951-201032
+2025-11-20 07:59:24,783 - tart2ms - INFO -     shapshot direction [4.10092362], [-0.35212965] J153952-201032
+2025-11-20 07:59:24,784 - tart2ms - INFO -     shapshot direction [4.10099792], [-0.35212978] J153953-201032
+2025-11-20 07:59:24,786 - tart2ms - INFO -     shapshot direction [4.10107254], [-0.35212992] J153954-201032
+2025-11-20 07:59:24,787 - tart2ms - INFO -     shapshot direction [4.10114763], [-0.35213005] J153955-201032
+2025-11-20 07:59:24,788 - tart2ms - INFO -     shapshot direction [4.10122184], [-0.35213019] J153956-201032
+2025-11-20 07:59:24,789 - tart2ms - INFO -     shapshot direction [4.10129688], [-0.35213032] J153957-201032
+2025-11-20 07:59:24,790 - tart2ms - INFO -     shapshot direction [4.1013719], [-0.35213046] J153958-201032
+2025-11-20 07:59:24,791 - tart2ms - INFO -     shapshot direction [4.10144618], [-0.35213059] J153959-201032
+2025-11-20 07:59:24,792 - tart2ms - INFO -     shapshot direction [4.10152124], [-0.35213073] J153960-201032
+2025-11-20 07:59:24,793 - tart2ms - INFO -     shapshot direction [4.10159593], [-0.35213087] J154001-201032
+2025-11-20 07:59:24,794 - tart2ms - INFO -     shapshot direction [4.10167035], [-0.352131] J154002-201032
+2025-11-20 07:59:24,795 - tart2ms - INFO -     shapshot direction [4.10174529], [-0.35213113] J154003-201032
+2025-11-20 07:59:24,796 - tart2ms - INFO -     shapshot direction [4.10181962], [-0.35213127] J154004-201032
+2025-11-20 07:59:24,798 - tart2ms - INFO -     shapshot direction [4.1018945], [-0.3521314] J154005-201032
+2025-11-20 07:59:24,799 - tart2ms - INFO -     shapshot direction [4.10196939], [-0.35213154] J154006-201032
+2025-11-20 07:59:24,800 - tart2ms - INFO -     shapshot direction [4.10204351], [-0.35213167] J154007-201032
+2025-11-20 07:59:24,801 - tart2ms - INFO -     shapshot direction [4.10211877], [-0.35213181] J154008-201032
+2025-11-20 07:59:24,802 - tart2ms - INFO -     shapshot direction [4.10219373], [-0.35213194] J154009-201032
+2025-11-20 07:59:24,803 - tart2ms - INFO -     shapshot direction [4.10226788], [-0.35213207] J154010-201032
+2025-11-20 07:59:24,804 - tart2ms - INFO -     shapshot direction [4.10234318], [-0.35213221] J154011-201032
+2025-11-20 07:59:24,805 - tart2ms - INFO -     shapshot direction [4.1024177], [-0.35213234] J154012-201033
+2025-11-20 07:59:24,806 - tart2ms - INFO -     shapshot direction [4.10249269], [-0.35213247] J154013-201033
+2025-11-20 07:59:24,808 - tart2ms - INFO -     shapshot direction [4.10256677], [-0.35213261] J154014-201033
+2025-11-20 07:59:24,809 - tart2ms - INFO -     shapshot direction [4.10264165], [-0.35213274] J154015-201033
+2025-11-20 07:59:24,810 - tart2ms - INFO -     shapshot direction [4.10271581], [-0.35213287] J154016-201033
+2025-11-20 07:59:24,811 - tart2ms - INFO -     shapshot direction [4.10279129], [-0.352133] J154017-201033
+2025-11-20 07:59:24,812 - tart2ms - INFO -     shapshot direction [4.10286549], [-0.35213314] J154018-201033
+2025-11-20 07:59:24,813 - tart2ms - INFO -     shapshot direction [4.10294045], [-0.35213327] J154019-201033
+2025-11-20 07:59:24,814 - tart2ms - INFO -     shapshot direction [4.10301515], [-0.3521334] J154021-201033
+2025-11-20 07:59:24,815 - tart2ms - INFO -     shapshot direction [4.1030896], [-0.35213353] J154022-201033
+2025-11-20 07:59:24,816 - tart2ms - INFO -     shapshot direction [4.10316488], [-0.35213367] J154023-201033
+2025-11-20 07:59:24,817 - tart2ms - INFO -     shapshot direction [4.10323924], [-0.3521338] J154024-201033
+2025-11-20 07:59:24,818 - tart2ms - INFO -     shapshot direction [4.10331384], [-0.35213393] J154025-201033
+2025-11-20 07:59:24,819 - tart2ms - INFO -     shapshot direction [4.10338889], [-0.35213406] J154026-201033
+2025-11-20 07:59:24,820 - tart2ms - INFO -     shapshot direction [4.1034631], [-0.35213419] J154027-201033
+2025-11-20 07:59:24,822 - tart2ms - INFO -     shapshot direction [4.10353796], [-0.35213432] J154028-201033
+2025-11-20 07:59:24,823 - tart2ms - INFO -     shapshot direction [4.1036125], [-0.35213445] J154029-201033
+2025-11-20 07:59:24,824 - tart2ms - INFO -     shapshot direction [4.10368735], [-0.35213458] J154030-201033
+2025-11-20 07:59:24,825 - tart2ms - INFO -     shapshot direction [4.10376236], [-0.35213471] J154031-201033
+2025-11-20 07:59:24,826 - tart2ms - INFO -     shapshot direction [4.10383675], [-0.35213484] J154032-201033
+2025-11-20 07:59:24,827 - tart2ms - INFO -     shapshot direction [4.1039115], [-0.35213497] J154033-201033
+2025-11-20 07:59:24,828 - tart2ms - INFO -     shapshot direction [4.10398667], [-0.35213511] J154034-201033
+2025-11-20 07:59:24,829 - tart2ms - INFO -     shapshot direction [4.10406109], [-0.35213524] J154035-201033
+2025-11-20 07:59:24,830 - tart2ms - INFO -     shapshot direction [4.10413608], [-0.35213537] J154036-201033
+2025-11-20 07:59:24,831 - tart2ms - INFO -     shapshot direction [4.10421021], [-0.35213549] J154037-201033
+2025-11-20 07:59:24,832 - tart2ms - INFO -     shapshot direction [4.10428493], [-0.35213562] J154038-201033
+2025-11-20 07:59:24,834 - tart2ms - INFO -     shapshot direction [4.10435985], [-0.35213575] J154039-201033
+2025-11-20 07:59:24,835 - tart2ms - INFO -     shapshot direction [4.10443412], [-0.35213588] J154040-201033
+2025-11-20 07:59:24,836 - tart2ms - INFO -     shapshot direction [4.10450955], [-0.35213601] J154041-201033
+2025-11-20 07:59:24,837 - tart2ms - INFO -     shapshot direction [4.10458394], [-0.35213614] J154042-201033
+2025-11-20 07:59:24,838 - tart2ms - INFO -     shapshot direction [4.10465822], [-0.35213627] J154043-201033
+2025-11-20 07:59:24,839 - tart2ms - INFO -     shapshot direction [4.10473361], [-0.3521364] J154044-201033
+2025-11-20 07:59:24,840 - tart2ms - INFO -     shapshot direction [4.10480784], [-0.35213653] J154045-201033
+2025-11-20 07:59:24,841 - tart2ms - INFO -     shapshot direction [4.10488312], [-0.35213666] J154046-201033
+2025-11-20 07:59:24,842 - tart2ms - INFO -     shapshot direction [4.10495745], [-0.35213679] J154047-201033
+2025-11-20 07:59:24,843 - tart2ms - INFO -     shapshot direction [4.10503161], [-0.35213691] J154048-201033
+2025-11-20 07:59:24,845 - tart2ms - INFO -     shapshot direction [4.10510693], [-0.35213704] J154049-201033
+2025-11-20 07:59:24,846 - tart2ms - INFO -     shapshot direction [4.10518175], [-0.35213717] J154050-201034
+2025-11-20 07:59:24,847 - tart2ms - INFO -     shapshot direction [4.10525638], [-0.3521373] J154051-201034
+2025-11-20 07:59:24,848 - tart2ms - INFO -     shapshot direction [4.10533131], [-0.35213743] J154052-201034
+2025-11-20 07:59:24,849 - tart2ms - INFO -     shapshot direction [4.10540568], [-0.35213755] J154053-201034
+2025-11-20 07:59:24,850 - tart2ms - INFO -     shapshot direction [4.10548087], [-0.35213768] J154054-201034
+2025-11-20 07:59:24,851 - tart2ms - INFO -     shapshot direction [4.10555541], [-0.35213781] J154055-201034
+2025-11-20 07:59:24,852 - tart2ms - INFO -     shapshot direction [4.10563001], [-0.35213794] J154056-201034
+2025-11-20 07:59:24,853 - tart2ms - INFO -     shapshot direction [4.10570409], [-0.35213806] J154057-201034
+2025-11-20 07:59:24,854 - tart2ms - INFO -     shapshot direction [4.10577882], [-0.35213819] J154059-201034
+2025-11-20 07:59:24,856 - tart2ms - INFO -     shapshot direction [4.10585394], [-0.35213832] J154060-201034
+2025-11-20 07:59:24,857 - tart2ms - INFO -     shapshot direction [4.10592821], [-0.35213844] J154101-201034
+2025-11-20 07:59:24,858 - tart2ms - INFO -     shapshot direction [4.10600285], [-0.35213857] J154102-201034
+2025-11-20 07:59:24,859 - tart2ms - INFO -     shapshot direction [4.10607753], [-0.3521387] J154103-201034
+2025-11-20 07:59:24,860 - tart2ms - INFO -     shapshot direction [4.10615263], [-0.35213882] J154104-201034
+2025-11-20 07:59:24,861 - tart2ms - INFO -     shapshot direction [4.10622721], [-0.35213895] J154105-201034
+2025-11-20 07:59:24,862 - tart2ms - INFO -     shapshot direction [4.10630148], [-0.35213908] J154106-201034
+2025-11-20 07:59:24,863 - tart2ms - INFO -     shapshot direction [4.1063763], [-0.3521392] J154107-201034
+2025-11-20 07:59:24,864 - tart2ms - INFO -     shapshot direction [4.10645154], [-0.35213933] J154108-201034
+2025-11-20 07:59:24,866 - tart2ms - INFO -     shapshot direction [4.10652618], [-0.35213946] J154109-201034
+2025-11-20 07:59:24,867 - tart2ms - INFO -     shapshot direction [4.1066009], [-0.35213958] J154110-201034
+2025-11-20 07:59:24,868 - tart2ms - INFO -     shapshot direction [4.10667531], [-0.35213971] J154111-201034
+2025-11-20 07:59:24,869 - tart2ms - INFO -     shapshot direction [4.10675035], [-0.35213984] J154112-201034
+2025-11-20 07:59:24,870 - tart2ms - INFO -     shapshot direction [4.10682507], [-0.35213996] J154113-201034
+2025-11-20 07:59:24,871 - tart2ms - INFO -     shapshot direction [4.1068993], [-0.35214009] J154114-201034
+2025-11-20 07:59:24,872 - tart2ms - INFO -     shapshot direction [4.10697421], [-0.35214021] J154115-201034
+2025-11-20 07:59:24,873 - tart2ms - INFO -     shapshot direction [4.10704892], [-0.35214034] J154116-201034
+2025-11-20 07:59:24,874 - tart2ms - INFO -     shapshot direction [4.10712315], [-0.35214046] J154117-201034
+2025-11-20 07:59:24,875 - tart2ms - INFO -     shapshot direction [4.10719785], [-0.35214059] J154118-201034
+2025-11-20 07:59:24,876 - tart2ms - INFO -     shapshot direction [4.10727292], [-0.35214072] J154119-201034
+2025-11-20 07:59:24,878 - tart2ms - INFO -     shapshot direction [4.107348], [-0.35214084] J154120-201034
+2025-11-20 07:59:24,879 - tart2ms - INFO -     shapshot direction [4.10742268], [-0.35214097] J154121-201034
+2025-11-20 07:59:24,880 - tart2ms - INFO -     shapshot direction [4.10749682], [-0.3521411] J154122-201034
+2025-11-20 07:59:24,881 - tart2ms - INFO -     shapshot direction [4.10757203], [-0.35214122] J154123-201034
+2025-11-20 07:59:24,882 - tart2ms - INFO -     shapshot direction [4.10764658], [-0.35214135] J154124-201034
+2025-11-20 07:59:24,883 - tart2ms - INFO -     shapshot direction [4.1077214], [-0.35214148] J154125-201034
+2025-11-20 07:59:24,884 - tart2ms - INFO -     shapshot direction [4.10779587], [-0.3521416] J154126-201034
+2025-11-20 07:59:24,885 - tart2ms - INFO -     shapshot direction [4.10786996], [-0.35214173] J154127-201034
+2025-11-20 07:59:24,886 - tart2ms - INFO -     shapshot direction [4.10794545], [-0.35214185] J154128-201034
+2025-11-20 07:59:24,887 - tart2ms - INFO -     shapshot direction [4.10801941], [-0.35214198] J154129-201034
+2025-11-20 07:59:24,889 - tart2ms - INFO -     shapshot direction [4.10809435], [-0.35214211] J154130-201035
+2025-11-20 07:59:24,890 - tart2ms - INFO -     shapshot direction [4.10816941], [-0.35214223] J154131-201035
+2025-11-20 07:59:24,891 - tart2ms - INFO -     shapshot direction [4.10824424], [-0.35214236] J154132-201035
+2025-11-20 07:59:24,892 - tart2ms - INFO -     shapshot direction [4.10831856], [-0.35214249] J154133-201035
+2025-11-20 07:59:24,893 - tart2ms - INFO -     shapshot direction [4.10839332], [-0.35214262] J154134-201035
+2025-11-20 07:59:24,894 - tart2ms - INFO -     shapshot direction [4.10846759], [-0.35214274] J154135-201035
+2025-11-20 07:59:24,895 - tart2ms - INFO -     shapshot direction [4.10854281], [-0.35214287] J154137-201035
+2025-11-20 07:59:24,896 - tart2ms - INFO -     shapshot direction [4.10861707], [-0.352143] J154138-201035
+2025-11-20 07:59:24,897 - tart2ms - INFO -     shapshot direction [4.10869213], [-0.35214313] J154139-201035
+2025-11-20 07:59:24,898 - tart2ms - INFO -     shapshot direction [4.10876638], [-0.35214325] J154140-201035
+2025-11-20 07:59:24,899 - tart2ms - INFO -     shapshot direction [4.10884144], [-0.35214338] J154141-201035
+2025-11-20 07:59:24,900 - tart2ms - INFO -     shapshot direction [4.10891621], [-0.35214351] J154142-201035
+2025-11-20 07:59:24,902 - tart2ms - INFO -     shapshot direction [4.10899011], [-0.35214364] J154143-201035
+2025-11-20 07:59:24,903 - tart2ms - INFO -     shapshot direction [4.10906578], [-0.35214377] J154144-201035
+2025-11-20 07:59:24,904 - tart2ms - INFO -     shapshot direction [4.10914019], [-0.3521439] J154145-201035
+2025-11-20 07:59:24,905 - tart2ms - INFO -     shapshot direction [4.10921453], [-0.35214403] J154146-201035
+2025-11-20 07:59:24,906 - tart2ms - INFO -     shapshot direction [4.10928942], [-0.35214416] J154147-201035
+2025-11-20 07:59:24,907 - tart2ms - INFO -     shapshot direction [4.10936365], [-0.35214429] J154148-201035
+2025-11-20 07:59:24,908 - tart2ms - INFO -     shapshot direction [4.10943887], [-0.35214442] J154149-201035
+2025-11-20 07:59:24,909 - tart2ms - INFO -     shapshot direction [4.10951345], [-0.35214455] J154150-201035
+2025-11-20 07:59:24,910 - tart2ms - INFO -     shapshot direction [4.10958762], [-0.35214468] J154151-201035
+2025-11-20 07:59:24,912 - tart2ms - INFO -     shapshot direction [4.10966278], [-0.35214481] J154152-201035
+2025-11-20 07:59:24,913 - tart2ms - INFO -     shapshot direction [4.10973718], [-0.35214494] J154153-201035
+2025-11-20 07:59:24,914 - tart2ms - INFO -     shapshot direction [4.10981217], [-0.35214507] J154154-201035
+2025-11-20 07:59:24,915 - tart2ms - INFO -     shapshot direction [4.10988689], [-0.35214521] J154155-201035
+2025-11-20 07:59:24,916 - tart2ms - INFO -     shapshot direction [4.10996129], [-0.35214534] J154156-201035
+2025-11-20 07:59:24,917 - tart2ms - INFO -     shapshot direction [4.11003648], [-0.35214547] J154157-201035
+2025-11-20 07:59:24,918 - tart2ms - INFO -     shapshot direction [4.11011061], [-0.35214561] J154158-201035
+2025-11-20 07:59:24,919 - tart2ms - INFO -     shapshot direction [4.11018589], [-0.35214574] J154159-201035
+2025-11-20 07:59:24,920 - tart2ms - INFO -     shapshot direction [4.11026013], [-0.35214587] J154200-201035
+2025-11-20 07:59:24,921 - tart2ms - INFO -     shapshot direction [4.11033459], [-0.35214601] J154201-201035
+2025-11-20 07:59:24,922 - tart2ms - INFO -     shapshot direction [4.11040936], [-0.35214615] J154202-201035
+2025-11-20 07:59:24,924 - tart2ms - INFO -     shapshot direction [4.11048382], [-0.35214628] J154203-201035
+2025-11-20 07:59:24,925 - tart2ms - INFO -     shapshot direction [4.11055878], [-0.35214642] J154204-201035
+2025-11-20 07:59:24,926 - tart2ms - INFO -     shapshot direction [4.11063315], [-0.35214655] J154205-201035
+2025-11-20 07:59:24,927 - tart2ms - INFO -     shapshot direction [4.11070819], [-0.35214669] J154206-201035
+2025-11-20 07:59:24,928 - tart2ms - INFO -     shapshot direction [4.11078241], [-0.35214683] J154207-201035
+2025-11-20 07:59:24,929 - tart2ms - INFO -     shapshot direction [4.11085706], [-0.35214697] J154208-201036
+2025-11-20 07:59:24,930 - tart2ms - INFO -     shapshot direction [4.11093194], [-0.35214711] J154209-201036
+2025-11-20 07:59:24,931 - tart2ms - INFO -     shapshot direction [4.11100702], [-0.35214725] J154210-201036
+2025-11-20 07:59:24,932 - tart2ms - INFO -     shapshot direction [4.1110818], [-0.35214739] J154211-201036
+2025-11-20 07:59:24,933 - tart2ms - INFO -     shapshot direction [4.11115599], [-0.35214753] J154212-201036
+2025-11-20 07:59:24,934 - tart2ms - INFO -     shapshot direction [4.11123046], [-0.35214767] J154213-201036
+2025-11-20 07:59:24,936 - tart2ms - INFO -     shapshot direction [4.11130555], [-0.35214781] J154215-201036
+2025-11-20 07:59:24,937 - tart2ms - INFO -     shapshot direction [4.11138016], [-0.35214795] J154216-201036
+2025-11-20 07:59:24,938 - tart2ms - INFO -     shapshot direction [4.11145456], [-0.35214809] J154217-201036
+2025-11-20 07:59:24,939 - tart2ms - INFO -     shapshot direction [4.11152943], [-0.35214824] J154218-201036
+2025-11-20 07:59:24,940 - tart2ms - INFO -     shapshot direction [4.11160365], [-0.35214838] J154219-201036
+2025-11-20 07:59:24,941 - tart2ms - INFO -     shapshot direction [4.11167885], [-0.35214853] J154220-201036
+2025-11-20 07:59:24,942 - tart2ms - INFO -     shapshot direction [4.11175304], [-0.35214867] J154221-201036
+2025-11-20 07:59:24,943 - tart2ms - INFO -     shapshot direction [4.1118279], [-0.35214882] J154222-201036
+2025-11-20 07:59:24,944 - tart2ms - INFO -     shapshot direction [4.11190271], [-0.35214896] J154223-201036
+2025-11-20 07:59:24,945 - tart2ms - INFO -     shapshot direction [4.11197707], [-0.35214911] J154224-201036
+2025-11-20 07:59:24,946 - tart2ms - INFO -     shapshot direction [4.11205203], [-0.35214926] J154225-201036
+2025-11-20 07:59:24,948 - tart2ms - INFO -     shapshot direction [4.11212698], [-0.35214941] J154226-201036
+2025-11-20 07:59:24,949 - tart2ms - INFO -     shapshot direction [4.11220155], [-0.35214955] J154227-201036
+2025-11-20 07:59:24,950 - tart2ms - INFO -     shapshot direction [4.11227583], [-0.3521497] J154228-201036
+2025-11-20 07:59:24,951 - tart2ms - INFO -     shapshot direction [4.11235072], [-0.35214985] J154229-201036
+2025-11-20 07:59:24,952 - tart2ms - INFO -     shapshot direction [4.11242575], [-0.35215001] J154230-201036
+2025-11-20 07:59:24,953 - tart2ms - INFO -     shapshot direction [4.1124999], [-0.35215016] J154231-201036
+2025-11-20 07:59:24,954 - tart2ms - INFO -     shapshot direction [4.11257495], [-0.35215031] J154232-201036
+2025-11-20 07:59:24,955 - tart2ms - INFO -     shapshot direction [4.11264913], [-0.35215046] J154233-201036
+2025-11-20 07:59:24,956 - tart2ms - INFO -     shapshot direction [4.1127241], [-0.35215061] J154234-201036
+2025-11-20 07:59:24,957 - tart2ms - INFO -     shapshot direction [4.11279897], [-0.35215077] J154235-201036
+2025-11-20 07:59:24,958 - tart2ms - INFO -     shapshot direction [4.11287321], [-0.35215092] J154236-201036
+2025-11-20 07:59:24,959 - tart2ms - INFO -     shapshot direction [4.11294787], [-0.35215108] J154237-201036
+2025-11-20 07:59:24,960 - tart2ms - INFO -     shapshot direction [4.11302272], [-0.35215123] J154238-201036
+2025-11-20 07:59:24,962 - tart2ms - INFO -     shapshot direction [4.11309682], [-0.35215139] J154239-201036
+2025-11-20 07:59:24,963 - tart2ms - INFO -     shapshot direction [4.11317168], [-0.35215155] J154240-201036
+2025-11-20 07:59:24,964 - tart2ms - INFO -     shapshot direction [4.11324679], [-0.35215171] J154241-201037
+2025-11-20 07:59:24,965 - tart2ms - INFO -     shapshot direction [4.11332136], [-0.35215186] J154242-201037
+2025-11-20 07:59:24,966 - tart2ms - INFO -     shapshot direction [4.1133958], [-0.35215202] J154243-201037
+2025-11-20 07:59:24,967 - tart2ms - INFO -     shapshot direction [4.11347103], [-0.35215218] J154244-201037
+2025-11-20 07:59:24,968 - tart2ms - INFO -     shapshot direction [4.11354493], [-0.35215234] J154245-201037
+2025-11-20 07:59:24,969 - tart2ms - INFO -     shapshot direction [4.11361991], [-0.3521525] J154246-201037
+2025-11-20 07:59:24,970 - tart2ms - INFO -     shapshot direction [4.11369497], [-0.35215266] J154247-201037
+2025-11-20 07:59:24,971 - tart2ms - INFO -     shapshot direction [4.11376933], [-0.35215283] J154248-201037
+2025-11-20 07:59:24,972 - tart2ms - INFO -     shapshot direction [4.11384387], [-0.35215299] J154249-201037
+2025-11-20 07:59:24,974 - tart2ms - INFO -     shapshot direction [4.11391854], [-0.35215315] J154250-201037
+2025-11-20 07:59:24,975 - tart2ms - INFO -     shapshot direction [4.11399356], [-0.35215332] J154251-201037
+2025-11-20 07:59:24,976 - tart2ms - INFO -     shapshot direction [4.1140682], [-0.35215348] J154252-201037
+2025-11-20 07:59:24,977 - tart2ms - INFO -     shapshot direction [4.11414301], [-0.35215364] J154254-201037
+2025-11-20 07:59:24,978 - tart2ms - INFO -     shapshot direction [4.11421775], [-0.35215381] J154255-201037
+2025-11-20 07:59:24,979 - tart2ms - INFO -     shapshot direction [4.11429205], [-0.35215397] J154256-201037
+2025-11-20 07:59:24,980 - tart2ms - INFO -     shapshot direction [4.11436695], [-0.35215414] J154257-201037
+2025-11-20 07:59:24,981 - tart2ms - INFO -     shapshot direction [4.11444174], [-0.35215431] J154258-201037
+2025-11-20 07:59:24,982 - tart2ms - INFO -     shapshot direction [4.11451614], [-0.35215447] J154259-201037
+2025-11-20 07:59:24,983 - tart2ms - INFO -     shapshot direction [4.11459096], [-0.35215464] J154260-201037
+2025-11-20 07:59:24,985 - tart2ms - INFO -     shapshot direction [4.11466547], [-0.35215481] J154301-201037
+2025-11-20 07:59:24,986 - tart2ms - INFO -     shapshot direction [4.11474038], [-0.35215498] J154302-201037
+2025-11-20 07:59:24,987 - tart2ms - INFO -     shapshot direction [4.11481417], [-0.35215515] J154303-201037
+2025-11-20 07:59:24,988 - tart2ms - INFO -     shapshot direction [4.11488905], [-0.35215532] J154304-201037
+2025-11-20 07:59:24,989 - tart2ms - INFO -     shapshot direction [4.11496376], [-0.35215549] J154305-201037
+2025-11-20 07:59:24,990 - tart2ms - INFO -     shapshot direction [4.1150391], [-0.35215566] J154306-201037
+2025-11-20 07:59:24,991 - tart2ms - INFO -     shapshot direction [4.11511336], [-0.35215583] J154307-201037
+2025-11-20 07:59:24,992 - tart2ms - INFO -     shapshot direction [4.11518781], [-0.352156] J154308-201037
+2025-11-20 07:59:24,993 - tart2ms - INFO -     shapshot direction [4.11526281], [-0.35215617] J154309-201037
+2025-11-20 07:59:24,994 - tart2ms - INFO -     shapshot direction [4.11533783], [-0.35215634] J154310-201037
+2025-11-20 07:59:24,995 - tart2ms - INFO -     shapshot direction [4.11541184], [-0.35215651] J154311-201037
+2025-11-20 07:59:24,996 - tart2ms - INFO -     shapshot direction [4.11548627], [-0.35215668] J154312-201038
+2025-11-20 07:59:24,998 - tart2ms - INFO -     shapshot direction [4.11556194], [-0.35215686] J154313-201038
+2025-11-20 07:59:24,999 - tart2ms - INFO -     shapshot direction [4.11563626], [-0.35215703] J154314-201038
+2025-11-20 07:59:25,000 - tart2ms - INFO -     shapshot direction [4.11571107], [-0.3521572] J154315-201038
+2025-11-20 07:59:25,001 - tart2ms - INFO -     shapshot direction [4.11578562], [-0.35215738] J154316-201038
+2025-11-20 07:59:25,002 - tart2ms - INFO -     shapshot direction [4.11586024], [-0.35215755] J154317-201038
+2025-11-20 07:59:25,003 - tart2ms - INFO -     shapshot direction [4.11593477], [-0.35215772] J154318-201038
+2025-11-20 07:59:25,004 - tart2ms - INFO -     shapshot direction [4.11600962], [-0.3521579] J154319-201038
+2025-11-20 07:59:25,005 - tart2ms - INFO -     shapshot direction [4.11608373], [-0.35215807] J154320-201038
+2025-11-20 07:59:25,006 - tart2ms - INFO -     shapshot direction [4.11615937], [-0.35215825] J154321-201038
+2025-11-20 07:59:25,008 - tart2ms - INFO -     shapshot direction [4.11623308], [-0.35215842] J154322-201038
+2025-11-20 07:59:25,009 - tart2ms - INFO -     shapshot direction [4.11630807], [-0.3521586] J154323-201038
+2025-11-20 07:59:25,010 - tart2ms - INFO -     shapshot direction [4.11638297], [-0.35215877] J154324-201038
+2025-11-20 07:59:25,011 - tart2ms - INFO -     shapshot direction [4.11645784], [-0.35215895] J154325-201038
+2025-11-20 07:59:25,012 - tart2ms - INFO -     shapshot direction [4.11653196], [-0.35215912] J154326-201038
+2025-11-20 07:59:25,013 - tart2ms - INFO -     shapshot direction [4.11660685], [-0.3521593] J154327-201038
+2025-11-20 07:59:25,014 - tart2ms - INFO -     shapshot direction [4.11668149], [-0.35215948] J154328-201038
+2025-11-20 07:59:25,015 - tart2ms - INFO -     shapshot direction [4.11675643], [-0.35215965] J154329-201038
+2025-11-20 07:59:25,016 - tart2ms - INFO -     shapshot direction [4.11683099], [-0.35215983] J154330-201038
+2025-11-20 07:59:25,017 - tart2ms - INFO -     shapshot direction [4.11690594], [-0.35216001] J154332-201038
+2025-11-20 07:59:25,018 - tart2ms - INFO -     shapshot direction [4.11698036], [-0.35216018] J154333-201038
+2025-11-20 07:59:25,019 - tart2ms - INFO -     shapshot direction [4.11705538], [-0.35216036] J154334-201038
+2025-11-20 07:59:25,021 - tart2ms - INFO -     shapshot direction [4.11712936], [-0.35216053] J154335-201038
+2025-11-20 07:59:25,022 - tart2ms - INFO -     shapshot direction [4.11720458], [-0.35216071] J154336-201038
+2025-11-20 07:59:25,023 - tart2ms - INFO -     shapshot direction [4.11727927], [-0.35216089] J154337-201038
+2025-11-20 07:59:25,024 - tart2ms - INFO -     shapshot direction [4.11735346], [-0.35216106] J154338-201038
+2025-11-20 07:59:25,025 - tart2ms - INFO -     shapshot direction [4.11742853], [-0.35216124] J154339-201038
+2025-11-20 07:59:25,026 - tart2ms - INFO -     shapshot direction [4.11750289], [-0.35216142] J154340-201039
+2025-11-20 07:59:25,027 - tart2ms - INFO -     shapshot direction [4.11757795], [-0.3521616] J154341-201039
+2025-11-20 07:59:25,028 - tart2ms - INFO -     shapshot direction [4.11765281], [-0.35216177] J154342-201039
+2025-11-20 07:59:25,029 - tart2ms - INFO -     shapshot direction [4.11772736], [-0.35216195] J154343-201039
+2025-11-20 07:59:25,030 - tart2ms - INFO -     shapshot direction [4.11780184], [-0.35216213] J154344-201039
+2025-11-20 07:59:25,031 - tart2ms - INFO -     shapshot direction [4.11787658], [-0.3521623] J154345-201039
+2025-11-20 07:59:25,032 - tart2ms - INFO -     shapshot direction [4.11795096], [-0.35216248] J154346-201039
+2025-11-20 07:59:25,034 - tart2ms - INFO -     shapshot direction [4.11802588], [-0.35216266] J154347-201039
+2025-11-20 07:59:25,035 - tart2ms - INFO -     shapshot direction [4.11810065], [-0.35216283] J154348-201039
+2025-11-20 07:59:25,036 - tart2ms - INFO -     shapshot direction [4.11817528], [-0.35216301] J154349-201039
+2025-11-20 07:59:25,037 - tart2ms - INFO -     shapshot direction [4.11824988], [-0.35216319] J154350-201039
+2025-11-20 07:59:25,038 - tart2ms - INFO -     shapshot direction [4.11832467], [-0.35216337] J154351-201039
+2025-11-20 07:59:25,039 - tart2ms - INFO -     shapshot direction [4.11839908], [-0.35216354] J154352-201039
+2025-11-20 07:59:25,040 - tart2ms - INFO -     shapshot direction [4.11847401], [-0.35216372] J154353-201039
+2025-11-20 07:59:25,041 - tart2ms - INFO -     shapshot direction [4.11854917], [-0.3521639] J154354-201039
+2025-11-20 07:59:25,042 - tart2ms - INFO -     shapshot direction [4.1186244], [-0.35216407] J154355-201039
+2025-11-20 07:59:25,043 - tart2ms - INFO -     shapshot direction [4.11869817], [-0.35216425] J154356-201039
+2025-11-20 07:59:25,044 - tart2ms - INFO -     shapshot direction [4.11877314], [-0.35216443] J154357-201039
+2025-11-20 07:59:25,046 - tart2ms - INFO -     shapshot direction [4.11884773], [-0.3521646] J154358-201039
+2025-11-20 07:59:25,047 - tart2ms - INFO -     shapshot direction [4.1189222], [-0.35216478] J154359-201039
+2025-11-20 07:59:25,048 - tart2ms - INFO -     shapshot direction [4.11899653], [-0.35216495] J154400-201039
+2025-11-20 07:59:25,049 - tart2ms - INFO -     shapshot direction [4.11907193], [-0.35216513] J154401-201039
+2025-11-20 07:59:25,050 - tart2ms - INFO -     shapshot direction [4.11914648], [-0.35216531] J154402-201039
+2025-11-20 07:59:25,051 - tart2ms - INFO -     shapshot direction [4.11922157], [-0.35216548] J154403-201039
+2025-11-20 07:59:25,052 - tart2ms - INFO -     shapshot direction [4.11929563], [-0.35216566] J154404-201039
+2025-11-20 07:59:25,053 - tart2ms - INFO -     shapshot direction [4.11937056], [-0.35216583] J154405-201039
+2025-11-20 07:59:25,054 - tart2ms - INFO -     shapshot direction [4.11944525], [-0.35216601] J154406-201039
+2025-11-20 07:59:25,056 - tart2ms - INFO -     shapshot direction [4.11952026], [-0.35216619] J154407-201039
+2025-11-20 07:59:25,057 - tart2ms - INFO -     shapshot direction [4.11959456], [-0.35216636] J154408-201040
+2025-11-20 07:59:25,058 - tart2ms - INFO -     shapshot direction [4.11966948], [-0.35216654] J154410-201040
+2025-11-20 07:59:25,059 - tart2ms - INFO -     shapshot direction [4.11974432], [-0.35216671] J154411-201040
+2025-11-20 07:59:25,060 - tart2ms - INFO -     shapshot direction [4.11981878], [-0.35216689] J154412-201040
+2025-11-20 07:59:25,061 - tart2ms - INFO -     shapshot direction [4.11989318], [-0.35216706] J154413-201040
+2025-11-20 07:59:25,062 - tart2ms - INFO -     shapshot direction [4.11996816], [-0.35216724] J154414-201040
+2025-11-20 07:59:25,063 - tart2ms - INFO -     shapshot direction [4.12004275], [-0.35216741] J154415-201040
+2025-11-20 07:59:25,064 - tart2ms - INFO -     shapshot direction [4.12011751], [-0.35216759] J154416-201040
+2025-11-20 07:59:25,065 - tart2ms - INFO -     shapshot direction [4.12019213], [-0.35216776] J154417-201040
+2025-11-20 07:59:25,067 - tart2ms - INFO -     shapshot direction [4.12026696], [-0.35216794] J154418-201040
+2025-11-20 07:59:25,068 - tart2ms - INFO -     shapshot direction [4.12034182], [-0.35216811] J154419-201040
+2025-11-20 07:59:25,069 - tart2ms - INFO -     shapshot direction [4.12041622], [-0.35216828] J154420-201040
+2025-11-20 07:59:25,070 - tart2ms - INFO -     shapshot direction [4.12049085], [-0.35216846] J154421-201040
+2025-11-20 07:59:25,071 - tart2ms - INFO -     shapshot direction [4.12056554], [-0.35216863] J154422-201040
+2025-11-20 07:59:25,072 - tart2ms - INFO -     shapshot direction [4.12064004], [-0.3521688] J154423-201040
+2025-11-20 07:59:25,073 - tart2ms - INFO -     shapshot direction [4.12071526], [-0.35216898] J154424-201040
+2025-11-20 07:59:25,074 - tart2ms - INFO -     shapshot direction [4.12078946], [-0.35216915] J154425-201040
+2025-11-20 07:59:25,075 - tart2ms - INFO -     shapshot direction [4.12086473], [-0.35216933] J154426-201040
+2025-11-20 07:59:25,076 - tart2ms - INFO -     shapshot direction [4.12093898], [-0.3521695] J154427-201040
+2025-11-20 07:59:25,078 - tart2ms - INFO -     shapshot direction [4.12101395], [-0.35216967] J154428-201040
+2025-11-20 07:59:25,079 - tart2ms - INFO -     shapshot direction [4.12108881], [-0.35216984] J154429-201040
+2025-11-20 07:59:25,080 - tart2ms - INFO -     shapshot direction [4.12116322], [-0.35217002] J154430-201040
+2025-11-20 07:59:25,081 - tart2ms - INFO -     shapshot direction [4.12123775], [-0.35217019] J154431-201040
+2025-11-20 07:59:25,082 - tart2ms - INFO -     shapshot direction [4.12131291], [-0.35217036] J154432-201040
+2025-11-20 07:59:25,083 - tart2ms - INFO -     shapshot direction [4.12138768], [-0.35217053] J154433-201040
+2025-11-20 07:59:25,084 - tart2ms - INFO -     shapshot direction [4.12146213], [-0.35217071] J154434-201040
+2025-11-20 07:59:25,085 - tart2ms - INFO -     shapshot direction [4.12153697], [-0.35217088] J154435-201040
+2025-11-20 07:59:25,086 - tart2ms - INFO -     shapshot direction [4.12161138], [-0.35217105] J154436-201040
+2025-11-20 07:59:25,088 - tart2ms - INFO -     shapshot direction [4.12168647], [-0.35217122] J154437-201041
+2025-11-20 07:59:25,089 - tart2ms - INFO -     shapshot direction [4.12176073], [-0.35217139] J154438-201041
+2025-11-20 07:59:25,092 - tart2ms - INFO - Writing MS for telescope name 'TART'
+2025-11-20 07:59:56,493 - tart2ms - INFO - Appoximate unweighted instrument resolution: 258.5758 arcmin
+2025-11-20 07:59:56,495 - tart2ms - INFO - Data column size 1.26 MiB
+2025-11-20 08:00:01,078 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 0%
+2025-11-20 08:00:01,922 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 10%
+2025-11-20 08:00:02,764 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 20%
+2025-11-20 08:00:03,605 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 30%
+2025-11-20 08:00:04,447 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 40%
+2025-11-20 08:00:05,287 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 50%
+2025-11-20 08:00:06,131 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 60%
+2025-11-20 08:00:06,973 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 70%
+2025-11-20 08:00:07,820 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 80%
+2025-11-20 08:00:08,667 - tart2ms - INFO - 	 Computing UVW towards original zenith points progress: 90%
+2025-11-20 08:00:09,505 - tart2ms - INFO - <Done>
+2025-11-20 08:00:09,509 - tart2ms - INFO - Predicting GNSS positions for 600 timestamps
+2025-11-20 08:00:44,722 - tart2ms - INFO - Writing catalogs as 'msdir/model_sources_*.txt'
+2025-11-20 08:00:46,968 - tart2ms - INFO - Per user request: Rephase all data to 15h39m31.20s -20d10m31.39s
+2025-11-20 08:00:48,200 - tart2ms - INFO - Synthesizing MS...
+2025-11-20 08:02:13,534 - tart2ms - INFO - Performing finalization of UVW coordinates if needed
+2025-11-20 08:02:13,567 - tart2ms - INFO - Computing UVW coordinates for output dataset... WAIT
+2025-11-20 08:02:13,573 - tart2ms - INFO - 	 Calculating UVW progress: 0%
+2025-11-20 08:02:14,074 - tart2ms - INFO - 	 Calculating UVW progress: 10%
+2025-11-20 08:02:14,565 - tart2ms - INFO - 	 Calculating UVW progress: 20%
+2025-11-20 08:02:15,057 - tart2ms - INFO - 	 Calculating UVW progress: 30%
+2025-11-20 08:02:15,548 - tart2ms - INFO - 	 Calculating UVW progress: 40%
+2025-11-20 08:02:16,043 - tart2ms - INFO - 	 Calculating UVW progress: 50%
+2025-11-20 08:02:16,533 - tart2ms - INFO - 	 Calculating UVW progress: 60%
+2025-11-20 08:02:17,026 - tart2ms - INFO - 	 Calculating UVW progress: 70%
+2025-11-20 08:02:17,516 - tart2ms - INFO - 	 Calculating UVW progress: 80%
+2025-11-20 08:02:18,009 - tart2ms - INFO - 	 Calculating UVW progress: 90%
+2025-11-20 08:02:18,505 - tart2ms - INFO - 	 Copying UVW to dataset progress: 0%
+2025-11-20 08:02:18,644 - tart2ms - INFO - 	 Copying UVW to dataset progress: 10%
+2025-11-20 08:02:18,783 - tart2ms - INFO - 	 Copying UVW to dataset progress: 20%
+2025-11-20 08:02:18,923 - tart2ms - INFO - 	 Copying UVW to dataset progress: 30%
+2025-11-20 08:02:19,064 - tart2ms - INFO - 	 Copying UVW to dataset progress: 40%
+2025-11-20 08:02:19,204 - tart2ms - INFO - 	 Copying UVW to dataset progress: 50%
+2025-11-20 08:02:19,345 - tart2ms - INFO - 	 Copying UVW to dataset progress: 60%
+2025-11-20 08:02:19,487 - tart2ms - INFO - 	 Copying UVW to dataset progress: 70%
+2025-11-20 08:02:19,628 - tart2ms - INFO - 	 Copying UVW to dataset progress: 80%
+2025-11-20 08:02:19,770 - tart2ms - INFO - 	 Copying UVW to dataset progress: 90%
+2025-11-20 08:02:19,917 - tart2ms - INFO - 	 1 / 1 field J153931-201031 [[ 4.09942943 -0.3521269 ]] completed
+2025-11-20 08:02:19,917 - tart2ms - INFO - Writing computed UVW coordinates to output dataset
+2025-11-20 08:02:19,985 - tart2ms - INFO - Measurement set writing complete. Took 3m11.93s

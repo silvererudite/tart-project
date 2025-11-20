@@ -1,0 +1,37 @@
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO: ### validated inputs
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO: cab tart_download_data:
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO:   api = https://api.elec.ac.nz/tart/mu-udm
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO:   n = 10
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO:   raw = False
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO:   vis = True
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO:   dir = rawdata
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO:   pw = False
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO: singularity image ./stimela_images/ghcr.io-tart-telescope-tools:v1.1.2.simg does not exist
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO: (re)building image ./stimela_images/ghcr.io-tart-telescope-tools:v1.1.2.simg
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO: ---INVOKING---
+2025-11-20 07:55:47 STIMELA.tart-image.download-hdf INFO: /usr/bin/singularity build ./stimela_images/ghcr.io-tart-telescope-tools:v1.1.2.simg docker://ghcr.io/tart-telescope/tools:v1.1.2
+
+# INFO:    Starting build...
+# INFO:    Fetching OCI image...
+# INFO:    Extracting OCI image...
+# INFO:    Inserting Apptainer configuration...
+# INFO:    Creating SIF file...
+# INFO:    Build complete: ./stimela_images/ghcr.io-tart-telescope-tools:v1.1.2.simg
+2025-11-20 07:57:44 STIMELA.tart-image.download-hdf INFO: (singularity build) exited with code 0 after 0:01:57
+2025-11-20 07:57:44 STIMELA.tart-image.download-hdf INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 07:57:44 STIMELA.tart-image.download-hdf INFO: binding /tmp/tmpgj0rsuk0 to /tmp as rw
+2025-11-20 07:57:44 STIMELA.tart-image.download-hdf INFO: ---INVOKING---
+2025-11-20 07:57:44 STIMELA.tart-image.download-hdf INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpgj0rsuk0:/tmp:rw ./stimela_images/ghcr.io-tart-telescope-tools:v1.1.2.simg tart_download_data --api https://api.elec.ac.nz/tart/mu-udm --n 10 --vis --dir rawdata --pw False
+
+# 2025-11-20 07:[bold][/bold]57:46,334 - root - INFO - Downloading Data from https://api.elec.ac.nz/tart/mu-udm
+# 2025-11-20 07:[bold][/bold]57:47,262 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_56_43.134651.hdf, 80390db35ac8dcb3d69b4a81fe72c0b536dcab5818d6f6f9fd869526266ccf61) -> rawdata/vis_2025-11-20_07_56_43.134651.hdf
+# 2025-11-20 07:[bold][/bold]57:49,109 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_55_41.640284.hdf, 92a451703818b7270c4d44c67ebc1f0e4911e73684d267fae7840ef5b8790c37) -> rawdata/vis_2025-11-20_07_55_41.640284.hdf
+# 2025-11-20 07:[bold][/bold]57:50,206 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_54_40.141786.hdf, 7c0a84e8796f752a36c77a5264756deb01c9b329336bb58ecfc7d71c51c6f458) -> rawdata/vis_2025-11-20_07_54_40.141786.hdf
+# 2025-11-20 07:[bold][/bold]57:51,319 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_53_38.639268.hdf, 3a6497fee4ba531fa7589b3f3366f43ecdad1415932d3701afea6013dd38158e) -> rawdata/vis_2025-11-20_07_53_38.639268.hdf
+# 2025-11-20 07:[bold][/bold]57:52,322 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_52_37.137262.hdf, 61a7eb6e5169d32326bf82b1f860241876b5c75ebe76346467cca7185c1bc9c0) -> rawdata/vis_2025-11-20_07_52_37.137262.hdf
+# 2025-11-20 07:[bold][/bold]57:53,412 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_51_35.639678.hdf, 740286fb4823e4d9869ccd2aca0696db03f130616f76519eaa6da7c313e9c5c6) -> rawdata/vis_2025-11-20_07_51_35.639678.hdf
+# 2025-11-20 07:[bold][/bold]57:54,491 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_50_34.144643.hdf, cfee4d1923f9d32698a0ce090a1350d414018f3c89d60db9c2fd445429569d8e) -> rawdata/vis_2025-11-20_07_50_34.144643.hdf
+# 2025-11-20 07:[bold][/bold]57:55,584 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_49_32.645165.hdf, 5e40799a85330a5703f1f1157cabfd30ae3f61c90cc3080dbabfcaf14ebf138f) -> rawdata/vis_2025-11-20_07_49_32.645165.hdf
+# 2025-11-20 07:[bold][/bold]57:56,573 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_48_31.143261.hdf, a5af3c17c976a826e73508e2c7fbb7d9f3cd59a0f1f37b58b4ae6fd2dded0991) -> rawdata/vis_2025-11-20_07_48_31.143261.hdf
+# 2025-11-20 07:[bold][/bold]57:57,552 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2025-11-20_07_47_29.638727.hdf, 11366153d497e3203374ca85f5ac735df4d53784290ec524dcd6bc32bc3b9acc) -> rawdata/vis_2025-11-20_07_47_29.638727.hdf
+2025-11-20 07:57:58 STIMELA.tart-image.download-hdf INFO: tart_download_data returns exit code 0 after 0:00:13

@@ -1,0 +1,112 @@
+vis:
+  required: true
+  info: Name of input visibility file
+  dtype: MS
+caltable:
+  default: ''
+  info: Name of output bandpass calibration table
+  dtype: str
+field:
+  default: ''
+  info: Select field using field id(s) or field name(s)
+  dtype: str
+spw:
+  default: ''
+  info: Select spectral window/channels
+  dtype: str
+intent:
+  default: ''
+  info: Select observing intent
+  dtype: str
+selectdata:
+  default: true
+  info: Other data selection parameters
+  dtype: bool
+timerange:
+  default: ''
+  info: Select data based on time range
+  dtype: str
+uvrange:
+  default: ''
+  info: Select data within uvrange (default units meters)
+  dtype: str
+antenna:
+  default: ''
+  info: Select data based on antenna/baseline
+  dtype: str
+scan:
+  default: ''
+  info: Scan number range
+  dtype: str
+observation:
+  default: ''
+  info: Select by observation ID(s)
+  dtype: str
+msselect:
+  default: ''
+  info: Optional complex data selection (ignore for now)
+  dtype: str
+solint:
+  default: inf
+  info: Solution interval in time[,freq]
+  dtype: str
+combine:
+  default: ''
+  info: Data axes which to combine for solve (obs, scan, spw, and/or field)
+  dtype: str
+refant:
+  default: ''
+  info: Reference antenna name(s)
+  dtype: str
+minblperant:
+  default: 4
+  info: Minimum baselines _per antenna_ required for solve
+  dtype: int
+minsnr:
+  default: 3.0
+  info: Reject solutions below this SNR (only applies for bandtype = B)
+  dtype: float
+solnorm:
+  default: false
+  info: Normalize average solution amplitudes to 1.0
+  dtype: bool
+bandtype:
+  default: B
+  info: Type of bandpass solution (B or BPOLY)
+  dtype: str
+fillgaps:
+  default: 0
+  info: Fill flagged solution channels by interpolation
+  dtype: int
+smodel:
+  default: []
+  info: Point source Stokes parameters for source model.
+  dtype: list
+append:
+  default: false
+  info: Append solutions to the (existing) table
+  dtype: bool
+docallib:
+  default: false
+  info: Use callib or traditional cal apply parameters
+  dtype: bool
+gaintable:
+  default: ''
+  info: Gain calibration table(s) to apply on the fly
+  dtype: Union[List[str], str]
+gainfield:
+  default: ''
+  info: Select a subset of calibrators from gaintable(s)
+  dtype: Union[List[str], str]
+interp:
+  default: ''
+  info: Interpolation parameters for each gaintable, as a list
+  dtype: Union[List[str], str]
+spwmap:
+  default: []
+  info: Spectral windows combinations to form for gaintables(s)
+  dtype: list
+parang:
+  default: false
+  info: Apply parallactic angle correction
+  dtype: bool

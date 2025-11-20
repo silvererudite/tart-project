@@ -1,0 +1,31 @@
+vis:
+  info: Name of input visibility file (MS)
+  default: ''
+  dtype: MS
+  required: true
+mode:
+  info: 'Operation: list, save, restore, delete, rename'
+  default: list
+  dtype: str
+  choices:
+  - list
+  - save
+  - restore
+  - delete
+  - rename
+versionname:
+  info: Flag version name
+  default: ''
+  dtype: str
+oldname:
+  info: Flag version to rename
+  default: ''
+  dtype: str
+comment:
+  info: Short description of a versionname
+  default: ''
+  dtype: str
+merge:
+  info: 'Merge option: replace will save or over-write the flags'
+  default: replace
+  dtype: str

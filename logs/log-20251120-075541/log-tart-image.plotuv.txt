@@ -1,0 +1,254 @@
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO: ### validated inputs
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO: cab plotms:
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   vis = msdir/mu-udm.ms
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   gridrows = 1
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   gridcols = 1
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   rowindex = 0
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   colindex = 0
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   plotindex = 0
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   xaxis = U
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   xdatacolumn = data
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   xframe = 
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   xinterp = 
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   yaxis = V
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   ydatacolumn = 
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   yframe = 
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   yinterp = 
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   yaxislocation = 
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   selectdata = True
+2025-11-20 08:03:42 STIMELA.tart-image.plotuv INFO:   field = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   spw = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   timerange = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   uvrange = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   antenna = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   scan = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   correlation = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   array = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   observation = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   intent = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   feed = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   msselect = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   averagedata = True
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   avgchannel = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   avgtime = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   avgscan = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   avgfield = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   avgbaseline = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   avgantenna = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   avgspw = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   scalar = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   transform = True
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   freqframe = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   restfreq = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   veldef = RADIO
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   shift = [0.0, 0.0]
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   extendflag = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   extcorr = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   extchannel = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   iteraxis = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   xselfscale = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   yselfscale = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   xsharedaxis = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   ysharedaxis = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   customsymbol = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   symbolshape = autoscaling
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   symbolsize = 2
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   symbolcolor = 0000ff
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   symbolfill = fill
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   symboloutline = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   coloraxis = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   customflaggedsymbol = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   flaggedsymbolshape = circle
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   flaggedsymbolsize = 2
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   flaggedsymbolcolor = ff0000
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   flaggedsymbolfill = fill
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   flaggedsymboloutline = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   xconnector = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   timeconnector = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   title = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   titlefont = 0
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   xlabel = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   xaxisfont = 0
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   ylabel = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   yaxisfont = 0
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   showmajorgrid = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   majorwidth = 1
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   majorstyle = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   majorcolor = B0B0B0
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   showminorgrid = False
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   minorwidth = 1
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   minorstyle = 
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   minorcolor = D0D0D0
+2025-11-20 08:03:43 STIMELA.tart-image.plotuv INFO:   showlegend = False
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   legendposition = 
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   plotfile = msdir/UV.png
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   expformat = 
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   verbose = True
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   exprange = 
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   highres = False
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   dpi = -1
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   width = -1
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   height = -1
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   overwrite = True
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   showgui = True
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   clearplots = True
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   callib = 
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   headeritems = 
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   showatm = False
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   showtsky = False
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO:   showimage = False
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO: singularity image ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg exists
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 08:03:44 STIMELA.tart-image.plotuv INFO: binding /tmp/tmpmba43ffh to /tmp as rw
+### preparing CASA task call:
+###     plotms(
+###         vis='msdir/mu-udm.ms',
+###         gridrows=1,
+###         gridcols=1,
+###         rowindex=0,
+###         colindex=0,
+###         plotindex=0,
+###         xaxis='U',
+###         xdatacolumn='data',
+###         xframe='',
+###         xinterp='',
+###         yaxis='V',
+###         ydatacolumn='',
+###         yframe='',
+###         yinterp='',
+###         yaxislocation='',
+###         selectdata=True,
+###         field='',
+###         spw='',
+###         timerange='',
+###         uvrange='',
+###         antenna='',
+###         scan='',
+###         correlation='',
+###         array='',
+###         observation='',
+###         intent='',
+###         feed='',
+###         msselect='',
+###         averagedata=True,
+###         avgchannel='',
+###         avgtime='',
+###         avgscan=False,
+###         avgfield=False,
+###         avgbaseline=False,
+###         avgantenna=False,
+###         avgspw=False,
+###         scalar=False,
+###         transform=True,
+###         freqframe='',
+###         restfreq='',
+###         veldef='RADIO',
+###         shift=[0.0, 0.0],
+###         extendflag=False,
+###         extcorr=False,
+###         extchannel=False,
+###         iteraxis='',
+###         xselfscale=False,
+###         yselfscale=False,
+###         xsharedaxis=False,
+###         ysharedaxis=False,
+###         customsymbol=False,
+###         symbolshape='autoscaling',
+###         symbolsize=2,
+###         symbolcolor='0000ff',
+###         symbolfill='fill',
+###         symboloutline=False,
+###         coloraxis='',
+###         customflaggedsymbol=False,
+###         flaggedsymbolshape='circle',
+###         flaggedsymbolsize=2,
+###         flaggedsymbolcolor='ff0000',
+###         flaggedsymbolfill='fill',
+###         flaggedsymboloutline=False,
+###         xconnector='',
+###         timeconnector=False,
+###         title='',
+###         titlefont=0,
+###         xlabel='',
+###         xaxisfont=0,
+###         ylabel='',
+###         yaxisfont=0,
+###         showmajorgrid=False,
+###         majorwidth=1,
+###         majorstyle='',
+###         majorcolor='B0B0B0',
+###         showminorgrid=False,
+###         minorwidth=1,
+###         minorstyle='',
+###         minorcolor='D0D0D0',
+###         showlegend=False,
+###         legendposition='',
+###         plotfile='msdir/UV.png',
+###         expformat='',
+###         verbose=True,
+###         exprange='',
+###         highres=False,
+###         dpi=-1,
+###         width=-1,
+###         height=-1,
+###         overwrite=True,
+###         showgui=True,
+###         clearplots=True,
+###         callib='',
+###         headeritems='',
+###         showatm=False,
+###         showtsky=False,
+###         showimage=False)
+2025-11-20 08:03:45 STIMELA.tart-image.plotuv INFO: ---INVOKING---
+2025-11-20 08:03:45 STIMELA.tart-image.plotuv INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpmba43ffh:/tmp:rw ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg xvfb-run -a casa --log2term --nologger --nologfile -c ...
+
+# 
+# =========================================
+# The start-up time of CASA may vary
+# depending on whether the shared libraries
+# are cached or not.
+# =========================================
+# 
+# /casa-release-5.8.0-109.el7/lib/python2.7/site-packages/IPython/core/interactiveshell.py:[bold][/bold]724: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+#   warn("Attempting to work in a virtualenv. If you encounter problems, please "
+# Python: g4/presentation-readyIPython 5.1.0 -- An enhanced Interactive Python.
+# 
+# CASA 5.8.0-109   -- Common Astronomy Software Applications
+# 
+# Creating a new telemetry file
+# Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+# You can disable telemetry by adding the following line to your ~/.casarc file:
+# EnableTelemetry: False
+# 2025-11-20 08:[bold][/bold]03:54	INFO	::casa	CASA Version  5.8.0-109
+# --> CrashReporter initialized.
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	##########################################
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	##### Begin Task: plotms             #####
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::	plotms(vis="msdir/mu-udm.ms",gridrows=1,gridcols=1,rowindex=0,colindex=0,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        plotindex=0,xaxis="U",xdatacolumn="data",xframe="",xinterp="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        yaxis="V",ydatacolumn="",yframe="",yinterp="",yaxislocation="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        selectdata=True,field="",spw="",timerange="",uvrange="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        antenna="",scan="",correlation="",array="",observation="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        intent="",feed="",msselect="",averagedata=True,avgchannel="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        avgtime="",avgscan=False,avgfield=False,avgbaseline=False,avgantenna=False,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        avgspw=False,scalar=False,transform=True,freqframe="",restfreq="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        veldef="RADIO",shift=[0.0, 0.0],extendflag=False,extcorr=False,extchannel=False,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        iteraxis="",xselfscale=False,yselfscale=False,xsharedaxis=False,ysharedaxis=False,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        customsymbol=False,symbolshape="autoscaling",symbolsize=2,symbolcolor="0000ff",symbolfill="fill",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        symboloutline=False,coloraxis="",customflaggedsymbol=False,flaggedsymbolshape="circle",flaggedsymbolsize=2,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        flaggedsymbolcolor="ff0000",flaggedsymbolfill="fill",flaggedsymboloutline=False,xconnector="",timeconnector=False,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        plotrange=[],title="",titlefont=0,xlabel="",xaxisfont=0,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        ylabel="",yaxisfont=0,showmajorgrid=False,majorwidth=1,majorstyle="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        majorcolor="B0B0B0",showminorgrid=False,minorwidth=1,minorstyle="",minorcolor="D0D0D0",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        showlegend=False,legendposition="",plotfile="msdir/UV.png",expformat="",verbose=True,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        exprange="",highres=False,dpi=-1,width=-1,height=-1,
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        overwrite=True,showgui=True,clearplots=True,callib="",headeritems="",
+# 2025-11-20 08:[bold][/bold]03:58	INFO	plotms::::+	        showatm=False,showtsky=False,showimage=False)
+# 2025-11-20 08:[bold][/bold]04:01	INFO	plotms::::	Plot file msdir/UV.png
+# 2025-11-20 08:[bold][/bold]04:01	INFO	plotms::::	Will wait until drawing of the plot has completed before exporting it
+# 2025-11-20 08:[bold][/bold]04:04	INFO	plotms::::	Exporting the plot.
+# 2025-11-20 08:[bold][/bold]04:05	INFO	plotms::::	##### End Task: plotms               #####
+# 2025-11-20 08:[bold][/bold]04:05	INFO	plotms::::+	##########################################
+# INFO:    Terminating squashfuse_ll after timeout
+# INFO:    Timeouts can be caused by a running background process
+2025-11-20 08:04:06 STIMELA.tart-image.plotuv INFO: plotms returns exit code 0 after 0:00:20

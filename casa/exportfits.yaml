@@ -1,0 +1,44 @@
+imagename:
+  default: ''
+  info: Name of input CASA image
+  dtype: str
+fitsimage:
+  default: ''
+  info: Name of output image FITS file
+  dtype: str
+velocity:
+  default: false
+  info: Use velocity (rather than frequency) as spectral axis
+  dtype: bool
+bitpix:
+  default: -32
+  info: Bits per pixel
+  dtype: int
+minpix:
+  default: 0
+  info: Minimum pixel value (if minpix > maxpix, value is automatically determined)
+  dtype: int
+maxpix:
+  default: -1
+  info: Maximum pixel value (if minpix > maxpix, value is automatically determined)
+  dtype: int
+overwrite:
+  default: false
+  info: Overwrite output file if it exists?
+  dtype: bool
+dropstokes:
+  default: false
+  info: Drop the Stokes axis?
+  dtype: bool
+stokeslast:
+  default: true
+  info: Put Stokes axis last in header?
+  dtype: bool
+history:
+  default: true
+  info: Write history to the FITS image?
+  dtype: bool
+dropdeg:
+  default: false
+  info: Drop all degenerate axes (e.g. Stokes and/or Frequency)?
+  dtype: bool

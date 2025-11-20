@@ -1,0 +1,253 @@
+2025-11-20 08:04:53 STIMELA.tart-image.plotcaltable_amp INFO: ### validated inputs
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO: cab plotms:
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   vis = caltables/tart.G0a
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   gridrows = 1
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   gridcols = 1
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   rowindex = 0
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   colindex = 0
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   plotindex = 0
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   xaxis = antenna1
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   xdatacolumn = data
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   xframe = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   xinterp = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   yaxis = gainamp
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   ydatacolumn = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   yframe = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   yinterp = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   yaxislocation = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   selectdata = True
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   field = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   spw = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   timerange = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   uvrange = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   antenna = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   scan = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   correlation = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   array = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   observation = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   intent = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   feed = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   msselect = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   averagedata = True
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   avgchannel = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   avgtime = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   avgscan = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   avgfield = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   avgbaseline = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   avgantenna = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   avgspw = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   scalar = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   transform = True
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   freqframe = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   restfreq = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   veldef = RADIO
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   shift = [0.0, 0.0]
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   extendflag = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   extcorr = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   extchannel = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   iteraxis = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   xselfscale = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   yselfscale = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   xsharedaxis = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   ysharedaxis = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   customsymbol = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   symbolshape = autoscaling
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   symbolsize = 2
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   symbolcolor = 0000ff
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   symbolfill = fill
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   symboloutline = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   coloraxis = 
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   customflaggedsymbol = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   flaggedsymbolshape = circle
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   flaggedsymbolsize = 2
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   flaggedsymbolcolor = ff0000
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   flaggedsymbolfill = fill
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   flaggedsymboloutline = False
+2025-11-20 08:04:54 STIMELA.tart-image.plotcaltable_amp INFO:   xconnector = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   timeconnector = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   title = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   titlefont = 0
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   xlabel = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   xaxisfont = 0
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   ylabel = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   yaxisfont = 0
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   showmajorgrid = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   majorwidth = 1
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   majorstyle = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   majorcolor = B0B0B0
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   showminorgrid = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   minorwidth = 1
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   minorstyle = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   minorcolor = D0D0D0
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   showlegend = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   legendposition = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   plotfile = caltables/gainamp.tart.png
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   expformat = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   verbose = True
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   exprange = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   highres = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   dpi = -1
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   width = -1
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   height = -1
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   overwrite = True
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   showgui = True
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   clearplots = True
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   callib = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   headeritems = 
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   showatm = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   showtsky = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO:   showimage = False
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO: singularity image ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg exists
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 08:04:55 STIMELA.tart-image.plotcaltable_amp INFO: binding /tmp/tmpms3fzjjs to /tmp as rw
+### preparing CASA task call:
+###     plotms(
+###         vis='caltables/tart.G0a',
+###         gridrows=1,
+###         gridcols=1,
+###         rowindex=0,
+###         colindex=0,
+###         plotindex=0,
+###         xaxis='antenna1',
+###         xdatacolumn='data',
+###         xframe='',
+###         xinterp='',
+###         yaxis='gainamp',
+###         ydatacolumn='',
+###         yframe='',
+###         yinterp='',
+###         yaxislocation='',
+###         selectdata=True,
+###         field='',
+###         spw='',
+###         timerange='',
+###         uvrange='',
+###         antenna='',
+###         scan='',
+###         correlation='',
+###         array='',
+###         observation='',
+###         intent='',
+###         feed='',
+###         msselect='',
+###         averagedata=True,
+###         avgchannel='',
+###         avgtime='',
+###         avgscan=False,
+###         avgfield=False,
+###         avgbaseline=False,
+###         avgantenna=False,
+###         avgspw=False,
+###         scalar=False,
+###         transform=True,
+###         freqframe='',
+###         restfreq='',
+###         veldef='RADIO',
+###         shift=[0.0, 0.0],
+###         extendflag=False,
+###         extcorr=False,
+###         extchannel=False,
+###         iteraxis='',
+###         xselfscale=False,
+###         yselfscale=False,
+###         xsharedaxis=False,
+###         ysharedaxis=False,
+###         customsymbol=False,
+###         symbolshape='autoscaling',
+###         symbolsize=2,
+###         symbolcolor='0000ff',
+###         symbolfill='fill',
+###         symboloutline=False,
+###         coloraxis='',
+###         customflaggedsymbol=False,
+###         flaggedsymbolshape='circle',
+###         flaggedsymbolsize=2,
+###         flaggedsymbolcolor='ff0000',
+###         flaggedsymbolfill='fill',
+###         flaggedsymboloutline=False,
+###         xconnector='',
+###         timeconnector=False,
+###         title='',
+###         titlefont=0,
+###         xlabel='',
+###         xaxisfont=0,
+###         ylabel='',
+###         yaxisfont=0,
+###         showmajorgrid=False,
+###         majorwidth=1,
+###         majorstyle='',
+###         majorcolor='B0B0B0',
+###         showminorgrid=False,
+###         minorwidth=1,
+###         minorstyle='',
+###         minorcolor='D0D0D0',
+###         showlegend=False,
+###         legendposition='',
+###         plotfile='caltables/gainamp.tart.png',
+###         expformat='',
+###         verbose=True,
+###         exprange='',
+###         highres=False,
+###         dpi=-1,
+###         width=-1,
+###         height=-1,
+###         overwrite=True,
+###         showgui=True,
+###         clearplots=True,
+###         callib='',
+###         headeritems='',
+###         showatm=False,
+###         showtsky=False,
+###         showimage=False)
+2025-11-20 08:04:57 STIMELA.tart-image.plotcaltable_amp INFO: ---INVOKING---
+2025-11-20 08:04:57 STIMELA.tart-image.plotcaltable_amp INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpms3fzjjs:/tmp:rw ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg xvfb-run -a casa --log2term --nologger --nologfile -c ...
+
+# 
+# =========================================
+# The start-up time of CASA may vary
+# depending on whether the shared libraries
+# are cached or not.
+# =========================================
+# 
+# /casa-release-5.8.0-109.el7/lib/python2.7/site-packages/IPython/core/interactiveshell.py:[bold][/bold]724: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+#   warn("Attempting to work in a virtualenv. If you encounter problems, please "
+# Python: g4/presentation-readyIPython 5.1.0 -- An enhanced Interactive Python.
+# 
+# CASA 5.8.0-109   -- Common Astronomy Software Applications
+# 
+# Creating a new telemetry file
+# Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+# You can disable telemetry by adding the following line to your ~/.casarc file:
+# EnableTelemetry: False
+# 2025-11-20 08:[bold][/bold]05:05	INFO	::casa	CASA Version  5.8.0-109
+# --> CrashReporter initialized.
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	##########################################
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	##### Begin Task: plotms             #####
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::	plotms(vis="caltables/tart.G0a",gridrows=1,gridcols=1,rowindex=0,colindex=0,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        plotindex=0,xaxis="antenna1",xdatacolumn="data",xframe="",xinterp="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        yaxis="gainamp",ydatacolumn="",yframe="",yinterp="",yaxislocation="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        selectdata=True,field="",spw="",timerange="",uvrange="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        antenna="",scan="",correlation="",array="",observation="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        intent="",feed="",msselect="",averagedata=True,avgchannel="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        avgtime="",avgscan=False,avgfield=False,avgbaseline=False,avgantenna=False,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        avgspw=False,scalar=False,transform=True,freqframe="",restfreq="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        veldef="RADIO",shift=[0.0, 0.0],extendflag=False,extcorr=False,extchannel=False,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        iteraxis="",xselfscale=False,yselfscale=False,xsharedaxis=False,ysharedaxis=False,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        customsymbol=False,symbolshape="autoscaling",symbolsize=2,symbolcolor="0000ff",symbolfill="fill",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        symboloutline=False,coloraxis="",customflaggedsymbol=False,flaggedsymbolshape="circle",flaggedsymbolsize=2,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        flaggedsymbolcolor="ff0000",flaggedsymbolfill="fill",flaggedsymboloutline=False,xconnector="",timeconnector=False,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        plotrange=[],title="",titlefont=0,xlabel="",xaxisfont=0,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        ylabel="",yaxisfont=0,showmajorgrid=False,majorwidth=1,majorstyle="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        majorcolor="B0B0B0",showminorgrid=False,minorwidth=1,minorstyle="",minorcolor="D0D0D0",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        showlegend=False,legendposition="",plotfile="caltables/gainamp.tart.png",expformat="",verbose=True,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        exprange="",highres=False,dpi=-1,width=-1,height=-1,
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        overwrite=True,showgui=True,clearplots=True,callib="",headeritems="",
+# 2025-11-20 08:[bold][/bold]05:09	INFO	plotms::::+	        showatm=False,showtsky=False,showimage=False)
+# 2025-11-20 08:[bold][/bold]05:12	INFO	plotms::::	Plot file caltables/gainamp.tart.png
+# 2025-11-20 08:[bold][/bold]05:13	INFO	plotms::::	Exporting the plot.
+# 2025-11-20 08:[bold][/bold]05:13	INFO	plotms::::	##### End Task: plotms               #####
+# 2025-11-20 08:[bold][/bold]05:13	INFO	plotms::::+	##########################################
+# INFO:    Terminating squashfuse_ll after timeout
+# INFO:    Timeouts can be caused by a running background process
+2025-11-20 08:05:14 STIMELA.tart-image.plotcaltable_amp INFO: plotms returns exit code 0 after 0:00:17

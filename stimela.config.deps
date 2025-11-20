@@ -1,0 +1,30 @@
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela:
+  version: 2.1.4rc4
+  mtime: 1763624298.0213633
+  mtime_str: Thu Nov 20 07:38:18 2025
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela/config.py:
+  origin: /media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/scabha/configuratt/__init__.py:
+  origin: /media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela
+/media/plato/workshop_2/g4/cw24/lib/python3.10/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1763531602.5396464
+  mtime_str: Wed Nov 19 05:53:22 2025
+  md5hash: 50cca93a72bf927d17ec4cf5ab00a35e
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela/stimela.conf:
+  mtime: 1763624297.9653625
+  mtime_str: Thu Nov 20 07:38:17 2025
+  md5hash: 843e72355d34615d96a943da475592c1
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/cultcargo/stimela.conf:
+  mtime: 1763624298.2173657
+  mtime_str: Thu Nov 20 07:38:18 2025
+  md5hash: d8547362d63e7bb23c550ef5ac13fc0b
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/cultcargo/genesis/cult-cargo-base.yml:
+  mtime: 1763624298.2053654
+  mtime_str: Thu Nov 20 07:38:18 2025
+  md5hash: a55edcf2ea884884437890f42f1de976
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1763624297.9613624
+  mtime_str: Thu Nov 20 07:38:17 2025
+  md5hash: 50cca93a72bf927d17ec4cf5ab00a35e

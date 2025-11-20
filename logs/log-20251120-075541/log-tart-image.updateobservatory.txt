@@ -1,0 +1,12 @@
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO: ### validated inputs
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO: cab from:
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO:   vis = msdir/mu-udm.ms
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO: singularity image ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg exists
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO: binding /tmp/tmpc55egkqr to /tmp as rw
+### preparing python code invocation with arguments:
+###     vis='msdir/mu-udm.ms'
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO: ---INVOKING---
+2025-11-20 08:02:20 STIMELA.tart-image.updateobservatory INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpc55egkqr:/tmp:rw ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg python3 -u -c ...
+
+2025-11-20 08:02:22 STIMELA.tart-image.updateobservatory INFO: [python] returns exit code 0 after 0:00:01

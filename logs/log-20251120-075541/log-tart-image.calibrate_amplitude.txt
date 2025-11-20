@@ -1,0 +1,210 @@
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO: ### validated inputs
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO: cab gaincal:
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   vis = msdir/mu-udm.ms
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   caltable = caltables/tart.G0a
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   field = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   spw = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   intent = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   selectdata = True
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   timerange = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   uvrange = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   antenna = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   scan = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   observation = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   msselect = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   solint = 300s
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   combine = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   preavg = -1.0
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   refant = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   refantmode = flex
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   minblperant = 4
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   minsnr = 1e-10
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   solnorm = True
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   gaintype = G
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   smodel = []
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   calmode = a
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   solmode = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   rmsthresh = []
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   append = False
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   docallib = False
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   gaintable = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   gainfield = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   interp = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   spwmap = 
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO:   parang = False
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO: singularity image ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg exists
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 08:04:35 STIMELA.tart-image.calibrate_amplitude INFO: binding /tmp/tmpbjup0ave to /tmp as rw
+### preparing CASA task call:
+###     gaincal(
+###         vis='msdir/mu-udm.ms',
+###         caltable='caltables/tart.G0a',
+###         field='',
+###         spw='',
+###         intent='',
+###         selectdata=True,
+###         timerange='',
+###         uvrange='',
+###         antenna='',
+###         scan='',
+###         observation='',
+###         msselect='',
+###         solint='300s',
+###         combine='',
+###         preavg=-1.0,
+###         refant='',
+###         refantmode='flex',
+###         minblperant=4,
+###         minsnr=1e-10,
+###         solnorm=True,
+###         gaintype='G',
+###         smodel=[],
+###         calmode='a',
+###         solmode='',
+###         rmsthresh=[],
+###         append=False,
+###         docallib=False,
+###         gaintable='',
+###         gainfield='',
+###         interp='',
+###         spwmap='',
+###         parang=False)
+2025-11-20 08:04:36 STIMELA.tart-image.calibrate_amplitude INFO: ---INVOKING---
+2025-11-20 08:04:36 STIMELA.tart-image.calibrate_amplitude INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpbjup0ave:/tmp:rw ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg xvfb-run -a casa --log2term --nologger --nologfile -c ...
+
+# 
+# =========================================
+# The start-up time of CASA may vary
+# depending on whether the shared libraries
+# are cached or not.
+# =========================================
+# 
+# /casa-release-5.8.0-109.el7/lib/python2.7/site-packages/IPython/core/interactiveshell.py:[bold][/bold]724: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+#   warn("Attempting to work in a virtualenv. If you encounter problems, please "
+# Python: g4/presentation-readyIPython 5.1.0 -- An enhanced Interactive Python.
+# 
+# CASA 5.8.0-109   -- Common Astronomy Software Applications
+# 
+# Creating a new telemetry file
+# Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+# You can disable telemetry by adding the following line to your ~/.casarc file:
+# EnableTelemetry: False
+# 2025-11-20 08:[bold][/bold]04:45	INFO	::casa	CASA Version  5.8.0-109
+# --> CrashReporter initialized.
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	##########################################
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::	gaincal(vis="msdir/mu-udm.ms",caltable="caltables/tart.G0a",field="",spw="",intent="",
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="",scan="",
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	        observation="",msselect="",solint="300s",combine="",preavg=-1.0,
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	        refant="",refantmode="flex",minblperant=4,minsnr=1e-10,solnorm=True,
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	        normtype="mean",gaintype="G",smodel=[],calmode="a",solmode="",
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	        rmsthresh=[],corrdepflags=False,append=False,splinetime=3600.0,npointaver=3,
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	        phasewrap=180.0,docallib=False,callib="",gaintable="",gainfield="",
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::+	        interp="",spwmap="",parang=False)
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::[bold][/bold]calibrater::open	****Using NEW VI2-driven calibrater tool****
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::[bold][/bold]calibrater::open	Opening MS: msdir/mu-udm.ms for calibration.
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::[bold][/bold]Calibrater::	Initializing nominal selection to the whole MS.
+# 2025-11-20 08:[bold][/bold]04:48	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+# 2025-11-20 08:[bold][/bold]04:48	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+# 2025-11-20 08:[bold][/bold]04:48	INFO	calibrater::reset	Reseting solve/apply state
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::selectvis	Selection did not drop any rows
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+# 2025-11-20 08:[bold][/bold]04:48	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+# 2025-11-20 08:[bold][/bold]04:48	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::setsolve	Arranging to SOLVE:
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::setsolve	.   G Jones: table=caltables/tart.G0a append=false solint=300s refantmode='flex' refant='none' minsnr=1e-10 apmode=A solnorm=true normtype=MEAN
+# 2025-11-20 08:[bold][/bold]04:48	INFO	calibrater::solve	Beginning solve-----------------------------
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::solve	.   (None)
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+# 2025-11-20 08:[bold][/bold]04:48	INFO	Calibrater::solve	.   G Jones: table=caltables/tart.G0a append=false solint=300s refantmode='flex' refant='none' minsnr=1e-10 apmode=A solnorm=true normtype=MEAN
+# 2025-11-20 08:[bold][/bold]04:49	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1]
+# 2025-11-20 08:[bold][/bold]04:49	INFO	Calibrater::solve	For solint = 300s, found 3 solution intervals.
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:50	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	WARN	MSDerivedValues::parAngle	unhandled mount type
+# 2025-11-20 08:[bold][/bold]04:51	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+# 2025-11-20 08:[bold][/bold]04:51	INFO		Enforcing apmode on solutions.
+# 2025-11-20 08:[bold][/bold]04:51	INFO		Normalizing solution amplitudes per spw with MEAN
+# 2025-11-20 08:[bold][/bold]04:51	INFO		 Normalization factor (MEAN) for spw 0 = 0.000568204
+# 2025-11-20 08:[bold][/bold]04:51	INFO		Writing solutions to table: caltables/tart.G0a
+# 2025-11-20 08:[bold][/bold]04:52	INFO	calibrater::solve	Finished solving.
+# 2025-11-20 08:[bold][/bold]04:52	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+# 2025-11-20 08:[bold][/bold]04:52	INFO	gaincal::::	  Spw 0: 3/3/3
+# 2025-11-20 08:[bold][/bold]04:52	INFO	gaincal::::	##### End Task: gaincal              #####
+# 2025-11-20 08:[bold][/bold]04:52	INFO	gaincal::::+	##########################################
+# INFO:    Terminating squashfuse_ll after timeout
+# INFO:    Timeouts can be caused by a running background process
+2025-11-20 08:04:53 STIMELA.tart-image.calibrate_amplitude INFO: gaincal returns exit code 0 after 0:00:17

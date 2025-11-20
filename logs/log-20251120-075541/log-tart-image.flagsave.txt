@@ -1,0 +1,108 @@
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO: ### validated inputs
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO: cab flagmanager:
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO:   vis = msdir/mu-udm.ms
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO:   mode = save
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO:   versionname = ORIGINAL
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO:   oldname = 
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO:   comment = 
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO:   merge = replace
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO: singularity image ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg does not exist
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO: (re)building image ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO: ---INVOKING---
+2025-11-20 08:02:22 STIMELA.tart-image.flagsave INFO: /usr/bin/singularity build ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg docker://quay.io/stimela2/casa:cc0.2.1
+
+# INFO:    Starting build...
+# INFO:    Fetching OCI image...
+# INFO:    Extracting OCI image...
+# 2025/11/20 08:[bold][/bold]02:29  warn rootless{usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-ptp-helper} ignoring (usually) harmless EPERM on setxattr "security.capability"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/asdm2MS} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/bdflags2MS} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/buildmytasks} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/casabrowser} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/casafeather} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/casalogger} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/casaplotms} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/casaviewer} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/ipython} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/msuvbin} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:42  warn rootless{casa-release-5.8.0-109.el7/bin/python} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:52  warn rootless{casa-release-5.8.0-109.el7/lib/libpython2.7.so} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpiCC} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpiCC-vt} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpic++} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpic++-vt} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpicc} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpicc-vt} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpicxx} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpicxx-vt} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpiexec} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpif77} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpif77-vt} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpif90} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpif90-vt} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/mpirun} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/ompi-clean} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/ompi-ps} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/ompi-top} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/orteCC} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/ortec++} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/ortecc} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtCC} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtc++} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtcc} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtcxx} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtf77} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtf90} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtfiltergen} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtfiltergen-mpi} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:53  warn rootless{casa-release-5.8.0-109.el7/lib/mpi/bin/vtfort} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# 2025/11/20 08:[bold][/bold]02:55  warn rootless{casa-release-5.8.0-109.el7/lib/python2.7/regressions/unit_tests.py} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+# INFO:    Inserting Apptainer configuration...
+# INFO:    Creating SIF file...
+# INFO:    Build complete: ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg
+2025-11-20 08:03:29 STIMELA.tart-image.flagsave INFO: (singularity build) exited with code 0 after 0:01:06
+2025-11-20 08:03:29 STIMELA.tart-image.flagsave INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 08:03:29 STIMELA.tart-image.flagsave INFO: binding /tmp/tmpgedo5jn4 to /tmp as rw
+### preparing CASA task call:
+###     flagmanager(
+###         vis='msdir/mu-udm.ms',
+###         mode='save',
+###         versionname='ORIGINAL',
+###         oldname='',
+###         comment='',
+###         merge='replace')
+2025-11-20 08:03:29 STIMELA.tart-image.flagsave INFO: ---INVOKING---
+2025-11-20 08:03:29 STIMELA.tart-image.flagsave INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpgedo5jn4:/tmp:rw ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg xvfb-run -a casa --log2term --nologger --nologfile -c ...
+
+# 
+# =========================================
+# The start-up time of CASA may vary
+# depending on whether the shared libraries
+# are cached or not.
+# =========================================
+# 
+# /casa-release-5.8.0-109.el7/lib/python2.7/site-packages/IPython/core/interactiveshell.py:[bold][/bold]724: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+#   warn("Attempting to work in a virtualenv. If you encounter problems, please "
+# Python: g4/presentation-readyIPython 5.1.0 -- An enhanced Interactive Python.
+# 
+# CASA 5.8.0-109   -- Common Astronomy Software Applications
+# 
+# Creating a new telemetry file
+# Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+# You can disable telemetry by adding the following line to your ~/.casarc file:
+# EnableTelemetry: False
+# 2025-11-20 08:[bold][/bold]03:37	INFO	::casa	CASA Version  5.8.0-109
+# --> CrashReporter initialized.
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::+	##########################################
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::	flagmanager(vis="msdir/mu-udm.ms",mode="save",versionname="ORIGINAL",oldname="",comment="",
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::+	        merge="replace")
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::[bold][/bold]AgentFlagger::open	Table type is Measurement Set
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::	Save current flagversions to ORIGINAL
+# 2025-11-20 08:[bold][/bold]03:41	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called ORIGINAL
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::	##### End Task: flagmanager          #####
+# 2025-11-20 08:[bold][/bold]03:41	INFO	flagmanager::::+	##########################################
+# INFO:    Terminating squashfuse_ll after timeout
+# INFO:    Timeouts can be caused by a running background process
+2025-11-20 08:03:42 STIMELA.tart-image.flagsave INFO: flagmanager returns exit code 0 after 0:00:13

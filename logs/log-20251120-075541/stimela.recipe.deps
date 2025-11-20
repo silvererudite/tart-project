@@ -1,0 +1,114 @@
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela:
+  version: 2.1.4rc4
+  mtime: 1763624298.0213633
+  mtime_str: Thu Nov 20 07:38:18 2025
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela/config.py:
+  origin: /media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/scabha/configuratt/__init__.py:
+  origin: /media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela
+/media/plato/workshop_2/g4/cw24/lib/python3.10/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1763531602.5396464
+  mtime_str: Wed Nov 19 05:53:22 2025
+  md5hash: 50cca93a72bf927d17ec4cf5ab00a35e
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/stimela/stimela.conf:
+  mtime: 1763624297.9653625
+  mtime_str: Thu Nov 20 07:38:17 2025
+  md5hash: 843e72355d34615d96a943da475592c1
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/cultcargo/stimela.conf:
+  mtime: 1763624298.2173657
+  mtime_str: Thu Nov 20 07:38:18 2025
+  md5hash: d8547362d63e7bb23c550ef5ac13fc0b
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/cultcargo/genesis/cult-cargo-base.yml:
+  mtime: 1763624298.2053654
+  mtime_str: Thu Nov 20 07:38:18 2025
+  md5hash: a55edcf2ea884884437890f42f1de976
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1763624297.9613624
+  mtime_str: Thu Nov 20 07:38:17 2025
+  md5hash: 50cca93a72bf927d17ec4cf5ab00a35e
+/media/plato/workshop_2/g4/presentation-ready/tart_dl.yaml:
+  mtime: 1763625314.9824383
+  mtime_str: Thu Nov 20 07:55:14 2025
+  md5hash: 65cc67cbc7f53deae5e8c953232350fc
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/tartcargo/tart2ms.yml:
+  mtime: 1763624289.2772524
+  mtime_str: Thu Nov 20 07:38:09 2025
+  md5hash: 95cf0c801870af0b0d3b9f93ef297b3d
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/tartcargo/genesis/tart-cargo-base.yml:
+  mtime: 1763624289.2772524
+  mtime_str: Thu Nov 20 07:38:09 2025
+  md5hash: 7a5ba0da860602301e710e87feb85e96
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/tartcargo/tart-download-data.yml:
+  mtime: 1763624289.2772524
+  mtime_str: Thu Nov 20 07:38:09 2025
+  md5hash: 06037ae1940f22f22f3106cda6e2abe5
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/tartcargo/disko.yml:
+  mtime: 1763624289.2772524
+  mtime_str: Thu Nov 20 07:38:09 2025
+  md5hash: 46cbe2f80cff005b9f6df9a6818f4166
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/tartcargo/disko-draw.yml:
+  mtime: 1763624289.2772524
+  mtime_str: Thu Nov 20 07:38:09 2025
+  md5hash: e6ec3c8884b540acb7ad366f2f009f41
+/media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/cultcargo/wsclean.yml:
+  mtime: 1763624298.2173657
+  mtime_str: Thu Nov 20 07:38:18 2025
+  md5hash: 8fbc2c9706910c0da121909626eaaef4
+? /media/plato/workshop_2/g4/presentation-ready/tart4/lib/python3.10/site-packages/cultcargo/genesis/wsclean/wsclean-base.yml
+: mtime: 1763624298.2093656
+  mtime_str: Thu Nov 20 07:38:18 2025
+  md5hash: 4ee6614b99bc967d4372dfeab2d74a9b
+/media/plato/workshop_2/g4/presentation-ready/casacabs.yaml:
+  mtime: 1763624604.8692753
+  mtime_str: Thu Nov 20 07:43:24 2025
+  md5hash: fc3a3c6f5010a959820c165312cf29ed
+/media/plato/workshop_2/g4/casa/listobs.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: f05c4e62214067bb928e63f5ede70ef0
+/media/plato/workshop_2/g4/casa/flagmanager.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 26b2a4fba6861d5867209cb2490aeda2
+/media/plato/workshop_2/g4/casa/flagdata.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 57b33acc7efb8f9c612f0dafe45f3d14
+/media/plato/workshop_2/g4/casa/plotms.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 191f5df1a7cbeddb920a93f4129b85c5
+/media/plato/workshop_2/g4/casa/setjy.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 71401c5a6deee57c75cc5373935f1162
+/media/plato/workshop_2/g4/casa/gaincal.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 8cfdfd663676e213c1af836fa12bb8cf
+/media/plato/workshop_2/g4/casa/bandpass.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: ac195b7eb290b47133163cabe36374a8
+/media/plato/workshop_2/g4/casa/applycal.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 548dc475287962b489b4619770377fd5
+/media/plato/workshop_2/g4/casa/exportfits.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 49de20d135a33484d89b573b9b2f6070
+/media/plato/workshop_2/g4/casa/tclean.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: b3b9992f042eb9a859fac068904c1b87
+/media/plato/workshop_2/g4/casa/importfits.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 2a873576a5f72c01185e847b37c74176
+/media/plato/workshop_2/g4/casa/plotants.yaml:
+  mtime: 1755754987.0
+  mtime_str: Thu Aug 21 05:43:07 2025
+  md5hash: 20994ce752f19ffcfd610308fe29ed97

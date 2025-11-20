@@ -1,0 +1,76 @@
+vis:
+  info: Name of input visibility file (MS)
+  default: ''
+  dtype: MS
+  required: true
+selectdata:
+  info: Data selection parameters
+  default: true
+  dtype: bool
+spw:
+  info: Selection based on spectral-window/frequency/channel.
+  default: ''
+  dtype: str
+field:
+  info: Selection based on field names or field index numbers. Default is all.
+  default: ''
+  dtype: str
+antenna:
+  info: Selection based on antenna/baselines. Default is all.
+  default: ''
+  dtype: str
+uvrange:
+  info: 'Selection based on uv range. Default: entire range. Default units: meters.'
+  default: ''
+  dtype: str
+timerange:
+  info: Selection based on time range. Default is entire range.
+  default: ''
+  dtype: str
+correlation:
+  info: Selection based on correlation. Default is all.
+  default: ''
+  dtype: str
+scan:
+  info: Selection based on scan numbers. Default is all.
+  default: ''
+  dtype: str
+intent:
+  info: Selection based on observation intent. Default is all.
+  default: ''
+  dtype: str
+feed:
+  info: 'Selection based on multi-feed numbers: Not yet implemented'
+  default: ''
+  dtype: str
+array:
+  info: Selection based on (sub)array numbers. Default is all.
+  default: ''
+  dtype: str
+observation:
+  info: Selection based on observation ID. Default is all.
+  default: ''
+  dtype: str
+verbose:
+  info: Controls level of information detail reported. True reports more than False.
+  default: true
+  dtype: bool
+listfile:
+  info: Name of disk file to write output. Default is none (output is written to logger
+    only).
+  default: ''
+  dtype: str
+listunfl:
+  info: List unflagged row counts? If true, it can have significant negative performance
+    impact.
+  default: false
+  dtype: bool
+cachesize:
+  info: EXPERIMENTAL. Maximum size in megabytes of cache in which data structures
+    can be held.
+  default: 50
+  dtype: int
+overwrite:
+  info: If True, tacitly overwrite listfile if it exists.
+  default: false
+  dtype: bool

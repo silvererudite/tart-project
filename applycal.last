@@ -1,0 +1,23 @@
+taskname           = "applycal"
+vis                =  "msdir/mu-udm.ms"
+field              =  ""
+spw                =  ""
+intent             =  ""
+selectdata         =  True
+timerange          =  ""
+uvrange            =  ""
+antenna            =  ""
+scan               =  ""
+observation        =  ""
+msselect           =  ""
+docallib           =  False
+callib             =  ""
+gaintable          =  ['caltables/tart.G0a', 'caltables/tart.G0p']
+gainfield          =  []
+interp             =  []
+spwmap             =  []
+calwt              =  [True]
+parang             =  False
+applymode          =  ""
+flagbackup         =  True
+#applycal(vis="msdir/mu-udm.ms",field="",spw="",intent="",selectdata=True,timerange="",uvrange="",antenna="",scan="",observation="",msselect="",docallib=False,callib="",gaintable=['caltables/tart.G0a', 'caltables/tart.G0p'],gainfield=[],interp=[],spwmap=[],calwt=[True],parang=False,applymode="",flagbackup=True)

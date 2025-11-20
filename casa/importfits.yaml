@@ -1,0 +1,35 @@
+fitsimage:
+  default: ''
+  info: Name of output image FITS file
+  dtype: str
+imagename:
+  default: ''
+  info: Name of input CASA image
+  dtype: str
+whichrep:
+  default: 0
+  info: If fits image has multiple coordinate reps, choose one.
+  dtype: int
+zeroblanks:
+  default: true
+  info: Set blanked pixels to zero (not NaN)
+  dtype: bool
+overwrite:
+  default: false
+  info: Overwrite output file if it exists?
+  dtype: bool
+defaultaxes:
+  default: false
+  info: Add the default 4D coordinate axes where they are missing
+        When True requires setting defaultaxesvalues
+  dtype: bool
+defaultaxesvalues:
+  default: []
+  info: List of values to assign to added degenerate axes
+        when defaultaxes==True (ra,dec,freq,stokes)
+  dtype: list
+beam:
+  default: []
+  info: List of values to be used to define the synthesized beam
+        [BMAJ,BMIN,BPA] (as in the FITS keywords)
+  dtype: list

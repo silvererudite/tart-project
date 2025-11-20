@@ -1,0 +1,10 @@
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: ### validated inputs
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: cab binary:
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO:   dirname = img
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: singularity image ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg exists
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: binding /tmp/tmpq6tg2wvq to /tmp as rw
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: ---INVOKING---
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmpq6tg2wvq:/tmp:rw ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg /bin/mkdir -p img
+
+2025-11-20 07:55:46 STIMELA.tart-image.initimgdir INFO: /bin/mkdir returns exit code 0 after 0:00:00

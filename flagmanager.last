@@ -1,0 +1,8 @@
+taskname           = "flagmanager"
+vis                =  "msdir/mu-udm.ms"
+mode               =  "save"
+versionname        =  "ORIGINAL"
+oldname            =  ""
+comment            =  ""
+merge              =  "replace"
+#flagmanager(vis="msdir/mu-udm.ms",mode="save",versionname="ORIGINAL",oldname="",comment="",merge="replace")

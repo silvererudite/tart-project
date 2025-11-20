@@ -1,0 +1,204 @@
+vis:
+  required: true
+  info: Name of input visibility file(s)
+  dtype: MS
+selectdata:
+  default: true
+  info: Enable data selection parameters
+  dtype: bool
+field:
+  default: ''
+  info: field(s) to select
+  dtype: str
+spw:
+  default: ''
+  info: spw(s)/channels to select
+  dtype: str
+timerange:
+  default: ''
+  info: Range of time to select from data
+  dtype: str
+uvrange:
+  default: ''
+  info: Select data within uvrange
+  dtype: str
+antenna:
+  default: ''
+  info: Select data based on antenna/baseline
+  dtype: str
+scan:
+  default: ''
+  info: Scan number range
+  dtype: str
+observation:
+  default: ''
+  info: Observation ID range
+  dtype: str
+intent:
+  default: ''
+  info: Scan Intent(s)
+  dtype: str
+datacolumn:
+  default: corrected
+  info: Data column to image
+  dtype: str
+  choices:
+    - data
+    - corrected
+imagename:
+  default: ''
+  info: Pre-name of output images
+  dtype: str
+imsize:
+  default:
+  - 100
+  info: Number of pixels
+  dtype: List[int]
+cell:
+  default:
+  - 1arcsec
+  info: Cell size
+  dtype: list
+phasecenter:
+  default: ''
+  info: Phase center of the image
+  dtype: str
+stokes:
+  default: I
+  info: Stokes Planes to make
+  dtype: str
+projection:
+  default: SIN
+  info: Coordinate projection
+  dtype: str
+startmodel:
+  default: ''
+  info: Name of starting model image
+  dtype: str
+specmode:
+  default: mfs
+  info: Spectral definition mode
+  dtype: str
+  choices:
+    - mfs
+    - cube
+    - cubedata
+    - cubesource
+reffreq:
+  default: ''
+  info: Reference frequency
+  dtype: str
+gridder:
+  default: standard
+  info: Gridding options
+  dtype: str
+  choices:
+    - standard
+    - wproject
+    - widefield
+    - mosaic
+    - awproject
+vptable:
+  default: ''
+  info: Name of Voltage Pattern table
+  dtype: str
+pblimit:
+  default: 0.2
+  info: PB gain level at which to cut off normalizations
+  dtype: float
+deconvolver:
+  default: hogbom
+  info: Minor cycle algorithm
+  dtype: str
+  choices:
+    - hogbom
+    - clark
+    - multiscale
+    - mtmfs
+    - mem
+    - clarkstokes
+restoration:
+  default: true
+  info: Do restoration steps (or not)
+  dtype: bool
+restoringbeam:
+  default: []
+  info: Restoring beam shape to use. Default is the PSF main lobe
+  dtype: list
+pbcor:
+  default: false
+  info: Apply PB correction on the output restored image
+  dtype: bool
+outlierfile:
+  default: ''
+  info: Name of outlier-field image definitions
+  dtype: str
+weighting:
+  default: natural
+  info: Weighting scheme
+  dtype: str
+  choices:
+    - natural
+    - uniform
+    - briggs
+    - briggsabs
+uvtaper:
+  default: []
+  info: uv-taper on outer baselines in uv-plane
+  dtype: list
+niter:
+  default: 0
+  info: Maximum number of iterations
+  dtype: int
+usemask:
+  default: user
+  info: Type of mask(s) for deconvolution:user, pb, or auto-multithresh
+  dtype: str
+mask:
+  default: ''
+  info: Mask (a list of image name(s) orregion file(s) or region string(s) )
+  dtype: str
+pbmask:
+  default: 0.0
+  info: primary beam mask
+  dtype: float
+fastnoise:
+  default: true
+  info: 'True: use the faster (old) noisecalculation. False: use the newimproved noise calculations'
+  dtype: bool
+restart:
+  default: true
+  info: 'True : Re-use existing images. False: Increment imagename'
+  dtype: bool
+savemodel:
+  default: none
+  info: Options to save model visibilities(none, virtual, modelcolumn)
+  dtype: str
+calcres:
+  default: true
+  info: Calculate initial residual image
+  dtype: bool
+calcpsf:
+  default: true
+  info: Calculate PSF
+  dtype: bool
+parallel:
+  default: false
+  info: Run major cycles in parallel
+  dtype: bool
+nchan:
+  default: 1
+  info: Number of output channels
+  dtype: int
+wprojplanes:
+  default: 1
+  info: Number of w-projection Planes
+  dtype: int
+facets:
+  default: 1
+  info: Number of facets
+  dtype: int
+robust:
+  default: 0.5
+  info: Robustness for Briggs weighting
+  dtype: float

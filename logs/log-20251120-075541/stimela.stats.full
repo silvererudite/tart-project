@@ -1,0 +1,702 @@
+tart-image:
+  elapsed: 779.855271
+  avg:
+    cpu: 695.4713687150837
+    mem_used: 2.7709497206703912
+    load_1m: 22.555577155598048
+    load_5m: 17.94321283947822
+    load_15m: 9.847501935905584
+    read_count: 49.185754189944134
+    read_gb: 0.005811309015284704
+    read_gbps: 0.0055812839432686934
+    read_ms: 51.00698324022346
+    write_count: 547.9937150837989
+    write_gb: 0.03186569000755608
+    write_gbps: 0.028675684519853705
+    write_ms: 6585.668994413408
+    num_samples: 1.0
+  peak:
+    cpu: 6410.000000000002
+    mem_used: 23
+    load_1m: 101.1444091796875
+    load_5m: 39.69268798828125
+    load_15m: 16.091156005859375
+    read_count: 890
+    read_gb: 0.2294921875
+    read_gbps: 0.2214796282250551
+    read_ms: 2677
+    write_count: 19682
+    write_gb: 0.5466575622558594
+    write_gbps: 0.4013164885731585
+    write_ms: 367014
+    num_samples: 1
+  total:
+    read_count: 70434
+    read_gb: 8.321794509887695
+    read_ms: 73042
+    write_count: 784727
+    write_gb: 45.63166809082031
+    write_ms: 9430678
+tart-image.initimgdir:
+  elapsed: 0.229569
+  avg:
+    cpu: 0.0
+    mem_used: 0.0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.0
+    write_gb: 0.0
+    write_gbps: 0.0
+    write_ms: 0.0
+    num_samples: 1.0
+  peak:
+    cpu: 0
+    mem_used: 0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0
+    write_gbps: 0
+    write_ms: 0
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0.0
+    write_ms: 0
+tart-image.initdatadownloaddir:
+  elapsed: 0.255649
+  avg:
+    cpu: 0.0
+    mem_used: 0.0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.0
+    write_gb: 0.0
+    write_gbps: 0.0
+    write_ms: 0.0
+    num_samples: 1.0
+  peak:
+    cpu: 0
+    mem_used: 0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0
+    write_gbps: 0
+    write_ms: 0
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0.0
+    write_ms: 0
+tart-image.initdatacaltabledir:
+  elapsed: 0.246814
+  avg:
+    cpu: 0.0
+    mem_used: 0.0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.5
+    write_gb: 1.33514404296875e-05
+    write_gbps: 0.00014785157115142908
+    write_ms: 6.0
+    num_samples: 1.0
+  peak:
+    cpu: 0
+    mem_used: 0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 2
+    write_gb: 5.340576171875e-05
+    write_gbps: 0.0005914062846057163
+    write_ms: 24
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 2
+    write_gb: 5.340576171875e-05
+    write_ms: 24
+tart-image.initmsdir:
+  elapsed: 0.310885
+  avg:
+    cpu: 0.0
+    mem_used: 0.0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.0
+    write_gb: 0.0
+    write_gbps: 0.0
+    write_ms: 0.0
+    num_samples: 1.0
+  peak:
+    cpu: 0
+    mem_used: 0
+    load_1m: 0.278472900390625
+    load_5m: 1.38397216796875
+    load_15m: 1.688385009765625
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0
+    write_gbps: 0
+    write_ms: 0
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0.0
+    write_ms: 0
+tart-image.download-hdf:
+  elapsed: 131.081559
+  avg:
+    cpu: 576.8977099236639
+    mem_used: 0.9770992366412213
+    load_1m: 7.053701386196923
+    load_5m: 3.160485420518249
+    load_15m: 2.279715501625119
+    read_count: 131.5114503816794
+    read_gb: 0.011341881206017415
+    read_gbps: 0.010819733157425968
+    read_ms: 114.90076335877863
+    write_count: 1475.030534351145
+    write_gb: 0.0815460845714307
+    write_gbps: 0.07795210389476231
+    write_ms: 16073.67175572519
+    num_samples: 1.0
+  peak:
+    cpu: 6359.2
+    mem_used: 3
+    load_1m: 17.2393798828125
+    load_5m: 5.306243896484375
+    load_15m: 3.006744384765625
+    read_count: 734
+    read_gb: 0.065704345703125
+    read_gbps: 0.06309547404241907
+    read_ms: 1725
+    write_count: 18449
+    write_gb: 0.41790771484375
+    write_gbps: 0.4013164885731585
+    write_ms: 335405
+    num_samples: 1
+  total:
+    read_count: 17228
+    read_gb: 1.4857864379882812
+    read_ms: 15052
+    write_count: 193229
+    write_gb: 10.682537078857422
+    write_ms: 2105651
+tart-image.create-ms:
+  elapsed: 261.637672
+  avg:
+    cpu: 1201.795867768595
+    mem_used: 7.305785123966942
+    load_1m: 46.85525500084743
+    load_5m: 21.33311121916968
+    load_15m: 9.319649057940017
+    read_count: 6.409090909090909
+    read_gb: 0.0040925140223227255
+    read_gbps: 0.003940089847174625
+    read_ms: 49.15702479338843
+    write_count: 129.86363636363637
+    write_gb: 0.0013809992262154571
+    write_gbps: 0.0012524639299019615
+    write_ms: 1730.5206611570247
+    num_samples: 1.0
+  peak:
+    cpu: 6410.000000000002
+    mem_used: 23
+    load_1m: 101.1444091796875
+    load_5m: 39.69268798828125
+    load_15m: 16.091156005859375
+    read_count: 356
+    read_gb: 0.2294921875
+    read_gbps: 0.2214796282250551
+    read_ms: 2677
+    write_count: 19682
+    write_gb: 0.14842987060546875
+    write_gbps: 0.12949532340747463
+    write_ms: 340578
+    num_samples: 1
+  total:
+    read_count: 1551
+    read_gb: 0.9903883934020996
+    read_ms: 11896
+    write_count: 31427
+    write_gb: 0.3342018127441406
+    write_ms: 418786
+tart-image.updateobservatory:
+  elapsed: 1.968948
+  avg:
+    cpu: 0.58
+    mem_used: 0.0
+    load_1m: 34.973907470703125
+    load_5m: 32.43865966796875
+    load_15m: 15.177154541015625
+    read_count: 19.8
+    read_gb: 0.001157379150390625
+    read_gbps: 0.0024479163052053407
+    read_ms: 62.4
+    write_count: 13.0
+    write_gb: 8.0108642578125e-05
+    write_gbps: 0.00018743054594433186
+    write_ms: 32.0
+    num_samples: 1.0
+  peak:
+    cpu: 2.9
+    mem_used: 0
+    load_1m: 34.973907470703125
+    load_5m: 32.43865966796875
+    load_15m: 15.177154541015625
+    read_count: 68
+    read_gb: 0.004062652587890625
+    read_gbps: 0.0060533592200340035
+    read_ms: 265
+    write_count: 48
+    write_gb: 0.000301361083984375
+    write_gbps: 0.000530942211656335
+    write_ms: 160
+    num_samples: 1
+  total:
+    read_count: 99
+    read_gb: 0.005786895751953125
+    read_ms: 312
+    write_count: 65
+    write_gb: 0.000400543212890625
+    write_ms: 160
+tart-image.flagsave:
+  elapsed: 79.819965
+  avg:
+    cpu: 606.6646341463417
+    mem_used: 0.5975609756097561
+    load_1m: 23.591623073670924
+    load_5m: 29.5549997469274
+    load_15m: 14.930715793516578
+    read_count: 168.53658536585365
+    read_gb: 0.020313542063643292
+    read_gbps: 0.019518792747494813
+    read_ms: 105.86585365853658
+    write_count: 855.5
+    write_gb: 0.07674268396889292
+    write_gbps: 0.0731208239069606
+    write_ms: 10041.353658536585
+    num_samples: 1.0
+  peak:
+    cpu: 6368.8
+    mem_used: 2
+    load_1m: 34.973907470703125
+    load_5m: 32.43865966796875
+    load_15m: 15.177154541015625
+    read_count: 890
+    read_gb: 0.107421875
+    read_gbps: 0.10480980503882245
+    read_ms: 937
+    write_count: 8489
+    write_gb: 0.40484619140625
+    write_gbps: 0.3842853861079312
+    write_ms: 239151
+    num_samples: 1
+  total:
+    read_count: 13820
+    read_gb: 1.66571044921875
+    read_ms: 8681
+    write_count: 70151
+    write_gb: 6.292900085449219
+    write_ms: 823391
+tart-image.plotuv:
+  elapsed: 23.752005
+  avg:
+    cpu: 64.85652173913044
+    mem_used: 0.0
+    load_1m: 13.224460767663043
+    load_5m: 25.944817584493887
+    load_15m: 14.526068645974863
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 213.65217391304347
+    write_gb: 0.0014474288277004075
+    write_gbps: 0.001342222623922539
+    write_ms: 656.3478260869565
+    num_samples: 1.0
+  peak:
+    cpu: 224.2
+    mem_used: 0
+    load_1m: 16.089630126953125
+    load_5m: 27.086639404296875
+    load_15m: 14.717864990234375
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 4612
+    write_gb: 0.0304718017578125
+    write_gbps: 0.02826422450300527
+    write_ms: 13148
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 4914
+    write_gb: 0.033290863037109375
+    write_ms: 15096
+tart-image.plotants:
+  elapsed: 14.630443
+  avg:
+    cpu: 62.1235294117647
+    mem_used: 0.0
+    load_1m: 10.396755442899817
+    load_5m: 24.5579439051011
+    load_15m: 14.29133695714614
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 17.529411764705884
+    write_gb: 0.00016156364889705882
+    write_gbps: 0.00015572680986585422
+    write_ms: 8.058823529411764
+    num_samples: 1.0
+  peak:
+    cpu: 143.7
+    mem_used: 0
+    load_1m: 11.237335205078125
+    load_5m: 25.060272216796875
+    load_15m: 14.374542236328125
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 212
+    write_gb: 0.002044677734375
+    write_gbps: 0.0019807452208806357
+    write_ms: 72
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 298
+    write_gb: 0.00274658203125
+    write_ms: 137
+tart-image.lister:
+  elapsed: 13.481523
+  avg:
+    cpu: 61.03333333333334
+    mem_used: 0.0
+    load_1m: 8.914947509765625
+    load_5m: 23.586527506510418
+    load_15m: 14.1265869140625
+    read_count: 0.5333333333333333
+    read_gb: 3.0517578125e-06
+    read_gbps: 2.9913182277091366e-06
+    read_ms: 0.06666666666666667
+    write_count: 11.133333333333333
+    write_gb: 5.4931640625e-05
+    write_gbps: 5.296314325408716e-05
+    write_ms: 5.333333333333333
+    num_samples: 1.0
+  peak:
+    cpu: 148.0
+    mem_used: 0
+    load_1m: 9.429168701171875
+    load_5m: 23.9837646484375
+    load_15m: 14.192962646484375
+    read_count: 8
+    read_gb: 4.57763671875e-05
+    read_gbps: 4.486977341563705e-05
+    read_ms: 1
+    write_count: 79
+    write_gb: 0.000370025634765625
+    write_gbps: 0.0003616314456492154
+    write_ms: 25
+    num_samples: 1
+  total:
+    read_count: 8
+    read_gb: 4.57763671875e-05
+    read_ms: 1
+    write_count: 167
+    write_gb: 0.000823974609375
+    write_ms: 80
+tart-image.calibrate_amplitude:
+  elapsed: 18.690502
+  avg:
+    cpu: 99.86842105263158
+    mem_used: 0.0
+    load_1m: 7.260854620682566
+    load_5m: 22.447084125719574
+    load_15m: 13.914770829050164
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 15.421052631578947
+    write_gb: 0.00011604710629111843
+    write_gbps: 9.825895982180666e-05
+    write_ms: 71.52631578947368
+    num_samples: 1.0
+  peak:
+    cpu: 496.2
+    mem_used: 0
+    load_1m: 7.888031005859375
+    load_5m: 22.934722900390625
+    load_15m: 14.00604248046875
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 67
+    write_gb: 0.00079345703125
+    write_gbps: 0.0005288183493909096
+    write_ms: 700
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 293
+    write_gb: 0.00220489501953125
+    write_ms: 1359
+tart-image.plotcaltable_amp:
+  elapsed: 20.704184
+  avg:
+    cpu: 60.91000000000001
+    mem_used: 0.0
+    load_1m: 5.720481872558594
+    load_5m: 21.052703857421875
+    load_15m: 13.646163940429688
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 11.75
+    write_gb: 6.084442138671875e-05
+    write_gbps: 4.632710768169251e-05
+    write_ms: 12.5
+    num_samples: 1.0
+  peak:
+    cpu: 137.4
+    mem_used: 0
+    load_1m: 6.601715087890625
+    load_5m: 21.91162109375
+    load_15m: 13.81378173828125
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 63
+    write_gb: 0.00037384033203125
+    write_gbps: 0.00020013918102053724
+    write_ms: 85
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 235
+    write_gb: 0.001216888427734375
+    write_ms: 250
+tart-image.calibrate_phase:
+  elapsed: 36.116653
+  avg:
+    cpu: 174.66470588235296
+    mem_used: 0.0
+    load_1m: 4.762716854319853
+    load_5m: 19.81308880974265
+    load_15m: 13.397575827205882
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 23.647058823529413
+    write_gb: 0.00017996395335477942
+    write_gbps: 5.3280348065772606e-05
+    write_ms: 84.17647058823529
+    num_samples: 1.0
+  peak:
+    cpu: 2015.3
+    mem_used: 0
+    load_1m: 4.9774169921875
+    load_5m: 20.30029296875
+    load_15m: 13.494873046875
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 224
+    write_gb: 0.002117156982421875
+    write_gbps: 0.00014862857404111864
+    write_ms: 1318
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 402
+    write_gb: 0.00305938720703125
+    write_ms: 1431
+tart-image.plotcaltable_phase:
+  elapsed: 20.261576
+  avg:
+    cpu: 67.65
+    mem_used: 0.0
+    load_1m: 3.9935684204101562
+    load_5m: 17.91889190673828
+    load_15m: 13.005027770996094
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 8.1
+    write_gb: 4.61578369140625e-05
+    write_gbps: 4.024779543337464e-05
+    write_ms: 8.8
+    num_samples: 1.0
+  peak:
+    cpu: 260.90000000000003
+    mem_used: 0
+    load_1m: 4.300689697265625
+    load_5m: 18.425750732421875
+    load_15m: 13.117218017578125
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 49
+    write_gb: 0.00023651123046875
+    write_gbps: 0.00017269089321035746
+    write_ms: 47
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 162
+    write_gb: 0.00092315673828125
+    write_ms: 176
+tart-image.applycal:
+  elapsed: 17.203254
+  avg:
+    cpu: 94.8111111111111
+    mem_used: 0.0
+    load_1m: 3.648588392469618
+    load_5m: 17.02423095703125
+    load_15m: 12.804921468098959
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 12.61111111111111
+    write_gb: 0.0002269744873046875
+    write_gbps: 0.000233670815067944
+    write_ms: 26.555555555555557
+    num_samples: 1.0
+  peak:
+    cpu: 650.2
+    mem_used: 0
+    load_1m: 3.752899169921875
+    load_5m: 17.383575439453125
+    load_15m: 12.88604736328125
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 74
+    write_gb: 0.00243377685546875
+    write_gbps: 0.0023508687666744426
+    write_ms: 170
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 227
+    write_gb: 0.004085540771484375
+    write_ms: 478
+tart-image.snapshotimage:
+  elapsed: 136.830892
+  avg:
+    cpu: 843.8048780487807
+    mem_used: 0.47560975609756095
+    load_1m: 7.306652534298781
+    load_5m: 15.884343589224466
+    load_15m: 12.633867961604421
+    read_count: 30.621951219512194
+    read_gb: 0.00016072319775092893
+    read_gbps: 0.00015228122130861668
+    read_ms: 7.060975609756097
+    write_count: 1107.0487804878048
+    write_gb: 0.06655246455494951
+    write_gbps: 0.048454766369221476
+    write_ms: 16442.39024390244
+    num_samples: 1.0
+  peak:
+    cpu: 6319.4
+    mem_used: 2
+    load_1m: 19.30694580078125
+    load_5m: 17.35992431640625
+    load_15m: 13.323211669921875
+    read_count: 872
+    read_gb: 0.0040130615234375
+    read_gbps: 0.003853725393325081
+    read_ms: 172
+    write_count: 14054
+    write_gb: 0.5466575622558594
+    write_gbps: 0.3607204221789354
+    write_ms: 367014
+    num_samples: 1
+  total:
+    read_count: 2511
+    read_gb: 0.013179302215576172
+    read_ms: 579
+    write_count: 90778
+    write_gb: 5.457302093505859
+    write_ms: 1348276

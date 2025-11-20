@@ -1,0 +1,105 @@
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO: ### validated inputs
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO: cab listobs:
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   vis = msdir/mu-udm.ms
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   selectdata = True
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   spw = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   field = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   antenna = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   uvrange = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   timerange = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   correlation = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   scan = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   intent = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   feed = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   array = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   observation = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   verbose = False
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   listfile = 
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   listunfl = False
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   cachesize = 50
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO:   overwrite = False
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO: singularity image ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg exists
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 08:04:21 STIMELA.tart-image.lister INFO: binding /tmp/tmppjfxzj9g to /tmp as rw
+### preparing CASA task call:
+###     listobs(
+###         vis='msdir/mu-udm.ms',
+###         selectdata=True,
+###         spw='',
+###         field='',
+###         antenna='',
+###         uvrange='',
+###         timerange='',
+###         correlation='',
+###         scan='',
+###         intent='',
+###         feed='',
+###         array='',
+###         observation='',
+###         verbose=False,
+###         listfile='',
+###         listunfl=False,
+###         cachesize=50,
+###         overwrite=False)
+2025-11-20 08:04:22 STIMELA.tart-image.lister INFO: ---INVOKING---
+2025-11-20 08:04:22 STIMELA.tart-image.lister INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmppjfxzj9g:/tmp:rw ./stimela_images/quay.io-stimela2-casa:cc0.2.1.simg xvfb-run -a casa --log2term --nologger --nologfile -c ...
+
+# 
+# =========================================
+# The start-up time of CASA may vary
+# depending on whether the shared libraries
+# are cached or not.
+# =========================================
+# 
+# /casa-release-5.8.0-109.el7/lib/python2.7/site-packages/IPython/core/interactiveshell.py:[bold][/bold]724: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+#   warn("Attempting to work in a virtualenv. If you encounter problems, please "
+# Python: g4/presentation-readyIPython 5.1.0 -- An enhanced Interactive Python.
+# 
+# CASA 5.8.0-109   -- Common Astronomy Software Applications
+# 
+# Creating a new telemetry file
+# Telemetry initialized. Telemetry will send anonymized usage statistics to NRAO.
+# You can disable telemetry by adding the following line to your ~/.casarc file:
+# EnableTelemetry: False
+# 2025-11-20 08:[bold][/bold]04:30	INFO	::casa	CASA Version  5.8.0-109
+# --> CrashReporter initialized.
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::+	##########################################
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::+	##### Begin Task: listobs            #####
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::	listobs(vis="msdir/mu-udm.ms",selectdata=True,spw="",field="",antenna="",
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::+	        uvrange="",timerange="",correlation="",scan="",intent="",
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::+	        feed="",array="",observation="",verbose=False,listfile="",
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::+	        listunfl=False,cachesize=50,overwrite=False)
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary	================================================================================
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	           MeasurementSet Name:  /media/plato/workshop_2/g4/presentation-ready/msdir/mu-udm.ms      MS Version 2
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	================================================================================
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   Observer: Tim     Project:
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	Observation: MeerKAT(24 antennas)
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary	Data records: 165600       Total elapsed time = 614.995 seconds
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   Observed from   20-Nov-2025/07:[bold][/bold]46:28.7   to   20-Nov-2025/07:[bold][/bold]56:43.6 (UTC)
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary	Fields: 1
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	  ID   Code Name                RA               Decl           Epoch   SrcId      nRows
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	  0         J153931-201031      15:[bold][/bold]39:31.201176 -20.10.31.38731 J2000   0         165600
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary	Spectral Windows:  (1 unique spectral windows and 1 unique polarization setups)
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	  SpwID  Name   #Chans   Frame   Ch0(MHz)  ChanWid(kHz)  TotBW(kHz) CtrFreq(MHz)  Corrs
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	  0      IF0        1   TOPO    1575.420      2500.000      2500.0   1575.4200   RR
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary	Antennas: 24 'name'='station'
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID=   0-1: 'ANTENNA-0'='Bel Air - Mauritius', 'ANTENNA-1'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID=   2-3: 'ANTENNA-2'='Bel Air - Mauritius', 'ANTENNA-3'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID=   4-5: 'ANTENNA-4'='Bel Air - Mauritius', 'ANTENNA-5'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID=   6-7: 'ANTENNA-6'='Bel Air - Mauritius', 'ANTENNA-7'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID=   8-9: 'ANTENNA-8'='Bel Air - Mauritius', 'ANTENNA-9'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID= 10-11: 'ANTENNA-10'='Bel Air - Mauritius', 'ANTENNA-11'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID= 12-13: 'ANTENNA-12'='Bel Air - Mauritius', 'ANTENNA-13'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID= 14-15: 'ANTENNA-14'='Bel Air - Mauritius', 'ANTENNA-15'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID= 16-17: 'ANTENNA-16'='Bel Air - Mauritius', 'ANTENNA-17'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID= 18-19: 'ANTENNA-18'='Bel Air - Mauritius', 'ANTENNA-19'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID= 20-21: 'ANTENNA-20'='Bel Air - Mauritius', 'ANTENNA-21'='Bel Air - Mauritius',
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::[bold][/bold]ms::summary+	   ID= 22-23: 'ANTENNA-22'='Bel Air - Mauritius', 'ANTENNA-23'='Bel Air - Mauritius'
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::	##### End Task: listobs              #####
+# 2025-11-20 08:[bold][/bold]04:33	INFO	listobs::::+	##########################################
+# INFO:    Terminating squashfuse_ll after timeout
+# INFO:    Timeouts can be caused by a running background process
+2025-11-20 08:04:34 STIMELA.tart-image.lister INFO: listobs returns exit code 0 after 0:00:12

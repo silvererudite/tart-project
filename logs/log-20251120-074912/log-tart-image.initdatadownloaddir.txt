@@ -1,0 +1,10 @@
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: ### validated inputs
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: cab binary:
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO:   dirname = rawdata
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: singularity image ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg exists
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: binding /media/plato/workshop_2/g4/presentation-ready as rw
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: binding /tmp/tmp3t_ctbkk to /tmp as rw
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: ---INVOKING---
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: /usr/bin/singularity exec --pwd /media/plato/workshop_2/g4/presentation-ready --contain --bind /media/plato/workshop_2/g4/presentation-ready:/media/plato/workshop_2/g4/presentation-ready:rw --bind /tmp/tmp3t_ctbkk:/tmp:rw ./stimela_images/quay.io-stimela2-python-astro:cc0.2.1.simg /bin/mkdir -p rawdata
+
+2025-11-20 07:50:10 STIMELA.tart-image.initdatadownloaddir INFO: /bin/mkdir returns exit code 0 after 0:00:00

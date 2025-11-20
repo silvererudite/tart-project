@@ -1,0 +1,34 @@
+vis:
+  info: Name of input visibility file (MS)
+  default: ''
+  dtype: MS
+  required: true
+showgui:
+  info: Show plot on gui
+  default: false
+  dtype: bool
+figfile:
+  info: Save plotted figure to this file
+  dtype: File
+  must_exist: false
+title:
+  info: Title for plot
+  dtype: str
+  default: ""
+checkbaselines:
+  info: Whether to check baselines in the main table
+  dtype: bool
+  default: false
+antindex:
+  info: Label antennas with name and antenna ID
+  dtype: bool
+  default: false
+logpos:
+  info: Whether to plot logarithmic positions
+  dtype: bool
+  default: false
+exclude:
+  info: Antenna name/id selection to exclude from plot
+  dtype: str
+  default: ""
+

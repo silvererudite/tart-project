@@ -1,0 +1,89 @@
+vis:
+  dtype: MS
+  required: true
+  info: Name of input visibility file (MS)
+mode:
+  dtype: str
+  default: manual
+  info: Flagging mode
+  choices:
+    - list
+    - manual
+    - clip
+    - quack
+    - shadow
+    - elevation
+    - tfcrop
+    - rflag
+    - antint
+    - extent
+    - unflag
+    - summary
+field:
+  default: ''
+  info: Field names or ids (blank for all)
+  dtype: str
+spw:
+  default: ''
+  info: Spectral windows:channels (blank for all)
+  dtype: str
+timerange:
+  default: ''
+  info: Time range (blank for all)
+  dtype: str
+uvrange:
+  default: ''
+  info: UV range (blank for all)
+  dtype: str
+antenna:
+  default: ''
+  info: Baseline/antenna names or ids (blank for all)
+  dtype: str
+scan:
+  default: ''
+  info: Scan numbers (blank for all)
+  dtype: str
+correlation:
+  default: ''
+  info: Correlations/polarizations (blank for all)
+  dtype: str
+array:
+  default: ''
+  info: (Sub)array numbers (blank for all)
+  dtype: str
+observation:
+  default: ''
+  info: Observation IDs (blank for all)
+  dtype: str
+intent:
+  default: ''
+  info: Observing intent (blank for all)
+  dtype: str
+feed:
+  default: ''
+  info: Feed numbers (blank for all)
+  dtype: str
+autocorr:
+  dtype: bool
+  default: false
+action:
+  dtype: str
+  default: apply
+  choices:
+    - none
+    - apply
+    - calculate
+display:
+  dtype: str
+  default: ''
+  choices:
+    - ''
+    - data
+    - report
+    - both
+flagbackup:
+  dtype: bool
+  default: true
+savepars:
+  dtype: bool
+  default: false
