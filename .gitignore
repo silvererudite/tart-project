@@ -10,3 +10,29 @@ caltables/
 msdir/
 img/
 
+# FITS images
+*.fits
+
+# HDF raw data
+*.hdf
+rawdata/
+
+# CASA Measurement Sets
+*.ms
+msdir/
+
+# Calibration tables
+caltables/
+
+# Movie frames and images
+movie_frames/
+img/
+*.png
+*.mp4
+
+# Archives
+*.tar.gz
+
+# Logs
+*.log
+logs/
